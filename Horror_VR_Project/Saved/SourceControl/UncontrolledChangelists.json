@@ -5,7 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Audio/Collapse01.uasset"
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Audio/Collapse01.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Maps/Main_Level.umap",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level.umap",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_BuiltData.uasset"
 			]
 		}
 	]
