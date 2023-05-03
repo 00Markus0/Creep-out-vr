@@ -72,3 +72,7 @@ Horror_VR_Project/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 Horror_VR_Project/DerivedDataCache/*
+
+#Starter Content
+
+Horror_VR_Project/Content/StarterContent/*
