@@ -3200,3 +3200,620 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.03-13.20.04:261][873]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 183 ms)
 [2023.05.03-13.20.04:265][873]AssetCheck: New page: Asset Save: Main_Level
 [2023.05.03-13.20.04:265][873]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Main_Level.Main_Level
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Total job queries 189, among them cache hits 34 (17.99%)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Tracking 155 distinct input hashes that result in 115 distinct outputs (74.19%)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: RAM used: 1.56 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Shaders Compiled: 82
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Jobs assigned 82, completed 82 (100.00%)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Average time worker was idle: 282.30 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Time job spent in pending queue: average 0.46 s, longest 2.35 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Job execution time: average 1.65 s, max 4.89 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Job life time (pending + execution): average 2.11 s, max 6.29
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 38.91 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Jobs were issued in 82 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Average processing rate: 2.11 jobs/sec
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Total thread time: 105.76 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Total thread preprocess time: 3.22 s
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Percentage time preprocessing: 3.05%
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Effective parallelization: 2.72 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    8 times, average 4.15 sec, max 4.68 sec, min 3.24 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 3.73 sec, max 3.91 sec, min 3.40 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 3.33 sec, max 3.42 sec, min 3.24 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   16 times, average 1.46 sec, max 4.43 sec, min 0.55 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   20 times, average 0.88 sec, max 1.09 sec, min 0.57 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 31.37% of total time (compiled    8 times, average 4.15 sec, max 4.68 sec, min 3.24 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.14% of total time (compiled   16 times, average 1.46 sec, max 4.43 sec, min 0.55 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.64% of total time (compiled   20 times, average 0.88 sec, max 1.09 sec, min 0.57 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 10.57% of total time (compiled    3 times, average 3.73 sec, max 3.91 sec, min 3.40 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 6.30% of total time (compiled    2 times, average 3.33 sec, max 3.42 sec, min 3.24 sec)
+[2023.05.03-13.34.59:383][598]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.36.22:553][855]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/StarterContent/Materials/M_CobbleStone_Rough.M_CobbleStone_Rough
+[2023.05.03-13.36.22:560][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.36.22:743][855]MaterialEditorStats: Texture samplers: 0/16
+[2023.05.03-13.36.22:743][855]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(37)
+[2023.05.03-13.36.22:743][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.03-13.36.22:743][855]MaterialEditorStats: Shader Count: 0
+[2023.05.03-13.36.22:755][855]LogViewport: Scene viewport resized to 490x579, mode Windowed.
+[2023.05.03-13.36.22:990][857]MaterialEditorStats: Base pass vertex shader: 297 instructions
+[2023.05.03-13.36.22:991][857]MaterialEditorStats: Texture samplers: 8/16
+[2023.05.03-13.36.22:991][857]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(37)
+[2023.05.03-13.36.22:991][857]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2023.05.03-13.36.22:991][857]MaterialEditorStats: Shader Count: 2
+[2023.05.03-13.36.27:981][294]LogSlate: Window 'M_CobbleStone_Rough' being destroyed
+[2023.05.03-13.36.27:986][294]LogSlate: Window 'M_CobbleStone_Rough' being destroyed
+[2023.05.03-13.36.27:993][294]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.36.27:994][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.38.30:024][390]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-13.38.30:028][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.38.30:028][390]PIE: New page: PIE session: Main_Level (May 3, 2023, 5:38:30 PM)
+[2023.05.03-13.38.30:029][390]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.38.30:034][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005761s)
+[2023.05.03-13.38.30:034][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Main_Level.Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level (0.005784s)
+[2023.05.03-13.38.30:034][390]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.38.30:035][390]LogAIModule: Creating AISystem for world Main_Level
+[2023.05.03-13.38.30:035][390]LogPlayLevel: PIE: World Init took: (0.000665s)
+[2023.05.03-13.38.30:046][390]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.03-13.38.30:049][390]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-13.38.30:049][390]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.03-13.38.30:049][390]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.38.30:049][390]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.03-13.38.30:049][390]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.03-13.38.30:049][390]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.38.30:052][390]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-13.38.30:073][390]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (AirPods Pro - Find My)
+[2023.05.03-13.38.30:074][390]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.38.30:074][390]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.38.30:074][390]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.38.30:075][390]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.05.03-13.38.30:075][390]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.05.03-13.38.30:077][390]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.05.03-13.38.30:077][390]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.05.03-13.38.30:077][390]LogInit: FAudioDevice initialized.
+[2023.05.03-13.38.30:077][390]LogAudio: Display: Audio Device (ID: 8) registered with world 'Main_Level'.
+[2023.05.03-13.38.30:080][390]LogLoad: Game class is 'GameMode'
+[2023.05.03-13.38.30:082][390]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 0) at 2023.05.03-15.38.30
+[2023.05.03-13.38.30:082][390]LogWorld: Bringing up level for play took: 0.002407
+[2023.05.03-13.38.30:084][390]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2023.05.03-13.38.30:085][390]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.38.30:085][390]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.38.30:085][390]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.38.30:085][390]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.38.30:085][390]PIE: Server logged in
+[2023.05.03-13.38.30:086][390]PIE: Play in editor total start time 0.058 seconds.
+[2023.05.03-13.38.30:137][390]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.03-13.38.36:775][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.38.36:775][128]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.38.36:775][128]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.38.36:775][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.38.36:780][128]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.38.36:786][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.38.36:797][128]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.38.36:797][128]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.03-13.38.36:797][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.03-13.38.36:799][128]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.03-13.38.36:805][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.03-13.38.36:841][129]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2023.05.03-13.38.37:456][193]Cmd: SELECT NONE
+[2023.05.03-13.38.44:877][ 13]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.03-13.38.59:254][454]Cmd: EDIT COPY
+[2023.05.03-13.39.05:171][ 15]Cmd: EDIT PASTE
+[2023.05.03-13.39.07:991][296]Cmd: TRANSACTION UNDO
+[2023.05.03-13.39.07:991][296]LogEditorTransaction: Undo Paste
+[2023.05.03-13.39.11:010][526]Cmd: EDIT PASTE
+[2023.05.03-13.39.28:877][220]Cmd: TRANSACTION UNDO
+[2023.05.03-13.39.28:878][220]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.03-13.39.50:019][505]Cmd: DELETE
+[2023.05.03-13.39.50:019][505]Cmd: ACTOR DELETE
+[2023.05.03-13.39.50:020][505]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.03-13.39.50:027][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.03-13.39.50:030][505]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2023.05.03-13.39.53:135][848]Cmd: EDIT PASTE
+[2023.05.03-13.39.56:100][171]Cmd: TRANSACTION UNDO
+[2023.05.03-13.39.56:100][171]LogEditorTransaction: Undo Paste
+[2023.05.03-13.40.02:119][818]Cmd: EDIT PASTE
+[2023.05.03-13.41.08:583][753]Cmd: DELETE
+[2023.05.03-13.41.08:583][753]Cmd: ACTOR DELETE
+[2023.05.03-13.41.08:586][753]LogEditorActor: Deleted Actor: PlayerStart
+[2023.05.03-13.41.08:595][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.03-13.41.08:598][753]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2023.05.03-13.41.10:394][955]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-13.41.10:400][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.41.10:400][955]PIE: New page: PIE session: Main_Level (May 3, 2023, 5:41:10 PM)
+[2023.05.03-13.41.10:424][955]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.41.10:430][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005689s)
+[2023.05.03-13.41.10:430][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Main_Level.Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level (0.005740s)
+[2023.05.03-13.41.10:430][955]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.41.10:430][955]LogAIModule: Creating AISystem for world Main_Level
+[2023.05.03-13.41.10:431][955]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2023.05.03-13.41.10:437][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.03-13.41.10:438][955]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-13.41.10:438][955]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.03-13.41.10:438][955]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.41.10:438][955]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.03-13.41.10:438][955]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.03-13.41.10:438][955]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.41.10:440][955]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-13.41.10:460][955]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (AirPods Pro - Find My)
+[2023.05.03-13.41.10:460][955]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.41.10:460][955]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.41.10:460][955]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.41.10:461][955]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.05.03-13.41.10:461][955]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.05.03-13.41.10:462][955]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.05.03-13.41.10:462][955]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.05.03-13.41.10:462][955]LogInit: FAudioDevice initialized.
+[2023.05.03-13.41.10:462][955]LogAudio: Display: Audio Device (ID: 9) registered with world 'Main_Level'.
+[2023.05.03-13.41.10:465][955]LogLoad: Game class is 'GameMode'
+[2023.05.03-13.41.10:467][955]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 0) at 2023.05.03-15.41.10
+[2023.05.03-13.41.10:468][955]LogWorld: Bringing up level for play took: 0.002658
+[2023.05.03-13.41.10:470][955]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2023.05.03-13.41.10:470][955]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.41.10:470][955]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.41.10:470][955]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.41.10:471][955]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.41.10:471][955]PIE: Server logged in
+[2023.05.03-13.41.10:472][955]PIE: Play in editor total start time 0.072 seconds.
+[2023.05.03-13.41.10:516][955]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.03-13.41.13:895][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.13:895][345]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.41.13:895][345]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.41.13:895][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.13:898][345]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.41.13:900][345]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.13:907][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.13:907][345]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.03-13.41.13:907][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.03-13.41.13:909][345]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.03-13.41.13:916][345]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.03-13.41.13:968][348]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2023.05.03-13.41.18:655][878]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-13.41.18:661][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.41.18:661][878]PIE: New page: PIE session: Main_Level (May 3, 2023, 5:41:18 PM)
+[2023.05.03-13.41.18:694][878]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.41.18:700][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005741s)
+[2023.05.03-13.41.18:700][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Main_Level.Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level (0.005771s)
+[2023.05.03-13.41.18:700][878]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.41.18:700][878]LogAIModule: Creating AISystem for world Main_Level
+[2023.05.03-13.41.18:701][878]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2023.05.03-13.41.18:707][878]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.03-13.41.18:708][878]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-13.41.18:708][878]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.03-13.41.18:708][878]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.41.18:709][878]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.03-13.41.18:709][878]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.03-13.41.18:709][878]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.41.18:711][878]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-13.41.18:731][878]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (AirPods Pro - Find My)
+[2023.05.03-13.41.18:731][878]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.41.18:731][878]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.41.18:731][878]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.41.18:731][878]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2023.05.03-13.41.18:731][878]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2023.05.03-13.41.18:733][878]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2023.05.03-13.41.18:733][878]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2023.05.03-13.41.18:733][878]LogInit: FAudioDevice initialized.
+[2023.05.03-13.41.18:733][878]LogAudio: Display: Audio Device (ID: 10) registered with world 'Main_Level'.
+[2023.05.03-13.41.18:736][878]LogLoad: Game class is 'GameMode'
+[2023.05.03-13.41.18:738][878]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Main_Level.Main_Level up for play (max tick rate 0) at 2023.05.03-15.41.18
+[2023.05.03-13.41.18:739][878]LogWorld: Bringing up level for play took: 0.002557
+[2023.05.03-13.41.18:740][878]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2023.05.03-13.41.18:741][878]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.41.18:741][878]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.05.03-13.41.18:741][878]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.41.18:741][878]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.05.03-13.41.18:741][878]PIE: Server logged in
+[2023.05.03-13.41.18:742][878]PIE: Play in editor total start time 0.081 seconds.
+[2023.05.03-13.41.18:785][878]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.03-13.41.31:085][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.31:085][292]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Main_Level
+[2023.05.03-13.41.31:085][292]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.41.31:086][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.31:091][292]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.41.31:094][292]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.41.31:101][292]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.41.31:101][292]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.03-13.41.31:101][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.03-13.41.31:102][292]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2023.05.03-13.41.31:108][292]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.41.31:110][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.03-13.41.31:151][294]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2023.05.03-13.42.12:294][642]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level.Main_Level:PersistentLevel.RecastNavMesh-Default).
+[2023.05.03-13.42.15:888][905]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level.Main_Level:PersistentLevel.RecastNavMesh-Default).
+[2023.05.03-13.42.16:481][968]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level.Main_Level:PersistentLevel.RecastNavMesh-Default).
+[2023.05.03-13.42.16:617][980]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level.Main_Level:PersistentLevel.RecastNavMesh-Default).
+[2023.05.03-13.42.17:170][ 43]Cmd: TRANSACTION UNDO
+[2023.05.03-13.42.17:170][ 43]LogEditorTransaction: Undo Move Elements
+[2023.05.03-13.42.17:234][ 44]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level.Main_Level:PersistentLevel.RecastNavMesh-Default).
+[2023.05.03-13.42.18:980][192]Cmd: EDIT COPY
+[2023.05.03-13.42.35:081][567]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2023.05.03-13.42.35:091][567]LogContentBrowser: Creating deferred item: NewWorld
+[2023.05.03-13.42.35:108][568]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2023.05.03-13.42.37:674][850]LogContentBrowser: Attempting asset rename: NewWorld -> Basement
+[2023.05.03-13.42.37:675][850]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.42.37:680][850]LogContentBrowser: End creating deferred item NewWorld
+[2023.05.03-13.42.39:199][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.03-13.42.42:731][  7]LogSlate: Window 'Save Content' being destroyed
+[2023.05.03-13.42.42:740][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.42.42:798][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2023.05.03-13.42.42:800][  7]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Basement
+[2023.05.03-13.42.42:800][  7]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementD631668D45EC1B49FF1649B8B900EC00.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Maps/Basement.umap'
+[2023.05.03-13.42.42:804][  7]LogFileHelpers: Saving map 'Basement' took 0.013
+[2023.05.03-13.42.42:814][  7]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2023.05.03-13.42.42:834][  7]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Level
+[2023.05.03-13.42.42:834][  7]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Main_LevelB0582CC247FB344B86A48FA2C711FC69.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level.umap'
+[2023.05.03-13.42.42:841][  7]LogFileHelpers: No new changes to save!
+[2023.05.03-13.42.42:841][  7]LogFileHelpers: Saving map 'Main_Level' took 0.037
+[2023.05.03-13.42.42:852][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 296 ms)
+[2023.05.03-13.42.42:852][  7]LogAssetEditorSubsystem: Opening Asset editor for World /Game/StarterContent/Maps/Basement.Basement
+[2023.05.03-13.42.42:852][  7]Cmd: MAP LOAD FILE="../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Maps/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.03-13.42.42:853][  7]LightingResults: New page: Lighting Build
+[2023.05.03-13.42.42:853][  7]LoadErrors: New page: Loading map: Basement.umap
+[2023.05.03-13.42.42:906][  7]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.42:906][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.42:906][  7]MapCheck: New page: Map Check
+[2023.05.03-13.42.42:906][  7]LightingResults: New page: Lighting Build
+[2023.05.03-13.42.42:912][  7]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.42.42:916][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.03-13.42.42:917][  7]LogWorld: UWorld::CleanupWorld for Basement, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.42:917][  7]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.42:926][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.05.03-13.42.42:933][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.03-13.42.42:936][  7]LogAudio: Display: Audio Device (ID: 1) registered with world 'Basement'.
+[2023.05.03-13.42.42:936][  7]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.42.42:936][  7]LogAIModule: Creating AISystem for world Basement
+[2023.05.03-13.42.42:957][  7]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.03-13.42.42:965][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.03-13.42.42:975][  7]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.03-13.42.42:975][  7]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.158ms to complete.
+[2023.05.03-13.42.42:975][  7]LogFileHelpers: Loading map 'Basement' took 0.123
+[2023.05.03-13.42.42:986][  7]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.03-13.42.42:986][  7]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Basement.Basement
+[2023.05.03-13.42.49:364][767]Cmd: EDIT PASTE
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Total job queries 229, among them cache hits 39 (17.03%)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Tracking 188 distinct input hashes that result in 134 distinct outputs (71.28%)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: RAM used: 1.99 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.24%
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Shaders Compiled: 97
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Jobs assigned 99, completed 97 (97.98%)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Average time worker was idle: 278.77 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Time job spent in pending queue: average 0.39 s, longest 2.35 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Job execution time: average 1.72 s, max 4.89 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Job life time (pending + execution): average 2.11 s, max 6.29
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 65.12 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Jobs were issued in 99 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Average processing rate: 1.49 jobs/sec
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Total thread time: 134.80 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Total thread preprocess time: 3.73 s
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Percentage time preprocessing: 2.77%
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Effective parallelization: 2.07 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    9 times, average 4.02 sec, max 4.68 sec, min 2.96 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    2 times, average 3.33 sec, max 3.42 sec, min 3.24 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled   10 times, average 3.27 sec, max 3.91 sec, min 2.93 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   16 times, average 1.46 sec, max 4.43 sec, min 0.55 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   20 times, average 0.88 sec, max 1.09 sec, min 0.57 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 26.81% of total time (compiled    9 times, average 4.02 sec, max 4.68 sec, min 2.96 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 24.29% of total time (compiled   10 times, average 3.27 sec, max 3.91 sec, min 2.93 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.37% of total time (compiled   16 times, average 1.46 sec, max 4.43 sec, min 0.55 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 13.06% of total time (compiled   20 times, average 0.88 sec, max 1.09 sec, min 0.57 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.21% of total time (compiled   10 times, average 0.70 sec, max 0.94 sec, min 0.59 sec)
+[2023.05.03-13.42.49:422][767]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.42.57:432][517]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.03-13.42.57:437][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.03-13.42.57:437][517]PIE: New page: PIE session: Basement (May 3, 2023, 5:42:57 PM)
+[2023.05.03-13.42.57:474][517]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Basement
+[2023.05.03-13.42.57:476][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2023.05.03-13.42.57:476][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Basement.Basement to /Game/StarterContent/Maps/UEDPIE_0_Basement.Basement (0.001732s)
+[2023.05.03-13.42.57:476][517]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.42.57:476][517]LogAIModule: Creating AISystem for world Basement
+[2023.05.03-13.42.57:477][517]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2023.05.03-13.42.57:484][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.03-13.42.57:488][517]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.03-13.42.57:488][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.03-13.42.57:488][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.03-13.42.57:489][517]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.03-13.42.57:489][517]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.03-13.42.57:489][517]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.03-13.42.57:494][517]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.03-13.42.57:512][517]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (AirPods Pro - Find My)
+[2023.05.03-13.42.57:512][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.03-13.42.57:512][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.03-13.42.57:512][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.03-13.42.57:512][517]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2023.05.03-13.42.57:512][517]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2023.05.03-13.42.57:513][517]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2023.05.03-13.42.57:513][517]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2023.05.03-13.42.57:514][517]LogInit: FAudioDevice initialized.
+[2023.05.03-13.42.57:514][517]LogAudio: Display: Audio Device (ID: 11) registered with world 'Basement'.
+[2023.05.03-13.42.57:517][517]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.03-13.42.57:518][517]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2023.05.03-15.42.57
+[2023.05.03-13.42.57:518][517]LogWorld: Bringing up level for play took: 0.001381
+[2023.05.03-13.42.57:520][517]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2023.05.03-13.42.57:545][517]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.03-13.42.57:546][517]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.03-13.42.57:547][517]PIE: Server logged in
+[2023.05.03-13.42.57:548][517]PIE: Play in editor total start time 0.111 seconds.
+[2023.05.03-13.42.57:565][517]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.03-13.42.59:065][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.59:065][672]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Basement
+[2023.05.03-13.42.59:065][672]LogWorld: UWorld::CleanupWorld for Basement, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.42.59:078][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.59:081][672]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.03-13.42.59:087][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.42.59:095][672]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.42.59:095][672]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.03-13.42.59:095][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.03-13.42.59:096][672]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2023.05.03-13.42.59:100][672]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.03-13.42.59:101][672]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.03-13.42.59:102][672]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.03-13.42.59:102][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.03-13.42.59:138][673]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2023.05.03-13.43.13:667][ 76]LogViewport: Scene viewport resized to 1210x622, mode Windowed.
+[2023.05.03-13.43.17:518][448]MapCheck: New page: Map Check
+[2023.05.03-13.43.17:562][448]LightingResults: New page: Lighting Build - May 3, 2023, 5:43:17 PM
+[2023.05.03-13.43.17:613][448]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.05.03-13.43.17:665][448]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.05.03-13.43.17:692][448]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.05.03-13.43.18:229][448]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.05.03-13.43.18:229][448]LogSwarmInterface: [TryOpenConnection] Local Process ID is 26352
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.05.03-13.43.25:533][448]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.05.03-13.43.25:637][448]LogEditorBuildUtils: Build time 0:08
+[2023.05.03-13.43.27:228][454]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.03-13.43.28:579][501]LogViewport: Scene viewport resized to 1200x1331, mode Windowed.
+[2023.05.03-13.43.31:244][652]Job is a success!
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.014s
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:      Bricks at depth
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:          0: 20.0% covering 100.0% of volume
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:          1: 80.0% covering 6.2% of volume
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:      Bricks in each level
+[2023.05.03-13.43.31:486][654]LogVolumetricLightmapImport:          Basement 			 5 bricks 	 100.0% (Persistent Level)
+[2023.05.03-13.43.31:614][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:669][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:673][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:680][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:686][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:696][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:704][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:712][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:720][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:726][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:736][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:HQ_Lightmap0_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 125.479156 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:743][654]LogTexture: Display: Building textures: /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData:LQ_Lightmap_0_6 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 123.104155 MB), EncodeSpeed: Fast
+[2023.05.03-13.43.31:765][654]Lightmass on LUKAS: 3.91 sec total, 184 ms importing, 19 ms setup, 748 ms photons, 2.95 sec processing, 0 us extra exporting [12/12 mappings]. Threads: 44.3 sec total, 19.5 sec processing.
+[2023.05.03-13.43.31:774][654]LogStaticLightingSystem: Basement_BuiltData storing lightmap data for 12 meshes in 7 LightmapResourceClusters (1.7 Meshes per cluster).
+[2023.05.03-13.43.31:791][654]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.03-13.43.31:869][654]LogStaticLightingSystem: Illumination: 14.1 sec (195 ms encoding lightmaps, 390 us encoding shadowmaps)
+[2023.05.03-13.43.31:869][654]LogStaticLightingSystem: Lightmap texture memory:  12.4 MB (12.4 MB streaming, 0.0 MB non-streaming), 12 textures
+[2023.05.03-13.43.31:869][654]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2023.05.03-13.43.32:545][654]DumpUnbuiltLightIteractions
+[2023.05.03-13.43.32:545][654]Lights with unbuilt interactions: 0
+[2023.05.03-13.43.32:545][654]
+[2023.05.03-13.43.32:545][654]Primitives with unbuilt interactions: 0
+[2023.05.03-13.43.36:101][654]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.05.03-13.43.37:541][654]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.037598s
+[2023.05.03-13.43.59:855][654]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.001658s (22.362886s overbudget)
+[2023.05.03-13.43.59:867][654]LogDerivedDataCache: Display: C:/Users/schne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 66c50fd2dc1ef131e555f602a13ef4281c28e39c and existing hash d66c4bfb8ddcf24c2182130019e2c530fc447498 for MaterialShaderMap/3a5f0f0d9a19175ef7d534c9ec9e97e853f08f18 from '/Game/VRTemplate/Materials/M_GridRotation.M_GridRotation [PCD3D_SM6, SM6, Num]'
+[2023.05.03-13.43.59:928][655]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.05.03-13.43.59:928][655]MapCheck: New page: Basement - May 3, 2023, 5:43:59 PM
+[2023.05.03-13.43.59:931][655]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.384ms to complete.
+[2023.05.03-13.44.03:894][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.44.03:932][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2023.05.03-13.44.03:944][ 86]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Basement
+[2023.05.03-13.44.03:946][ 86]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementA4285D5941A98EC9B78F9184DA17AF33.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Maps/Basement.umap'
+[2023.05.03-13.44.03:961][ 86]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Basement_BuiltData
+[2023.05.03-13.44.03:961][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.44.04:006][ 86]LogSavePackage: Moving output files for package: /Game/StarterContent/Maps/Basement_BuiltData
+[2023.05.03-13.44.04:006][ 86]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement_BuiltData5AC999E0492B89BB793569A5D7FA310C.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/StarterContent/Maps/Basement_BuiltData.uasset'
+[2023.05.03-13.44.04:008][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 343 ms)
+[2023.05.03-13.44.04:008][ 86]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/StarterContent/Maps/Basement_BuiltData
+[2023.05.03-13.44.04:008][ 86]LogFileHelpers: Saving map 'Basement' took 0.084
+[2023.05.03-13.44.04:022][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 470 ms)
+[2023.05.03-13.44.04:028][ 86]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.03-13.44.04:028][ 86]LogContentValidation: Display: Validating /Script/Engine.World /Game/StarterContent/Maps/Basement.Basement
+[2023.05.03-13.44.04:028][ 86]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/StarterContent/Maps/Basement_BuiltData.Basement_BuiltData
+[2023.05.03-13.44.27:038][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.44.27:100][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.03-13.44.27:106][402]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.03-13.44.27:106][402]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementF30977FD4E8462FDE7BD01A7310EA4CF.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.03-13.44.27:114][402]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/VR_Game/Maps/Basement_BuiltData
+[2023.05.03-13.44.27:114][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.44.27:164][402]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement_BuiltData
+[2023.05.03-13.44.27:164][402]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement_BuiltData624F730B43745DE8FEA8B0B20BB49B5E.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement_BuiltData.uasset'
+[2023.05.03-13.44.27:165][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 521 ms)
+[2023.05.03-13.44.27:166][402]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/VR_Game/Maps/Basement_BuiltData
+[2023.05.03-13.44.27:166][402]LogFileHelpers: Saving map 'Basement' took 0.072
+[2023.05.03-13.44.27:206][402]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement_BuiltData
+[2023.05.03-13.44.27:207][402]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement_BuiltDataDA6D6B7F4948DF16D314B58047BB2031.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement_BuiltData.uasset'
+[2023.05.03-13.44.27:217][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 700 ms)
+[2023.05.03-13.44.27:236][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.05.03-13.44.27:245][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.03-13.44.27:252][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.03-13.44.27:269][402]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.03-13.44.27:269][402]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.03-13.44.27:269][402]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/VR_Game/Maps/Basement_BuiltData.Basement_BuiltData
+[2023.05.03-13.44.34:732][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.03-13.44.34:835][150]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Main_Level.Main_Level
+[2023.05.03-13.44.34:835][150]Cmd: MAP LOAD FILE="../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.03-13.44.34:835][150]LightingResults: New page: Lighting Build
+[2023.05.03-13.44.34:835][150]LoadErrors: New page: Loading map: Main_Level.umap
+[2023.05.03-13.44.34:838][150]LogWorld: UWorld::CleanupWorld for Basement, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.44.34:838][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.44.34:838][150]MapCheck: New page: Map Check
+[2023.05.03-13.44.34:838][150]LightingResults: New page: Lighting Build
+[2023.05.03-13.44.34:851][150]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.44.34:865][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.03-13.44.34:867][150]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.44.34:867][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.44.34:876][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.03-13.44.34:882][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.03-13.44.34:899][150]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Level'.
+[2023.05.03-13.44.34:899][150]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.44.34:899][150]LogAIModule: Creating AISystem for world Main_Level
+[2023.05.03-13.44.34:970][150]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.03-13.44.34:978][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.03-13.44.34:984][150]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.03-13.44.34:984][150]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.086ms to complete.
+[2023.05.03-13.44.34:984][150]LogFileHelpers: Loading map 'Main_Level' took 0.149
+[2023.05.03-13.44.48:172][623]LogViewport: Scene viewport resized to 1199x1331, mode Windowed.
+[2023.05.03-13.44.48:196][624]LogViewport: Scene viewport resized to 1197x1331, mode Windowed.
+[2023.05.03-13.44.48:214][625]LogViewport: Scene viewport resized to 1190x1331, mode Windowed.
+[2023.05.03-13.44.48:233][626]LogViewport: Scene viewport resized to 1182x1331, mode Windowed.
+[2023.05.03-13.44.48:244][627]LogViewport: Scene viewport resized to 1174x1331, mode Windowed.
+[2023.05.03-13.44.48:265][628]LogViewport: Scene viewport resized to 1164x1331, mode Windowed.
+[2023.05.03-13.44.48:286][629]LogViewport: Scene viewport resized to 1149x1331, mode Windowed.
+[2023.05.03-13.44.48:301][630]LogViewport: Scene viewport resized to 1143x1331, mode Windowed.
+[2023.05.03-13.44.48:316][631]LogViewport: Scene viewport resized to 1140x1331, mode Windowed.
+[2023.05.03-13.44.48:335][632]LogViewport: Scene viewport resized to 1138x1331, mode Windowed.
+[2023.05.03-13.44.48:354][633]LogViewport: Scene viewport resized to 1135x1331, mode Windowed.
+[2023.05.03-13.44.48:374][634]LogViewport: Scene viewport resized to 1133x1331, mode Windowed.
+[2023.05.03-13.44.48:386][635]LogViewport: Scene viewport resized to 1131x1331, mode Windowed.
+[2023.05.03-13.44.48:403][636]LogViewport: Scene viewport resized to 1129x1331, mode Windowed.
+[2023.05.03-13.44.48:422][637]LogViewport: Scene viewport resized to 1127x1331, mode Windowed.
+[2023.05.03-13.44.48:438][638]LogViewport: Scene viewport resized to 1123x1331, mode Windowed.
+[2023.05.03-13.44.48:449][639]LogViewport: Scene viewport resized to 1122x1331, mode Windowed.
+[2023.05.03-13.44.48:465][640]LogViewport: Scene viewport resized to 1118x1331, mode Windowed.
+[2023.05.03-13.44.48:479][641]LogViewport: Scene viewport resized to 1115x1331, mode Windowed.
+[2023.05.03-13.44.48:497][642]LogViewport: Scene viewport resized to 1113x1331, mode Windowed.
+[2023.05.03-13.44.48:513][643]LogViewport: Scene viewport resized to 1112x1331, mode Windowed.
+[2023.05.03-13.44.48:528][644]LogViewport: Scene viewport resized to 1110x1331, mode Windowed.
+[2023.05.03-13.44.48:539][645]LogViewport: Scene viewport resized to 1109x1331, mode Windowed.
+[2023.05.03-13.44.48:551][646]LogViewport: Scene viewport resized to 1106x1331, mode Windowed.
+[2023.05.03-13.44.48:572][647]LogViewport: Scene viewport resized to 1102x1331, mode Windowed.
+[2023.05.03-13.44.48:591][648]LogViewport: Scene viewport resized to 1099x1331, mode Windowed.
+[2023.05.03-13.44.48:602][649]LogViewport: Scene viewport resized to 1098x1331, mode Windowed.
+[2023.05.03-13.44.48:629][650]LogViewport: Scene viewport resized to 1095x1331, mode Windowed.
+[2023.05.03-13.44.48:701][658]LogViewport: Scene viewport resized to 1093x1331, mode Windowed.
+[2023.05.03-13.44.57:161][579]Cmd: EDIT COPY
+[2023.05.03-13.45.03:874][282]Cmd: EDIT COPY
+[2023.05.03-13.45.17:361][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2023.05.03-13.45.17:430][672]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.03-13.45.17:430][672]Cmd: MAP LOAD FILE="../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.03-13.45.17:431][672]LightingResults: New page: Lighting Build
+[2023.05.03-13.45.17:431][672]LoadErrors: New page: Loading map: Basement.umap
+[2023.05.03-13.45.17:432][672]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.45.17:432][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.45.17:433][672]MapCheck: New page: Map Check
+[2023.05.03-13.45.17:433][672]LightingResults: New page: Lighting Build
+[2023.05.03-13.45.17:439][672]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.03-13.45.17:444][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.05.03-13.45.17:447][672]LogWorld: UWorld::CleanupWorld for Basement, bSessionEnded=true, bCleanupResources=true
+[2023.05.03-13.45.17:447][672]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.03-13.45.17:455][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.03-13.45.17:463][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.03-13.45.17:473][672]LogAudio: Display: Audio Device (ID: 1) registered with world 'Basement'.
+[2023.05.03-13.45.17:473][672]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.03-13.45.17:473][672]LogAIModule: Creating AISystem for world Basement
+[2023.05.03-13.45.17:515][672]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.03-13.45.17:523][672]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.03-13.45.17:533][672]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.03-13.45.17:533][672]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.146ms to complete.
+[2023.05.03-13.45.17:533][672]LogFileHelpers: Loading map 'Basement' took 0.103
+[2023.05.03-13.45.20:330][986]Cmd: EDIT PASTE
+[2023.05.03-13.45.33:985][410]LogViewport: Scene viewport resized to 1102x622, mode Windowed.
+[2023.05.03-13.45.54:332][585]LogEditor: Attempting to add actor of class 'SkyLight' to level at 0.00,0.00,0.00
+[2023.05.03-13.45.55:452][685]LogEditor: Attempting to add actor of class 'SkyAtmosphere' to level at 0.00,0.00,0.00
+[2023.05.03-13.45.55:915][731]LogEditor: Attempting to add actor of class 'VolumetricCloud' to level at 0.00,0.00,0.00
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Total job queries 621, among them cache hits 47 (7.57%)
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Tracking 574 distinct input hashes that result in 324 distinct outputs (56.45%)
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: RAM used: 5.26 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.64%
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Shaders Compiled: 233
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Jobs assigned 233, completed 233 (100.00%)
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Average time worker was idle: 184.29 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Time job spent in pending queue: average 7.47 s, longest 25.76 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Job execution time: average 1.74 s, max 4.89 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Job life time (pending + execution): average 9.21 s, max 26.98
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 98.53 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Jobs were issued in 229 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Average processing rate: 2.36 jobs/sec
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Total thread time: 348.53 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Total thread preprocess time: 8.33 s
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Percentage time preprocessing: 2.39%
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Effective parallelization: 3.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    9 times, average 4.02 sec, max 4.68 sec, min 2.96 sec)
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display:                                 TBasePassPSTLightMapPolicyHQ (compiled    2 times, average 3.92 sec, max 3.92 sec, min 3.91 sec)
+[2023.05.03-13.45.56:232][733]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 3.75 sec, max 3.98 sec, min 3.52 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 3.74 sec, max 3.99 sec, min 3.50 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 3.64 sec, max 4.05 sec, min 3.33 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.99% of total time (compiled   26 times, average 1.61 sec, max 4.43 sec, min 0.52 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 11.46% of total time (compiled   12 times, average 3.33 sec, max 3.91 sec, min 2.93 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.37% of total time (compiled    9 times, average 4.02 sec, max 4.68 sec, min 2.96 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.26% of total time (compiled    6 times, average 3.64 sec, max 4.05 sec, min 3.33 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.16% of total time (compiled   26 times, average 0.83 sec, max 1.09 sec, min 0.54 sec)
+[2023.05.03-13.45.56:234][733]LogShaderCompilers: Display: ================================================
+[2023.05.03-13.45.57:154][832]LogEditor: Attempting to add actor of class 'ExponentialHeightFog' to level at 0.00,0.00,0.00
+[2023.05.03-13.45.59:668][ 98]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2023.05.03-13.45.59:673][ 98]LogSlate: Window 'Env. Light Mixer' being destroyed
+[2023.05.03-13.46.01:652][173]LogViewport: Scene viewport resized to 1093x1331, mode Windowed.
+[2023.05.03-13.46.04:232][458]Cmd: TRANSACTION UNDO
+[2023.05.03-13.46.04:232][458]LogEditorTransaction: Undo Add Actor
+[2023.05.03-13.46.10:636][ 74]Cmd: DELETE
+[2023.05.03-13.46.10:636][ 74]Cmd: ACTOR DELETE
+[2023.05.03-13.46.10:638][ 74]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2023.05.03-13.46.10:644][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.03-13.46.10:647][ 74]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2023.05.03-13.46.11:931][223]Cmd: TRANSACTION UNDO
+[2023.05.03-13.46.11:931][223]LogEditorTransaction: Undo Delete Elements
+[2023.05.03-13.46.13:580][349]Cmd: DELETE
+[2023.05.03-13.46.13:580][349]Cmd: ACTOR DELETE
+[2023.05.03-13.46.13:581][349]LogEditorActor: Deleted Actor: VolumetricCloud
+[2023.05.03-13.46.13:587][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.05.03-13.46.13:589][349]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2023.05.03-13.46.20:818][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.03-13.46.20:864][186]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.03-13.46.20:876][186]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.03-13.46.20:876][186]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement7C84A5704209DAE55FAB5FB6195D23C8.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.03-13.46.20:884][186]LogFileHelpers: No new changes to save!
+[2023.05.03-13.46.20:884][186]LogFileHelpers: Saving map 'Basement' took 0.027
+[2023.05.03-13.46.20:893][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 775 ms)
+[2023.05.03-13.46.20:897][186]AssetCheck: New page: Asset Save: Basement
+[2023.05.03-13.46.20:897][186]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
