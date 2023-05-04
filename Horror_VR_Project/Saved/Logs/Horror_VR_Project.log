@@ -2168,3 +2168,747 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.04-14.54.50:941][ 60]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2023.05.04-14.54.51:057][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
 [2023.05.04-14.54.51:125][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2023.05.04-14.59.21:565][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2023.05.04-14.59.21:825][363]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-14.59.21:825][363]Cmd: MAP LOAD FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.04-14.59.21:825][363]LightingResults: New page: Lighting Build
+[2023.05.04-14.59.21:825][363]LoadErrors: New page: Loading map: Main_Hall.umap
+[2023.05.04-14.59.21:830][363]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-14.59.21:830][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-14.59.21:830][363]MapCheck: New page: Map Check
+[2023.05.04-14.59.21:830][363]LightingResults: New page: Lighting Build
+[2023.05.04-14.59.21:849][363]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.04-14.59.21:886][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.04-14.59.21:891][363]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-14.59.21:891][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-14.59.21:905][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.04-14.59.21:918][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.05.04-14.59.21:922][363]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Hall'.
+[2023.05.04-14.59.21:922][363]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.04-14.59.21:922][363]LogAIModule: Creating AISystem for world Main_Hall
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: ================================================
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Total job queries 201, among them cache hits 64 (31.84%)
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Tracking 137 distinct input hashes that result in 107 distinct outputs (78.10%)
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: RAM used: 1.59 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.19%
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Shaders Compiled: 9
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Jobs assigned 9, completed 9 (100.00%)
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Time job spent in pending queue: average 2.14 s, longest 5.61 s
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Job execution time: average 4.03 s, max 5.86 s
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Job life time (pending + execution): average 6.17 s, max 10.25
+[2023.05.04-14.59.21:924][363]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.54 s
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Jobs were issued in 9 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Average processing rate: 0.85 jobs/sec
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Total thread time: 32.15 s
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Total thread preprocess time: 0.58 s
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Percentage time preprocessing: 1.80%
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Effective parallelization: 3.05 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Top 3 most expensive shader types by average time:
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 4.88 sec, max 4.90 sec, min 4.87 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 4.61 sec, max 4.83 sec, min 4.48 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 1.23 sec, max 1.26 sec, min 1.21 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: Top 3 shader types by total compile time:
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 45.57% of total time (compiled    3 times, average 4.88 sec, max 4.90 sec, min 4.87 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 42.98% of total time (compiled    3 times, average 4.61 sec, max 4.83 sec, min 4.48 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 11.45% of total time (compiled    3 times, average 1.23 sec, max 1.26 sec, min 1.21 sec)
+[2023.05.04-14.59.21:929][363]LogShaderCompilers: Display: ================================================
+[2023.05.04-14.59.21:952][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.04-14.59.21:967][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.05.04-14.59.21:974][363]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.04-14.59.21:974][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,097ms to complete.
+[2023.05.04-14.59.21:974][363]LogFileHelpers: Loading map 'Main_Hall' took 0.150
+[2023.05.04-14.59.34:150][748]LogObjectTools: Deleting 1 worlds: /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-14.59.34:151][748]LogObjectTools: Currently 3 active worlds: /Game/VR_Game/Maps/Main_Hall.Main_Hall, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2023.05.04-14.59.35:611][748]LogSlate: Window 'Unable to delete level' being destroyed
+[2023.05.04-14.59.35:637][748]Message dialog closed, result: Ok, title: Unable to delete level, text: Unable to delete level while it is open
+[2023.05.04-14.59.36:381][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.04-14.59.36:489][832]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Main_Level.Main_Level
+[2023.05.04-14.59.36:489][832]Cmd: MAP LOAD FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.04-14.59.36:489][832]LightingResults: New page: Lighting Build
+[2023.05.04-14.59.36:489][832]LoadErrors: New page: Loading map: Main_Level.umap
+[2023.05.04-14.59.36:490][832]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-14.59.36:491][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-14.59.36:491][832]MapCheck: New page: Map Check
+[2023.05.04-14.59.36:491][832]LightingResults: New page: Lighting Build
+[2023.05.04-14.59.36:508][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.04-14.59.36:510][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2023.05.04-14.59.36:512][832]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-14.59.36:512][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-14.59.36:527][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.05.04-14.59.36:539][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2023.05.04-14.59.36:561][832]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Level'.
+[2023.05.04-14.59.36:561][832]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.04-14.59.36:561][832]LogAIModule: Creating AISystem for world Main_Level
+[2023.05.04-14.59.36:866][832]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.04-14.59.36:886][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2023.05.04-14.59.36:893][832]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.04-14.59.36:893][832]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,136ms to complete.
+[2023.05.04-14.59.36:893][832]LogFileHelpers: Loading map 'Main_Level' took 0.404
+[2023.05.04-14.59.38:396][995]LogObjectTools: Deleting 1 worlds: /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-14.59.38:396][995]LogObjectTools: Currently 3 active worlds: /Game/VR_Game/Maps/Main_Level.Main_Level, /Engine/Transient.World_0, /Engine/Transient.World_1
+[2023.05.04-14.59.38:425][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.05.04-14.59.39:766][995]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.04-14.59.39:900][995]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-14.59.39:901][995]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-14.59.39:981][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.05.04-14.59.39:994][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.05.04-14.59.40:007][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.04-14.59.48:964][953]LogContentBrowser: Attempting asset rename: Main_Level_2 -> Main_Hall
+[2023.05.04-14.59.49:805][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-14.59.49:857][953]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.04-14.59.49:876][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.04-14.59.49:893][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2023.05.04-14.59.49:941][953]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall
+[2023.05.04-14.59.49:941][953]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_Hall414423E44A104D623AB427ACF9FD5386.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap'
+[2023.05.04-14.59.49:955][953]LogFileHelpers: Saving map 'Main_Hall' took 0.098
+[2023.05.04-14.59.49:965][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 294 ms)
+[2023.05.04-14.59.49:989][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2023.05.04-14.59.50:002][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.04-14.59.50:015][953]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-14.59.50:020][953]AssetCheck: New page: Asset Save: Main_Hall
+[2023.05.04-14.59.50:038][953]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-15.00.04:516][683]LogContentBrowser: Attempting asset rename: Main_Level_BuiltData_2 -> Main_Hall_BuiltData
+[2023.05.04-15.00.04:537][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-15.00.04:589][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall_BuiltData" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData.uasset" SILENT=true
+[2023.05.04-15.00.04:843][683]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall_BuiltData
+[2023.05.04-15.00.04:843][683]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_Hall_BuiltData78A6BEB24BBF73F5E5B8CBA0F787015E.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData.uasset'
+[2023.05.04-15.00.04:851][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 313 ms (total: 607 ms)
+[2023.05.04-15.00.04:874][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.04-15.00.04:887][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.05.04-15.00.04:900][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.00.04:904][683]AssetCheck: New page: Asset Save: Main_Hall_BuiltData
+[2023.05.04-15.00.04:904][683]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData
+[2023.05.04-15.00.06:540][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.04-15.00.06:541][866]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-15.00.06:541][866]Cmd: MAP LOAD FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.04-15.00.06:541][866]LightingResults: New page: Lighting Build
+[2023.05.04-15.00.06:541][866]LoadErrors: New page: Loading map: Main_Hall.umap
+[2023.05.04-15.00.06:570][866]LogWorld: UWorld::CleanupWorld for Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-15.00.06:571][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-15.00.06:571][866]MapCheck: New page: Map Check
+[2023.05.04-15.00.06:571][866]LightingResults: New page: Lighting Build
+[2023.05.04-15.00.06:610][866]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.04-15.00.06:616][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2023.05.04-15.00.06:618][866]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.04-15.00.06:619][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.04-15.00.06:635][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2023.05.04-15.00.06:648][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.05.04-15.00.06:662][866]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Hall'.
+[2023.05.04-15.00.06:662][866]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.04-15.00.06:663][866]LogAIModule: Creating AISystem for world Main_Hall
+[2023.05.04-15.00.06:953][866]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.04-15.00.06:972][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.05.04-15.00.06:979][866]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.04-15.00.06:979][866]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,113ms to complete.
+[2023.05.04-15.00.06:979][866]LogFileHelpers: Loading map 'Main_Hall' took 0.438
+[2023.05.04-15.01.11:790][ 35]MapCheck: New page: Map Check
+[2023.05.04-15.01.11:835][ 35]LogSlate: Took 0.010650 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.04-15.01.11:862][ 35]LightingResults: New page: Lighting Build - 04.05.2023, 19:01:11
+[2023.05.04-15.01.12:126][ 35]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.05.04-15.01.12:234][ 35]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.05.04-15.01.12:253][ 35]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.05.04-15.01.12:776][ 35]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.05.04-15.01.12:776][ 35]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10496
+[2023.05.04-15.01.15:289][ 35]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.05.04-15.01.15:299][ 35]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.05.04-15.01.15:299][ 35]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.05.04-15.01.15:300][ 35]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.05.04-15.01.15:300][ 35]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.05.04-15.01.15:300][ 35]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.05.04-15.01.15:495][ 35]LogEditorBuildUtils: Build time 0:03
+[2023.05.04-15.01.15:619][ 36]LogAutomationController: Ignoring very large delta of 3.84 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.04-15.01.15:798][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.04-15.01.20:599][311]Cmd: DELETE
+[2023.05.04-15.01.20:606][311]Cmd: ACTOR DELETE
+[2023.05.04-15.01.20:635][311]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.20:669][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.01.20:679][311]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2023.05.04-15.01.20:745][312]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.21:179][338]Cmd: DELETE
+[2023.05.04-15.01.21:179][338]Cmd: ACTOR DELETE
+[2023.05.04-15.01.21:184][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.21:198][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-15.01.21:200][338]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2023.05.04-15.01.21:227][339]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.21:878][385]Cmd: DELETE
+[2023.05.04-15.01.21:878][385]Cmd: ACTOR DELETE
+[2023.05.04-15.01.21:884][385]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.21:899][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.01.21:900][385]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2023.05.04-15.01.21:938][386]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.22:359][414]Cmd: DELETE
+[2023.05.04-15.01.22:359][414]Cmd: ACTOR DELETE
+[2023.05.04-15.01.22:365][414]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.22:381][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.05.04-15.01.22:384][414]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2023.05.04-15.01.22:761][438]Cmd: DELETE
+[2023.05.04-15.01.22:761][438]Cmd: ACTOR DELETE
+[2023.05.04-15.01.22:767][438]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.22:781][438]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.04-15.01.22:783][438]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2023.05.04-15.01.22:817][439]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.23:223][467]Cmd: DELETE
+[2023.05.04-15.01.23:223][467]Cmd: ACTOR DELETE
+[2023.05.04-15.01.23:228][467]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.23:242][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.04-15.01.23:244][467]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2023.05.04-15.01.23:278][468]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.24:229][537]Cmd: DELETE
+[2023.05.04-15.01.24:229][537]Cmd: ACTOR DELETE
+[2023.05.04-15.01.24:235][537]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.24:249][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-15.01.24:251][537]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.05.04-15.01.24:277][538]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.24:935][580]Cmd: DELETE
+[2023.05.04-15.01.24:935][580]Cmd: ACTOR DELETE
+[2023.05.04-15.01.24:940][580]LogEditorActor: Deleted Actor: HDRIBackdrop_C
+[2023.05.04-15.01.24:962][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2023.05.04-15.01.24:965][580]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.05.04-15.01.25:140][582]LogD3D12RHI: Warning: Waited for PSO creation for 100.000000ms
+[2023.05.04-15.01.26:863][669]Cmd: TRANSACTION UNDO
+[2023.05.04-15.01.26:863][669]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.04-15.01.27:421][677]Cmd: TRANSACTION UNDO
+[2023.05.04-15.01.27:421][677]LogEditorTransaction: Undo Delete Elements
+[2023.05.04-15.01.29:658][812]Cmd: DELETE
+[2023.05.04-15.01.29:658][812]Cmd: ACTOR DELETE
+[2023.05.04-15.01.29:663][812]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.01.29:678][812]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.04-15.01.29:680][812]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.05.04-15.01.29:720][813]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.01.31:959][985]Job is a success!
+[2023.05.04-15.01.32:335][987]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.088s
+[2023.05.04-15.01.32:335][987]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.05.04-15.01.32:335][987]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2023.05.04-15.01.32:335][987]LogVolumetricLightmapImport:      Bricks at depth
+[2023.05.04-15.01.32:335][987]LogVolumetricLightmapImport:          0: 1.6% covering 100.0% of volume
+[2023.05.04-15.01.32:336][987]LogVolumetricLightmapImport:          1: 6.5% covering 6.2% of volume
+[2023.05.04-15.01.32:336][987]LogVolumetricLightmapImport:          2: 91.9% covering 1.4% of volume
+[2023.05.04-15.01.32:336][987]LogVolumetricLightmapImport:      Bricks in each level
+[2023.05.04-15.01.32:336][987]LogVolumetricLightmapImport:          Main_Hall 			 62 bricks 	 100.0% (Persistent Level)
+[2023.05.04-15.01.32:525][987]LogLightmassSolver: Warning: Mapping not found for 0000000000000000000000000000006C
+[2023.05.04-15.01.32:533][987]LogLightmassSolver: Warning: Mapping not found for 0000000000000000000000000000008C
+[2023.05.04-15.01.32:535][987]LogLightmassSolver: Warning: Mapping not found for 0000000000000000000000000000006D
+[2023.05.04-15.01.32:952][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.32:969][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.32:985][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:006][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:022][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:044][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:063][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_4 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:081][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_4 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:095][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_5 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:116][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_5 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:132][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_6 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:155][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_6 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:172][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_7 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:195][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_7 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:211][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_8 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:235][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_8 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:255][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap0_9 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:280][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_0_9 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:299][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap1_10 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:325][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_1_10 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:752][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_0 (G8, 1024x1024 x1x1x1) (Required Memory Estimate: 24.062494 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:762][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_2 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 32.062492 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:776][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_3 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 32.062492 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:787][987]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_4 (BGRA8, 1024x128 x1x1x1) (Required Memory Estimate: 4.062504 MB), EncodeSpeed: Fast
+[2023.05.04-15.01.33:805][987]Lightmass on MARKUS-OPTIPLEX: 16.7 sec total, 397 ms importing, 54 ms setup, 2.63 sec photons, 13.7 sec processing, 0 us extra exporting [145/145 mappings]. Threads: 1:35 min total, 50.4 sec processing.
+[2023.05.04-15.01.33:845][987]LogStaticLightingSystem: Main_Hall_BuiltData storing lightmap data for 132 meshes in 19 LightmapResourceClusters (6.9 Meshes per cluster).
+[2023.05.04-15.01.33:889][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.04-15.01.33:910][987]LogStaticLightingSystem: Illumination: 21.9 sec (632 ms encoding lightmaps, 445 ms encoding shadowmaps)
+[2023.05.04-15.01.33:910][987]LogStaticLightingSystem: Lightmap texture memory:  20.6 MB (20.6 MB streaming, 0.0 MB non-streaming), 20 textures
+[2023.05.04-15.01.33:910][987]LogStaticLightingSystem: Shadowmap texture memory: 14.2 MB (14.2 MB streaming, 0.0 MB non-streaming), 5 textures
+[2023.05.04-15.01.34:297][987]DumpUnbuiltLightIteractions
+[2023.05.04-15.01.34:298][987]Lights with unbuilt interactions: 2
+[2023.05.04-15.01.34:298][987]    Light PointLight
+[2023.05.04-15.01.34:298][987]    Light DirectionalLight
+[2023.05.04-15.01.34:298][987]
+[2023.05.04-15.01.34:298][987]Primitives with unbuilt interactions: 3
+[2023.05.04-15.01.34:298][987]    Primitive StaticMeshComponent /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.StaticMeshActor_68.StaticMeshComponent0
+[2023.05.04-15.01.34:298][987]    Primitive StaticMeshComponent /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.StaticMeshActor_115.StaticMeshComponent0
+[2023.05.04-15.01.34:298][987]    Primitive StaticMeshComponent /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.StaticMeshActor_79.StaticMeshComponent0
+[2023.05.04-15.01.39:611][987]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2023.05.04-15.01.49:792][987]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [10005ms] waiting for h/w. InstanceID=1
+[2023.05.04-15.01.49:792][987]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049970s
+[2023.05.04-15.01.53:544][987]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.004306s (3.798870s overbudget)
+[2023.05.04-15.01.53:596][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 9e71624fb6d03cd41d8b4b5200ed3273166a8c3b and existing hash f0a170da85bde5ba1fe914169ecb13d27eb5a427 for MaterialShaderMap/8d1f1048f807f9d3ad77356f863ee72e90f9ddd1 from '/Game/FPWeapon/Materials/M_FPGun.M_FPGun [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:613][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 4667845e1933b3ce7a0ec46f2d2762396071e75c and existing hash c557d8c1f184f6a74ec3abbade85668379c15681 for MaterialShaderMap/1a26919d7e902af826e83fc769069cc23129e8fe from '/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.M_MannequinUE4_Body [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:627][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 280166b7608e8f889198477b1e33b85e5459f06c and existing hash 8015121fbc139deb1b0d62f906e0de07442aa549 for MaterialShaderMap/de907c5354a840b690429fb94ad493305702eb81 from '/Game/FirstPersonArms/Character/Materials/M_UE4Man_Body.M_UE4Man_Body [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:627][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash d26b19c46af7342967ce2f064fb8448bc4bef511 and existing hash abeb3e369726ca6e1b8d486158a8be4105d71f1b for MaterialShaderMap/b50603e98b950f8555388910cff39f951e0481cb from '/Game/Characters/Mannequin_UE4/Materials/M_MannequinUE4_Body.M_MannequinUE4_Body [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:629][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 7e6ff8e687efc3203e5ac88e869ef5209b090b94 and existing hash 09349d845c513b5fd9459de301afaccee21f3abe for MaterialShaderMap/3fb73e6662fc05ca0957530c7dc0760f18597607 from '/Game/StarterContent/Materials/M_Basic_Floor.M_Basic_Floor [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:629][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 6a37a50e1c4895ab3e6a3df31ed43d9a8cc00eec and existing hash f2c5c82aa54652cf308eb46b83d4594e1438fce7 for MaterialShaderMap/fdd096dee4cda09dfcaf1ec399f9c6a94970f3f2 from '/Engine/EditorMaterials/MatineeCam_mat.MatineeCam_mat [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:642][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash eee791b167b3a9b4df7f3da6d51a1d574ce825f9 and existing hash 00d1315e8f944869d0be8a8a620f45aad36bbb2e for MaterialShaderMap/9bbffdd1c0fda2cea2acf68fbc61d9a93a7710c0 from '/Game/VR_Game/Materials/M_Ceramic_Tiles.M_Ceramic_Tiles [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:647][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash a1936c3cace4c1900908c5bd6bd86d43cc929bce and existing hash a43f7ccd426bca4a1f495d7846efc2e6b35c4613 for MaterialShaderMap/7e370a768cc7b48c1d413dca0d407f5bf99b8b32 from '/Game/LevelPrototyping/Materials/M_PrototypeGrid.M_PrototypeGrid [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:655][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 4d563b6a0968001364493fbbf44c581aeb5461ff and existing hash d66c4bfb8ddcf24c2182130019e2c530fc447498 for MaterialShaderMap/3a5f0f0d9a19175ef7d534c9ec9e97e853f08f18 from '/Game/VRTemplate/Materials/M_GridRotation.M_GridRotation [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:657][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 8324e98c53b28702f85a62a08c065d4d77300835 and existing hash a01e6d37880a9b74c2f312a5b410a9605b344457 for MaterialShaderMap/92e42bb6fb9c35d4307aa6a15f45035a0cb71191 from '/Game/VR_Game/Materials/M_Wood_Floor.M_Wood_Floor [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:669][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3c6f1c36d35c4a973b3e1aa567795b35a022f6f7 and existing hash aa375fdf70d686a210ed0e68a04fe9cdd6f27ec4 for MaterialShaderMap/2dd6e8f347c668f6acf59ee7b648a4e0d7325962 from '/Game/VR_Game/Materials/M_Wood_Ceiling.M_Wood_Ceiling [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:679][987]LogDerivedDataCache: Display: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Cache put found non-deterministic value with new hash 3145ca3b2edaf0ad57ad9963bb41e39d55df40bb and existing hash 0de0115501dc65c980f8d71045e2dc99025bfe09 for MaterialShaderMap/6c9e3ac71e7459848e2741554c761d7b84f15a2e from '/Game/VR_Game/Materials/M_Wood_Paneling.M_Wood_Paneling [PCD3D_SM6, SM6, Num]'
+[2023.05.04-15.01.53:977][988]LogAutomationController: Ignoring very large delta of 21.98 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.04-15.01.53:977][988]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.05.04-15.01.53:977][988]MapCheck: New page: Main_Hall - 04.05.2023, 19:01:53
+[2023.05.04-15.01.53:981][988]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2023.05.04-15.01.54:029][988]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 51,452ms to complete.
+[2023.05.04-15.01.54:062][988]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=19532
+[2023.05.04-15.01.54:397][989]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{0cab6b42-ff6c-4662-8e27-d03998be9a01}, Name=Lautsprecher / Kopfhörer (Realtek Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=44.34
+[2023.05.04-15.01.54:397][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.04-15.01.54:400][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.04-15.02.05:352][649]LogSlate: Window 'Message Log' being destroyed
+[2023.05.04-15.02.05:357][649]LogSlate: Window 'Message Log' being destroyed
+[2023.05.04-15.02.12:736][343]Cmd: DELETE
+[2023.05.04-15.02.12:736][343]Cmd: ACTOR DELETE
+[2023.05.04-15.02.12:739][343]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.12:753][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2023.05.04-15.02.12:755][343]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.05.04-15.02.13:418][406]Cmd: DELETE
+[2023.05.04-15.02.13:418][406]Cmd: ACTOR DELETE
+[2023.05.04-15.02.13:422][406]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.13:435][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.04-15.02.13:437][406]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.13:468][407]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.14:228][481]Cmd: DELETE
+[2023.05.04-15.02.14:228][481]Cmd: ACTOR DELETE
+[2023.05.04-15.02.14:232][481]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.14:245][481]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.04-15.02.14:246][481]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.14:277][482]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.14:942][550]Cmd: DELETE
+[2023.05.04-15.02.14:942][550]Cmd: ACTOR DELETE
+[2023.05.04-15.02.14:945][550]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.14:959][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.02.14:960][550]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.15:622][617]Cmd: DELETE
+[2023.05.04-15.02.15:622][617]Cmd: ACTOR DELETE
+[2023.05.04-15.02.15:625][617]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.15:638][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.04-15.02.15:640][617]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.15:659][618]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.16:277][681]Cmd: DELETE
+[2023.05.04-15.02.16:277][681]Cmd: ACTOR DELETE
+[2023.05.04-15.02.16:280][681]LogEditorActor: Deleted Actor: HDRIBackdrop_C
+[2023.05.04-15.02.16:294][681]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2023.05.04-15.02.16:296][681]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.17:579][813]Cmd: TRANSACTION UNDO
+[2023.05.04-15.02.17:579][813]LogEditorTransaction: Undo Delete Elements
+[2023.05.04-15.02.21:826][143]Cmd: DELETE
+[2023.05.04-15.02.21:826][143]Cmd: ACTOR DELETE
+[2023.05.04-15.02.21:830][143]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.21:843][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.05.04-15.02.21:845][143]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.21:876][144]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.22:217][174]Cmd: DELETE
+[2023.05.04-15.02.22:217][174]Cmd: ACTOR DELETE
+[2023.05.04-15.02.22:221][174]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.22:234][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-15.02.22:236][174]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.22:250][175]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.22:729][221]Cmd: DELETE
+[2023.05.04-15.02.22:729][221]Cmd: ACTOR DELETE
+[2023.05.04-15.02.22:733][221]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.22:746][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-15.02.22:747][221]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.22:763][222]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.23:199][264]Cmd: DELETE
+[2023.05.04-15.02.23:199][264]Cmd: ACTOR DELETE
+[2023.05.04-15.02.23:202][264]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.23:215][264]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.02.23:217][264]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.23:232][265]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.23:617][302]Cmd: DELETE
+[2023.05.04-15.02.23:617][302]Cmd: ACTOR DELETE
+[2023.05.04-15.02.23:622][302]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.23:635][302]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.02.23:636][302]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.23:665][303]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.24:061][340]Cmd: DELETE
+[2023.05.04-15.02.24:061][340]Cmd: ACTOR DELETE
+[2023.05.04-15.02.24:064][340]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.24:077][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.05.04-15.02.24:079][340]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.05.04-15.02.25:431][477]Cmd: DELETE
+[2023.05.04-15.02.25:431][477]Cmd: ACTOR DELETE
+[2023.05.04-15.02.25:435][477]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.25:448][477]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.02.25:450][477]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.25:479][478]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.26:036][532]Cmd: DELETE
+[2023.05.04-15.02.26:036][532]Cmd: ACTOR DELETE
+[2023.05.04-15.02.26:039][532]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.26:053][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.02.26:055][532]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.26:080][533]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.26:533][576]Cmd: DELETE
+[2023.05.04-15.02.26:533][576]Cmd: ACTOR DELETE
+[2023.05.04-15.02.26:536][576]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.26:550][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.04-15.02.26:551][576]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.26:566][577]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.27:070][627]Cmd: DELETE
+[2023.05.04-15.02.27:070][627]Cmd: ACTOR DELETE
+[2023.05.04-15.02.27:073][627]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.27:086][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.04-15.02.27:088][627]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.27:103][628]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.27:567][673]Cmd: DELETE
+[2023.05.04-15.02.27:567][673]Cmd: ACTOR DELETE
+[2023.05.04-15.02.27:570][673]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.27:583][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.04-15.02.27:585][673]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.27:614][674]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.28:153][724]Cmd: DELETE
+[2023.05.04-15.02.28:153][724]Cmd: ACTOR DELETE
+[2023.05.04-15.02.28:156][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.28:170][724]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.04-15.02.28:171][724]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.28:200][725]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.28:763][779]Cmd: DELETE
+[2023.05.04-15.02.28:763][779]Cmd: ACTOR DELETE
+[2023.05.04-15.02.28:767][779]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.28:780][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.02.28:782][779]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.28:797][780]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.29:434][845]Cmd: DELETE
+[2023.05.04-15.02.29:434][845]Cmd: ACTOR DELETE
+[2023.05.04-15.02.29:438][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.29:451][845]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.05.04-15.02.29:452][845]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.29:477][846]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.30:085][907]Cmd: DELETE
+[2023.05.04-15.02.30:085][907]Cmd: ACTOR DELETE
+[2023.05.04-15.02.30:088][907]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.30:102][907]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.02.30:103][907]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.30:128][908]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.30:764][971]Cmd: DELETE
+[2023.05.04-15.02.30:764][971]Cmd: ACTOR DELETE
+[2023.05.04-15.02.30:781][971]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2023.05.04-15.02.30:785][971]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.30:798][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2023.05.04-15.02.30:800][971]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.30:830][972]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.31:370][ 25]Cmd: DELETE
+[2023.05.04-15.02.31:370][ 25]Cmd: ACTOR DELETE
+[2023.05.04-15.02.31:373][ 25]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.31:386][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.02.31:388][ 25]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.31:418][ 26]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.31:957][ 79]Cmd: DELETE
+[2023.05.04-15.02.31:957][ 79]Cmd: ACTOR DELETE
+[2023.05.04-15.02.31:959][ 79]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.31:972][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.02.31:974][ 79]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.31:989][ 80]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.40:300][973]Cmd: DELETE
+[2023.05.04-15.02.40:300][973]Cmd: ACTOR DELETE
+[2023.05.04-15.02.40:303][973]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.40:316][973]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.02.40:318][973]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.40:333][974]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.40:955][ 34]Cmd: DELETE
+[2023.05.04-15.02.40:955][ 34]Cmd: ACTOR DELETE
+[2023.05.04-15.02.40:958][ 34]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.40:971][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.04-15.02.40:972][ 34]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.05.04-15.02.40:987][ 35]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.41:561][ 95]Cmd: DELETE
+[2023.05.04-15.02.41:561][ 95]Cmd: ACTOR DELETE
+[2023.05.04-15.02.41:565][ 95]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.41:579][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.05.04-15.02.41:581][ 95]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.41:606][ 96]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.42:150][150]Cmd: DELETE
+[2023.05.04-15.02.42:150][150]Cmd: ACTOR DELETE
+[2023.05.04-15.02.42:153][150]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.42:167][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.02.42:168][150]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.42:822][215]Cmd: DELETE
+[2023.05.04-15.02.42:822][215]Cmd: ACTOR DELETE
+[2023.05.04-15.02.42:826][215]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.42:839][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.04-15.02.42:840][215]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.43:477][280]Cmd: DELETE
+[2023.05.04-15.02.43:477][280]Cmd: ACTOR DELETE
+[2023.05.04-15.02.43:480][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.43:494][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.02.43:495][280]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.44:127][342]Cmd: DELETE
+[2023.05.04-15.02.44:128][342]Cmd: ACTOR DELETE
+[2023.05.04-15.02.44:131][342]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.44:144][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.04-15.02.44:146][342]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.44:780][407]Cmd: DELETE
+[2023.05.04-15.02.44:780][407]Cmd: ACTOR DELETE
+[2023.05.04-15.02.44:784][407]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.44:797][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.05.04-15.02.44:799][407]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.44:814][408]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.45:407][469]Cmd: DELETE
+[2023.05.04-15.02.45:407][469]Cmd: ACTOR DELETE
+[2023.05.04-15.02.45:410][469]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.45:423][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.05.04-15.02.45:425][469]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.45:994][526]Cmd: DELETE
+[2023.05.04-15.02.45:994][526]Cmd: ACTOR DELETE
+[2023.05.04-15.02.45:997][526]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.46:010][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.04-15.02.46:011][526]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.46:847][613]Cmd: DELETE
+[2023.05.04-15.02.46:847][613]Cmd: ACTOR DELETE
+[2023.05.04-15.02.46:851][613]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.46:865][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2023.05.04-15.02.46:867][613]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.46:891][614]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.47:455][671]Cmd: DELETE
+[2023.05.04-15.02.47:455][671]Cmd: ACTOR DELETE
+[2023.05.04-15.02.47:459][671]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.47:473][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.04-15.02.47:474][671]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.48:331][758]Cmd: DELETE
+[2023.05.04-15.02.48:331][758]Cmd: ACTOR DELETE
+[2023.05.04-15.02.48:335][758]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.48:348][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.04-15.02.48:350][758]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.02.48:366][759]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.48:990][823]Cmd: DELETE
+[2023.05.04-15.02.48:990][823]Cmd: ACTOR DELETE
+[2023.05.04-15.02.48:994][823]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.49:007][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.02.49:009][823]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.49:038][824]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.53:085][237]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.53:788][297]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: ================================================
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: Total job queries 798, among them cache hits 78 (9.77%)
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: Tracking 720 distinct input hashes that result in 388 distinct outputs (53.89%)
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: RAM used: 6.82 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.83%
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: Shaders Compiled: 33
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: Jobs assigned 33, completed 33 (100.00%)
+[2023.05.04-15.02.55:831][503]LogShaderCompilers: Display: Average time worker was idle: 771.97 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Time job spent in pending queue: average 8.78 s, longest 15.18 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Job execution time: average 2.99 s, max 12.15 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Job life time (pending + execution): average 11.76 s, max 15.89
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 26.45 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Jobs were issued in 33 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Average processing rate: 1.25 jobs/sec
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Total thread time: 47.14 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Total thread preprocess time: 1.64 s
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Percentage time preprocessing: 3.48%
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Effective parallelization: 1.78 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 4.88 sec, max 4.90 sec, min 4.87 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 4.61 sec, max 4.83 sec, min 4.48 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 1.23 sec, max 1.26 sec, min 1.21 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.93 sec, max 0.95 sec, min 0.92 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.88 sec, max 0.90 sec, min 0.87 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 31.09% of total time (compiled    3 times, average 4.88 sec, max 4.90 sec, min 4.87 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 29.31% of total time (compiled    3 times, average 4.61 sec, max 4.83 sec, min 4.48 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 7.81% of total time (compiled    3 times, average 1.23 sec, max 1.26 sec, min 1.21 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 3.97% of total time (compiled    2 times, average 0.93 sec, max 0.95 sec, min 0.92 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 3.75% of total time (compiled    2 times, average 0.88 sec, max 0.90 sec, min 0.87 sec)
+[2023.05.04-15.02.55:832][503]LogShaderCompilers: Display: ================================================
+[2023.05.04-15.02.56:675][580]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.58:214][754]Cmd: DELETE
+[2023.05.04-15.02.58:214][754]Cmd: ACTOR DELETE
+[2023.05.04-15.02.58:218][754]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.58:231][754]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.02.58:233][754]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.58:247][755]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.02.59:719][909]Cmd: DELETE
+[2023.05.04-15.02.59:719][909]Cmd: ACTOR DELETE
+[2023.05.04-15.02.59:722][909]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.02.59:735][909]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.04-15.02.59:737][909]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.02.59:751][910]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.02:842][228]Cmd: DELETE
+[2023.05.04-15.03.02:842][228]Cmd: ACTOR DELETE
+[2023.05.04-15.03.02:845][228]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.02:859][228]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.05.04-15.03.02:861][228]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.03.03:591][300]Cmd: DELETE
+[2023.05.04-15.03.03:591][300]Cmd: ACTOR DELETE
+[2023.05.04-15.03.03:595][300]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.03:608][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.04-15.03.03:610][300]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.03.05:010][447]Cmd: DELETE
+[2023.05.04-15.03.05:010][447]Cmd: ACTOR DELETE
+[2023.05.04-15.03.05:014][447]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.05:027][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.04-15.03.05:029][447]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.05:044][448]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.05:754][521]Cmd: DELETE
+[2023.05.04-15.03.05:754][521]Cmd: ACTOR DELETE
+[2023.05.04-15.03.05:757][521]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.05:771][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.03.05:772][521]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.05:801][522]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.06:655][610]Cmd: DELETE
+[2023.05.04-15.03.06:656][610]Cmd: ACTOR DELETE
+[2023.05.04-15.03.06:659][610]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.06:672][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.03.06:674][610]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.06:699][611]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.07:350][677]Cmd: DELETE
+[2023.05.04-15.03.07:350][677]Cmd: ACTOR DELETE
+[2023.05.04-15.03.07:353][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.07:368][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.03.07:369][677]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.03.07:958][735]Cmd: DELETE
+[2023.05.04-15.03.07:958][735]Cmd: ACTOR DELETE
+[2023.05.04-15.03.07:961][735]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.07:977][735]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.04-15.03.07:978][735]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2023.05.04-15.03.08:545][788]Cmd: DELETE
+[2023.05.04-15.03.08:545][788]Cmd: ACTOR DELETE
+[2023.05.04-15.03.08:548][788]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.08:562][788]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.03.08:564][788]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.09:146][841]Cmd: DELETE
+[2023.05.04-15.03.09:146][841]Cmd: ACTOR DELETE
+[2023.05.04-15.03.09:149][841]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.09:163][841]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.04-15.03.09:164][841]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.09:797][903]Cmd: DELETE
+[2023.05.04-15.03.09:797][903]Cmd: ACTOR DELETE
+[2023.05.04-15.03.09:801][903]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.09:814][903]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.04-15.03.09:816][903]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.10:426][964]Cmd: DELETE
+[2023.05.04-15.03.10:426][964]Cmd: ACTOR DELETE
+[2023.05.04-15.03.10:429][964]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.10:442][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.04-15.03.10:444][964]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.10:992][ 17]Cmd: DELETE
+[2023.05.04-15.03.10:992][ 17]Cmd: ACTOR DELETE
+[2023.05.04-15.03.10:995][ 17]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.11:009][ 17]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.04-15.03.11:010][ 17]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.12:182][139]Cmd: DELETE
+[2023.05.04-15.03.12:182][139]Cmd: ACTOR DELETE
+[2023.05.04-15.03.12:185][139]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.12:198][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.04-15.03.12:200][139]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.12:991][222]Cmd: DELETE
+[2023.05.04-15.03.12:991][222]Cmd: ACTOR DELETE
+[2023.05.04-15.03.12:994][222]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.03.13:008][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2023.05.04-15.03.13:009][222]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.14:347][344]Cmd: DELETE
+[2023.05.04-15.03.14:347][344]Cmd: ACTOR DELETE
+[2023.05.04-15.03.14:350][344]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.04-15.03.14:363][344]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.05.04-15.03.14:365][344]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.03.31:755][189]Cmd: EDIT COPY
+[2023.05.04-15.03.32:075][222]Cmd: EDIT PASTE
+[2023.05.04-15.03.32:243][223]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:003][896]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:022][898]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:255][924]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:303][929]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:323][931]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:361][935]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:408][940]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:473][947]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:510][951]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:531][953]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:631][963]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:652][965]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:671][967]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:690][969]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:774][977]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:804][980]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:825][982]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:867][986]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:887][988]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.39:924][992]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.40:021][  3]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.40:231][ 26]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.40:803][ 89]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.41:216][132]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.44:220][409]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.44:789][471]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.45:586][558]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.45:920][592]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.04-15.03.59:619][807]MapCheck: New page: Map Check
+[2023.05.04-15.03.59:635][807]LightingResults: New page: Lighting Build - 04.05.2023, 19:03:59
+[2023.05.04-15.03.59:641][807]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2023.05.04-15.03.59:646][807]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2023.05.04-15.03.59:646][807]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2023.05.04-15.03.59:647][807]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2023.05.04-15.03.59:647][807]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10496
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2023.05.04-15.04.04:298][807]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2023.05.04-15.04.04:354][807]LogEditorBuildUtils: Build time 0:04
+[2023.05.04-15.04.04:400][808]LogAutomationController: Ignoring very large delta of 4.79 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.04-15.04.04:451][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2023.05.04-15.04.09:898][  3]Job is a success!
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:      BrickData (all levels) 0.1Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:      Bricks at depth
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:          0: 4.8% covering 100.0% of volume
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:          1: 9.5% covering 3.1% of volume
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:          2: 85.7% covering 0.4% of volume
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:      Bricks in each level
+[2023.05.04-15.04.10:699][  4]LogVolumetricLightmapImport:          Main_Hall 			 21 bricks 	 100.0% (Persistent Level)
+[2023.05.04-15.04.10:876][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.10:897][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.10:915][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.10:939][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.10:958][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:HQ_Lightmap0_3 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 80.479156 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.10:988][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:LQ_Lightmap_0_3 (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 87.479155 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.11:263][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_5 (BGRA8, 1024x1024 x1x1x1) (Required Memory Estimate: 32.062492 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.11:292][  4]LogTexture: Display: Building textures: /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData:ShadowMapTexture2D_6 (BGRA8, 1024x128 x1x1x1) (Required Memory Estimate: 4.062504 MB), EncodeSpeed: Fast
+[2023.05.04-15.04.11:300][  4]LogStaticLightingSystem: Main_Hall_BuiltData storing lightmap data for 87 meshes in 7 LightmapResourceClusters (12.4 Meshes per cluster).
+[2023.05.04-15.04.11:321][  4]Lightmass on MARKUS-OPTIPLEX: 5.86 sec total, 272 ms importing, 54 ms setup, 868 ms photons, 4.64 sec processing, 0 us extra exporting [87/87 mappings]. Threads: 32.5 sec total, 15.2 sec processing.
+[2023.05.04-15.04.11:340][  4]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2023.05.04-15.04.11:348][  4]LogStaticLightingSystem: Illumination: 11.3 sec (215 ms encoding lightmaps, 287 ms encoding shadowmaps)
+[2023.05.04-15.04.11:348][  4]LogStaticLightingSystem: Lightmap texture memory:  6.2 MB (6.2 MB streaming, 0.0 MB non-streaming), 6 textures
+[2023.05.04-15.04.11:348][  4]LogStaticLightingSystem: Shadowmap texture memory: 6.1 MB (6.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2023.05.04-15.04.12:313][  4]DumpUnbuiltLightIteractions
+[2023.05.04-15.04.12:313][  4]Lights with unbuilt interactions: 0
+[2023.05.04-15.04.12:313][  4]
+[2023.05.04-15.04.12:314][  4]Primitives with unbuilt interactions: 0
+[2023.05.04-15.04.12:370][  5]LogAutomationController: Ignoring very large delta of 2.17 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.05.04-15.04.12:370][  5]Cmd: MAP CHECK NOTIFYRESULTS
+[2023.05.04-15.04.12:370][  5]MapCheck: New page: Main_Hall - 04.05.2023, 19:04:12
+[2023.05.04-15.04.12:371][  5]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,969ms to complete.
+[2023.05.04-15.04.34:604][879]Cmd: DELETE
+[2023.05.04-15.04.34:605][879]Cmd: ACTOR DELETE
+[2023.05.04-15.04.34:609][879]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.04-15.04.34:621][879]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.04-15.04.34:623][879]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.04-15.05.09:862][618]Cmd: DELETE
+[2023.05.04-15.05.09:862][618]Cmd: ACTOR DELETE
+[2023.05.04-15.05.09:865][618]LogEditorActor: Deleted Actor: HDRIBackdrop_C
+[2023.05.04-15.05.09:878][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2023.05.04-15.05.09:881][618]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.04-15.05.14:672][187]Cmd: TRANSACTION UNDO
+[2023.05.04-15.05.14:673][187]LogEditorTransaction: Undo Delete Elements
+[2023.05.04-15.06.25:052][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-15.06.25:112][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.04-15.06.25:126][977]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.05.04-15.06.25:162][977]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall
+[2023.05.04-15.06.25:162][977]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_HallA75E57944E4FEC49398C299AE349FABC.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap'
+[2023.05.04-15.06.25:204][977]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/VR_Game/Maps/Main_Hall_BuiltData
+[2023.05.04-15.06.25:204][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.04-15.06.25:204][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall_BuiltData" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData.uasset" SILENT=true
+[2023.05.04-15.06.25:288][977]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall_BuiltData
+[2023.05.04-15.06.25:289][977]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_Hall_BuiltData5CDCD3804EAA2F6C6240BC90892E84FA.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData.uasset'
+[2023.05.04-15.06.25:290][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 693 ms)
+[2023.05.04-15.06.25:290][977]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/VR_Game/Maps/Main_Hall_BuiltData
+[2023.05.04-15.06.25:290][977]LogFileHelpers: Saving map 'Main_Hall' took 0.179
+[2023.05.04-15.06.25:298][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 939 ms)
+[2023.05.04-15.06.25:305][977]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.04-15.06.25:305][977]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.04-15.06.25:305][977]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/VR_Game/Maps/Main_Hall_BuiltData.Main_Hall_BuiltData
+[2023.05.04-15.06.27:383][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
