@@ -2574,3 +2574,532 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.07-10.20.26:393][327]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
 [2023.05.07-10.21.38:441][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
 [2023.05.07-10.22.28:794][763]LogDerivedDataCache: C:/Users/schne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:39.116 and deleted 0 files with total size 0 MiB. Scanned 19948 files in 19293 folders with total size 3973 MiB.
+[2023.05.07-10.26.00:453][100]Cmd: TRANSACTION UNDO
+[2023.05.07-10.26.00:453][100]LogEditorTransaction: Undo Edit Intensity
+[2023.05.07-10.26.03:080][354]Cmd: TRANSACTION UNDO
+[2023.05.07-10.26.03:080][354]LogEditorTransaction: Undo Edit Attenuation Radius
+[2023.05.07-10.27.01:880][276]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.07-10.27.02:375][332]Cmd: SELECT NONE
+[2023.05.07-10.27.17:918][128]Cmd: SELECT NONE
+[2023.05.07-10.27.21:993][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2023.05.07-10.27.21:997][604]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.27.22:052][604]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.07-10.27.22:094][604]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.27.22:094][604]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementC2B7E44341FEBAE23C6FD5A90C89400A.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.27.22:102][604]LogFileHelpers: No new changes to save!
+[2023.05.07-10.27.22:102][604]LogFileHelpers: Saving map 'Basement' took 0.058
+[2023.05.07-10.27.22:108][604]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 1.69 sec)
+[2023.05.07-10.27.22:113][604]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.27.22:113][604]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.27.53:953][329]Cmd: EDIT COPY
+[2023.05.07-10.27.54:314][371]Cmd: EDIT PASTE
+[2023.05.07-10.28.08:572][ 15]Cmd: SELECT NONE
+[2023.05.07-10.28.14:695][679]Cmd: SELECT NONE
+[2023.05.07-10.28.21:468][412]Cmd: EDIT COPY
+[2023.05.07-10.28.22:247][504]Cmd: EDIT PASTE
+[2023.05.07-10.28.33:874][826]Cmd: EDIT COPY
+[2023.05.07-10.28.34:278][873]Cmd: EDIT PASTE
+[2023.05.07-10.28.58:646][716]Cmd: TRANSACTION UNDO
+[2023.05.07-10.28.58:646][716]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-10.29.01:983][ 56]Cmd: SELECT NONE
+[2023.05.07-10.29.08:702][820]Cmd: EDIT COPY
+[2023.05.07-10.29.09:039][859]Cmd: EDIT PASTE
+[2023.05.07-10.30.13:635][ 98]Cmd: SELECT NONE
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Total job queries 446, among them cache hits 128 (28.70%)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Tracking 318 distinct input hashes that result in 230 distinct outputs (72.33%)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: RAM used: 3.29 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.40%
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Shaders Compiled: 56
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Jobs assigned 56, completed 56 (100.00%)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Average time worker was idle: 187.67 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.50 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Job execution time: average 1.07 s, max 3.07 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 3.16
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.50 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Jobs were issued in 56 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Average processing rate: 2.04 jobs/sec
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Total thread time: 43.43 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Total thread preprocess time: 1.64 s
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Percentage time preprocessing: 3.79%
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Effective parallelization: 1.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 2.45 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    9 times, average 0.90 sec, max 2.81 sec, min 0.52 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 0.63 sec, max 0.72 sec, min 0.53 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   12 times, average 0.60 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 22.54% of total time (compiled    4 times, average 2.45 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 21.33% of total time (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.73% of total time (compiled    9 times, average 0.90 sec, max 2.81 sec, min 0.52 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.69% of total time (compiled   12 times, average 0.60 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.81% of total time (compiled    4 times, average 0.63 sec, max 0.72 sec, min 0.53 sec)
+[2023.05.07-10.30.32:517][187]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.30.53:898][485]Cmd: SELECT NONE
+[2023.05.07-10.31.01:128][301]Cmd: SELECT NONE
+[2023.05.07-10.31.14:715][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.07-10.31.14:721][926]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.31.14:786][926]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.07-10.31.14:829][926]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.31.14:829][926]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementAD4AD13446A30F0A104796BE74409185.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.31.14:837][926]LogFileHelpers: No new changes to save!
+[2023.05.07-10.31.14:837][926]LogFileHelpers: Saving map 'Basement' took 0.059
+[2023.05.07-10.31.14:849][926]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 1.81 sec)
+[2023.05.07-10.31.14:853][926]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.31.14:853][926]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.31.49:229][643]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.05.07-10.31.49:229][643]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2023.05.07-10.31.49:230][643]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/VR_Game/Maps/Basement.Basement:PersistentLevel.StaticMeshActor_255
+[2023.05.07-10.31.49:231][643]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/VR_Game/Maps/Basement.Basement:PersistentLevel.StaticMeshActor_255
+[2023.05.07-10.33.04:096][386]Cmd: SELECT NONE
+[2023.05.07-10.33.11:717][269]Cmd: SELECT NONE
+[2023.05.07-10.33.14:976][627]Cmd: EDIT COPY
+[2023.05.07-10.33.15:206][653]Cmd: EDIT PASTE
+[2023.05.07-10.33.18:285][ 10]Cmd: SELECT NONE
+[2023.05.07-10.33.30:778][427]Cmd: EDIT COPY
+[2023.05.07-10.33.31:117][466]Cmd: EDIT PASTE
+[2023.05.07-10.33.42:054][718]Cmd: SELECT NONE
+[2023.05.07-10.34.11:338][978]Cmd: SELECT NONE
+[2023.05.07-10.34.27:371][798]Cmd: EDIT COPY
+[2023.05.07-10.34.27:940][865]Cmd: EDIT PASTE
+[2023.05.07-10.34.27:940][865]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2023.05.07-10.34.37:427][980]Cmd: SELECT NONE
+[2023.05.07-10.34.39:912][260]Cmd: TRANSACTION UNDO
+[2023.05.07-10.34.39:912][260]LogEditorTransaction: Undo Select None
+[2023.05.07-10.34.50:944][510]Cmd: SELECT NONE
+[2023.05.07-10.35.01:154][707]Cmd: SELECT NONE
+[2023.05.07-10.35.05:207][151]Cmd: SELECT NONE
+[2023.05.07-10.35.17:105][526]Cmd: SELECT NONE
+[2023.05.07-10.35.30:297][ 57]Cmd: TRANSACTION UNDO
+[2023.05.07-10.35.30:297][ 57]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.35.32:758][293]Cmd: SELECT NONE
+[2023.05.07-10.35.41:925][339]Cmd: SELECT NONE
+[2023.05.07-10.35.48:265][ 15]Cmd: EDIT COPY
+[2023.05.07-10.35.48:603][ 54]Cmd: EDIT PASTE
+[2023.05.07-10.36.14:691][ 63]Cmd: TRANSACTION UNDO
+[2023.05.07-10.36.14:691][ 63]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-10.36.17:307][312]Cmd: SELECT NONE
+[2023.05.07-10.36.20:057][631]Cmd: EDIT COPY
+[2023.05.07-10.36.20:497][682]Cmd: EDIT PASTE
+[2023.05.07-10.36.24:884][198]Cmd: SELECT NONE
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Total job queries 494, among them cache hits 130 (26.32%)
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Tracking 355 distinct input hashes that result in 245 distinct outputs (69.01%)
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: RAM used: 3.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.44%
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Shaders Compiled: 73
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Jobs assigned 81, completed 73 (90.12%)
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Average time worker was idle: 316.87 s
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Time job spent in pending queue: average 0.13 s, longest 0.98 s
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Job execution time: average 1.04 s, max 3.07 s
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Job life time (pending + execution): average 1.16 s, max 3.51
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 32.37 s
+[2023.05.07-10.36.50:805][114]LogShaderCompilers: Display: Jobs were issued in 81 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Average processing rate: 2.26 jobs/sec
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Total thread time: 55.32 s
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Total thread preprocess time: 2.34 s
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Percentage time preprocessing: 4.23%
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Effective parallelization: 1.71 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 2.46 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   15 times, average 0.81 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 0.63 sec, max 0.72 sec, min 0.53 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 0.63 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 22.25% of total time (compiled    5 times, average 2.46 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.96% of total time (compiled   15 times, average 0.81 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.54% of total time (compiled   19 times, average 0.63 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 16.74% of total time (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 4.56% of total time (compiled    4 times, average 0.63 sec, max 0.72 sec, min 0.53 sec)
+[2023.05.07-10.36.50:806][114]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.37.16:743][140]Cmd: SELECT NONE
+[2023.05.07-10.37.50:857][152]Cmd: SELECT NONE
+[2023.05.07-10.37.56:745][848]Cmd: EDIT COPY
+[2023.05.07-10.37.57:135][894]Cmd: EDIT PASTE
+[2023.05.07-10.38.02:732][552]Cmd: DELETE
+[2023.05.07-10.38.02:732][552]Cmd: ACTOR DELETE
+[2023.05.07-10.38.02:736][552]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.38.02:745][552]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.05.07-10.38.02:750][552]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.07-10.38.15:382][ 41]Cmd: EDIT COPY
+[2023.05.07-10.38.15:830][ 94]Cmd: EDIT PASTE
+[2023.05.07-10.38.29:848][735]Cmd: EDIT COPY
+[2023.05.07-10.38.30:229][780]Cmd: EDIT PASTE
+[2023.05.07-10.38.56:603][875]Cmd: SELECT NONE
+[2023.05.07-10.39.03:102][607]Cmd: EDIT COPY
+[2023.05.07-10.39.03:408][643]Cmd: EDIT PASTE
+[2023.05.07-10.39.08:520][243]Cmd: SELECT NONE
+[2023.05.07-10.39.14:432][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.07-10.39.14:437][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.39.14:491][940]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.07-10.39.14:536][940]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.39.14:536][940]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement61DB70D64E679A5849CE29951A5B5D04.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.39.14:544][940]LogFileHelpers: No new changes to save!
+[2023.05.07-10.39.14:544][940]LogFileHelpers: Saving map 'Basement' took 0.061
+[2023.05.07-10.39.14:550][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 1.93 sec)
+[2023.05.07-10.39.14:555][940]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.39.14:555][940]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.39.29:912][661]Cmd: SELECT NONE
+[2023.05.07-10.39.43:307][224]Cmd: EDIT COPY
+[2023.05.07-10.39.43:579][255]Cmd: EDIT PASTE
+[2023.05.07-10.40.13:761][746]Cmd: SELECT NONE
+[2023.05.07-10.40.31:778][787]Cmd: SELECT NONE
+[2023.05.07-10.40.41:207][852]Cmd: SELECT NONE
+[2023.05.07-10.40.54:617][404]Cmd: SELECT NONE
+[2023.05.07-10.41.02:318][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.07-10.41.02:322][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.41.02:375][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.07-10.41.02:418][322]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.41.02:419][322]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementE97BD6934713BB57B02386B76807D6B2.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.41.02:427][322]LogFileHelpers: No new changes to save!
+[2023.05.07-10.41.02:427][322]LogFileHelpers: Saving map 'Basement' took 0.060
+[2023.05.07-10.41.02:438][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 2.04 sec)
+[2023.05.07-10.41.02:442][322]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.41.02:442][322]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.41.21:888][636]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.07-10.42.26:468][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Total job queries 692, among them cache hits 136 (19.65%)
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Tracking 369 distinct input hashes that result in 255 distinct outputs (69.11%)
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: RAM used: 3.66 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.45%
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Shaders Compiled: 87
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Jobs assigned 160, completed 87 (54.38%)
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Average time worker was idle: 311.18 s
+[2023.05.07-10.42.31:832][333]LogShaderCompilers: Display: Time job spent in pending queue: average 0.29 s, longest 3.28 s
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Job execution time: average 1.16 s, max 3.29 s
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Job life time (pending + execution): average 1.29 s, max 3.51
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 36.78 s
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Jobs were issued in 91 batches (only local compilation was used), average 1.76 jobs/batch
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Average processing rate: 2.37 jobs/sec
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Total thread time: 62.36 s
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Total thread preprocess time: 2.80 s
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Percentage time preprocessing: 4.49%
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Effective parallelization: 1.70 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    5 times, average 2.46 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.79 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialVS (compiled    1 times, average 0.68 sec, max 0.68 sec, min 0.68 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   21 times, average 0.64 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.14% of total time (compiled   19 times, average 0.79 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.46% of total time (compiled   21 times, average 0.64 sec, max 0.82 sec, min 0.43 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 19.74% of total time (compiled    5 times, average 2.46 sec, max 2.73 sec, min 2.23 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 14.85% of total time (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display:                                                  FHitProxyVS - 5.91% of total time (compiled    7 times, average 0.53 sec, max 0.60 sec, min 0.44 sec)
+[2023.05.07-10.42.31:833][333]LogShaderCompilers: Display: ================================================
+[2023.05.07-10.42.41:346][ 54]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Plane.Plane
+[2023.05.07-10.42.41:443][ 54]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-10.42.41:798][ 54]LogViewport: Scene viewport resized to 1857x932, mode Windowed.
+[2023.05.07-10.43.05:426][786]LogMeshLODToolset: Warning: Non-parameter texture sampler detected in input material [WorldGridMaterial]. Output materials may have unexpected behaviour.
+[2023.05.07-10.43.05:428][786]LogGeometry: Warning: AutoLOD: applying single-material optimizations
+[2023.05.07-10.43.05:603][787]LogGeometryFlowMeshProcessing: Display: [FilterMesh]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:603][787]LogGeometryFlowMeshProcessing: Display: [Thicken]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:603][787]LogGeometryFlowMeshProcessing: Display: [Solidify]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:604][787]LogGeometryFlowMeshProcessing: Display: [Closure]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:651][787]LogGeometryFlowMeshProcessing: Display: [PerVertexNormals]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:651][787]LogGeometryFlowMeshProcessing: Display: [Simplify]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:651][787]LogGeometryFlowMeshProcessing: Display: [Compact]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:651][787]LogGeometryFlowMeshProcessing: Display: [Normals]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:653][787]LogGeometryFlowMeshProcessing: Display: [AutoUV]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:655][787]LogGeometryFlowMeshProcessing: Display: [RepackUV]  RECOMPUTING MeshOp
+[2023.05.07-10.43.05:672][788]LogMeshLODToolset: Display: NormalMapPass - Evaluated 55 Nodes, Recomputed 15
+[2023.05.07-10.43.05:717][788]LogMeshLODToolset: Display: MultiTextureBake - Evaluated 30 Nodes, Recomputed 1
+[2023.05.07-10.43.05:758][789]LogMeshLODToolset: Display: OutputTangentsPass - Evaluated 27 Nodes, Recomputed 1
+[2023.05.07-10.43.05:800][790]LogMeshLODToolset: Display: OutputMeshPass - Evaluated 25 Nodes, Recomputed 1
+[2023.05.07-10.43.05:837][791]LogMeshLODToolset: Display: OutputCollisionPass - Evaluated 18 Nodes, Recomputed 2
+[2023.05.07-10.43.05:915][791]LogMeshLODToolset: Display: NormalMapPass - Evaluated 55 Nodes, Recomputed 1
+[2023.05.07-10.43.05:975][791]LogMeshLODToolset: Display: MultiTextureBake - Evaluated 30 Nodes, Recomputed 1
+[2023.05.07-10.43.06:014][791]LogMeshLODToolset: Display: OutputTangentsPass - Evaluated 27 Nodes, Recomputed 0
+[2023.05.07-10.43.06:056][791]LogMeshLODToolset: Display: OutputMeshPass - Evaluated 25 Nodes, Recomputed 1
+[2023.05.07-10.43.06:092][791]LogMeshLODToolset: Display: OutputCollisionPass - Evaluated 18 Nodes, Recomputed 0
+[2023.05.07-10.43.06:102][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2023.05.07-10.43.06:180][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2023.05.07-10.43.17:603][652]LogSlate: Window 'Plane' being destroyed
+[2023.05.07-10.43.17:608][652]LogSlate: Window 'Plane' being destroyed
+[2023.05.07-10.43.17:651][652]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-10.43.17:654][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-10.43.29:344][875]LogViewport: Scene viewport resized to 1542x1389, mode Windowed.
+[2023.05.07-10.43.39:300][975]Cmd: TRANSACTION UNDO
+[2023.05.07-10.43.39:300][975]LogEditorTransaction: Undo Transform
+[2023.05.07-10.44.29:455][274]LogStaticMesh: Display: Building static mesh Disc_4CC28B36...
+[2023.05.07-10.44.29:456][274]LogStaticMesh: Built static mesh [0.00s] /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36
+[2023.05.07-10.44.29:460][274]LogStaticMesh: Display: Building static mesh Disc_4CC28B36...
+[2023.05.07-10.44.29:460][274]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36
+[2023.05.07-10.44.29:461][274]LogActorFactory: Actor Factory spawned StaticMesh /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36 as actor: StaticMeshActor /Game/VR_Game/Maps/Basement.Basement:PersistentLevel.StaticMeshActor_273
+[2023.05.07-10.44.29:461][274]LogStaticMesh: Built static mesh [0.00s] /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36
+[2023.05.07-10.44.39:938][428]LogStaticMesh: Display: Building static mesh Disc_4CC28B36...
+[2023.05.07-10.44.39:955][428]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36) ...
+[2023.05.07-10.44.39:977][428]LogStaticMesh: Built static mesh [0.04s] /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36
+[2023.05.07-10.44.42:864][747]LogTemp: Warning: CANNOT MODIFY BUILT-IN ENGINE ASSET /Engine/BasicShapes/Plane.Plane
+[2023.05.07-10.44.53:535][783]Cmd: TRANSACTION UNDO
+[2023.05.07-10.44.53:535][783]LogEditorTransaction: Undo Subdivide Mesh
+[2023.05.07-10.44.54:144][799]Cmd: TRANSACTION UNDO
+[2023.05.07-10.44.54:144][799]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.44.55:568][937]Cmd: TRANSACTION UNDO
+[2023.05.07-10.44.55:568][937]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.45.36:517][684]LogStaticMesh: Display: Building static mesh Disc_4CC28B36...
+[2023.05.07-10.45.36:519][684]LogStaticMesh: Built static mesh [0.00s] /Game/VR_Game/Maps/_GENERATED/schne/Disc_4CC28B36.Disc_4CC28B36
+[2023.05.07-10.45.37:804][836]Cmd: SELECT NONE
+[2023.05.07-10.45.44:529][637]Cmd: TRANSACTION UNDO
+[2023.05.07-10.45.44:529][637]LogEditorTransaction: Undo Select None
+[2023.05.07-10.45.47:183][852]Cmd: TRANSACTION UNDO
+[2023.05.07-10.45.47:183][852]LogEditorTransaction: Undo Cut Hole
+[2023.05.07-10.45.55:989][854]Cmd: EDIT COPY
+[2023.05.07-10.45.56:234][882]Cmd: EDIT PASTE
+[2023.05.07-10.45.57:723][ 48]Cmd: EDIT PASTE
+[2023.05.07-10.45.59:674][274]Cmd: EDIT PASTE
+[2023.05.07-10.46.10:621][508]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.10:621][508]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.46.12:466][640]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.12:466][640]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.46.12:734][662]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.12:734][662]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.46.13:015][687]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.13:015][687]LogEditorTransaction: Undo Paste
+[2023.05.07-10.46.13:391][720]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.13:391][720]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.46.13:736][753]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.13:736][753]LogEditorTransaction: Undo Paste
+[2023.05.07-10.46.14:118][787]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.14:118][787]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.46.15:342][929]Cmd: DELETE
+[2023.05.07-10.46.15:344][929]Cmd: ACTOR DELETE
+[2023.05.07-10.46.15:348][929]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.46.15:362][929]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.07-10.46.15:369][929]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2023.05.07-10.46.26:829][193]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.26:829][193]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2023.05.07-10.46.27:085][196]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.27:085][196]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.46.27:320][199]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.27:320][199]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.46.27:473][205]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.27:473][205]LogEditorTransaction: Undo Delete Elements
+[2023.05.07-10.46.27:657][220]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.27:657][220]LogEditorTransaction: Undo Paste
+[2023.05.07-10.46.27:858][237]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.27:859][237]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.46.28:059][257]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.28:059][257]LogEditorTransaction: Undo Add Primitive Tool
+[2023.05.07-10.46.28:335][281]Cmd: TRANSACTION UNDO
+[2023.05.07-10.46.28:335][281]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-10.46.30:769][529]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.07-10.46.56:433][434]Cmd: SELECT NONE
+[2023.05.07-10.47.00:890][964]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.07-10.47.37:853][715]Cmd: SELECT NONE
+[2023.05.07-10.47.52:793][490]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.52:793][490]LogEditorTransaction: Undo Select None
+[2023.05.07-10.47.53:187][497]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.53:187][497]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.53:549][519]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.53:549][519]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.53:900][552]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.53:900][552]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.54:263][588]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.54:263][588]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.54:645][625]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.54:647][625]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.54:986][658]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.54:986][658]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.55:393][698]Cmd: TRANSACTION UNDO
+[2023.05.07-10.47.55:393][698]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.47.56:749][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-10.47.56:755][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.47.56:813][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2023.05.07-10.47.56:857][838]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.47.56:857][838]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement8B7F18504EF52F437EBDFABEBE240A4B.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.47.56:865][838]LogFileHelpers: No new changes to save!
+[2023.05.07-10.47.56:865][838]LogFileHelpers: Saving map 'Basement' took 0.061
+[2023.05.07-10.47.56:872][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 2.16 sec)
+[2023.05.07-10.47.56:877][838]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.47.56:877][838]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.47.58:916][ 61]Cmd: SELECT NONE
+[2023.05.07-10.48.28:415][543]Cmd: EDIT COPY
+[2023.05.07-10.48.28:656][572]Cmd: EDIT PASTE
+[2023.05.07-10.48.31:647][920]Cmd: SELECT NONE
+[2023.05.07-10.48.37:174][536]Cmd: TRANSACTION UNDO
+[2023.05.07-10.48.37:174][536]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-10.48.40:876][913]Cmd: SELECT NONE
+[2023.05.07-10.48.45:833][461]Cmd: EDIT COPY
+[2023.05.07-10.48.46:077][489]Cmd: EDIT PASTE
+[2023.05.07-10.48.52:182][204]Cmd: SELECT NONE
+[2023.05.07-10.48.56:451][653]Cmd: SELECT NONE
+[2023.05.07-10.49.00:661][130]Cmd: EDIT COPY
+[2023.05.07-10.49.00:896][149]Cmd: EDIT PASTE
+[2023.05.07-10.49.03:381][434]Cmd: SELECT NONE
+[2023.05.07-10.49.09:193][ 74]Cmd: SELECT NONE
+[2023.05.07-10.49.13:694][595]Cmd: SELECT NONE
+[2023.05.07-10.49.17:541][ 13]Cmd: SELECT NONE
+[2023.05.07-10.49.23:668][711]Cmd: DELETE
+[2023.05.07-10.49.23:668][711]Cmd: ACTOR DELETE
+[2023.05.07-10.49.23:672][711]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.49.23:681][711]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.07-10.49.23:686][711]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.07-10.49.27:521][ 70]Cmd: SELECT NONE
+[2023.05.07-10.49.44:176][ 40]Cmd: EDIT COPY
+[2023.05.07-10.49.45:103][150]Cmd: EDIT PASTE
+[2023.05.07-10.50.11:480][194]Cmd: SELECT NONE
+[2023.05.07-10.50.12:726][338]Cmd: DELETE
+[2023.05.07-10.50.12:726][338]Cmd: ACTOR DELETE
+[2023.05.07-10.50.12:731][338]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.50.12:739][338]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.07-10.50.12:744][338]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2023.05.07-10.50.31:555][546]Cmd: EDIT COPY
+[2023.05.07-10.50.32:947][712]Cmd: EDIT PASTE
+[2023.05.07-10.50.57:962][623]Cmd: SELECT NONE
+[2023.05.07-10.51.00:871][932]Cmd: EDIT COPY
+[2023.05.07-10.51.01:133][962]Cmd: EDIT PASTE
+[2023.05.07-10.51.04:185][318]Cmd: EDIT PASTE
+[2023.05.07-10.51.06:287][560]Cmd: SELECT NONE
+[2023.05.07-10.51.14:746][510]Cmd: SELECT NONE
+[2023.05.07-10.51.18:227][888]Cmd: EDIT COPY
+[2023.05.07-10.51.18:611][933]Cmd: EDIT PASTE
+[2023.05.07-10.51.21:318][250]Cmd: SELECT NONE
+[2023.05.07-10.51.25:583][693]Cmd: SELECT NONE
+[2023.05.07-10.51.32:209][425]Cmd: TRANSACTION UNDO
+[2023.05.07-10.51.32:209][425]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-10.51.50:060][416]Cmd: SELECT NONE
+[2023.05.07-10.52.00:928][460]Cmd: SELECT NONE
+[2023.05.07-10.52.06:028][  7]Cmd: SELECT NONE
+[2023.05.07-10.52.15:823][ 52]Cmd: SELECT NONE
+[2023.05.07-10.52.24:771][ 71]Cmd: EDIT COPY
+[2023.05.07-10.52.25:011][ 92]Cmd: EDIT PASTE
+[2023.05.07-10.52.27:677][397]Cmd: SELECT NONE
+[2023.05.07-10.52.36:398][376]Cmd: SELECT NONE
+[2023.05.07-10.52.40:337][811]Cmd: DELETE
+[2023.05.07-10.52.40:337][811]Cmd: ACTOR DELETE
+[2023.05.07-10.52.40:340][811]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.52.40:349][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.05.07-10.52.40:355][811]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.07-10.52.43:577][151]Cmd: EDIT COPY
+[2023.05.07-10.52.44:888][302]Cmd: EDIT PASTE
+[2023.05.07-10.52.50:971][960]Cmd: SELECT NONE
+[2023.05.07-10.52.57:101][585]Cmd: EDIT COPY
+[2023.05.07-10.52.57:332][611]Cmd: EDIT PASTE
+[2023.05.07-10.53.05:245][510]Cmd: SELECT NONE
+[2023.05.07-10.53.18:356][ 31]Cmd: SELECT NONE
+[2023.05.07-10.53.28:088][112]Cmd: SELECT NONE
+[2023.05.07-10.53.29:303][249]Cmd: DELETE
+[2023.05.07-10.53.29:303][249]Cmd: ACTOR DELETE
+[2023.05.07-10.53.29:307][249]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.07-10.53.29:316][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.07-10.53.29:322][249]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.07-10.53.33:386][677]Cmd: TRANSACTION UNDO
+[2023.05.07-10.53.33:386][677]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.53.39:815][291]Cmd: SELECT NONE
+[2023.05.07-10.53.42:457][596]Cmd: TRANSACTION UNDO
+[2023.05.07-10.53.42:457][596]LogEditorTransaction: Undo Rotate Elements
+[2023.05.07-10.53.54:200][793]Cmd: SELECT NONE
+[2023.05.07-10.54.03:073][791]Cmd: SELECT NONE
+[2023.05.07-10.54.09:768][478]Cmd: SELECT NONE
+[2023.05.07-10.54.12:184][759]Cmd: EDIT COPY
+[2023.05.07-10.54.12:437][788]Cmd: EDIT PASTE
+[2023.05.07-10.54.31:289][996]Cmd: SELECT NONE
+[2023.05.07-10.54.43:354][367]Cmd: SELECT NONE
+[2023.05.07-10.54.49:584][ 54]Cmd: SELECT NONE
+[2023.05.07-10.54.58:239][ 24]Cmd: SELECT NONE
+[2023.05.07-10.55.09:987][355]Cmd: SELECT NONE
+[2023.05.07-10.55.14:371][854]Cmd: EDIT COPY
+[2023.05.07-10.55.14:599][880]Cmd: EDIT PASTE
+[2023.05.07-10.55.16:163][ 55]Cmd: EDIT PASTE
+[2023.05.07-10.55.19:429][435]Cmd: SELECT NONE
+[2023.05.07-10.55.25:061][ 38]Cmd: SELECT NONE
+[2023.05.07-10.55.26:782][235]Cmd: SELECT NONE
+[2023.05.07-10.55.35:447][211]Cmd: DELETE
+[2023.05.07-10.55.35:447][211]Cmd: ACTOR DELETE
+[2023.05.07-10.55.35:454][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.55.35:462][211]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2023.05.07-10.55.35:469][211]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2023.05.07-10.55.48:796][743]Cmd: SELECT NONE
+[2023.05.07-10.55.52:786][167]Cmd: EDIT COPY
+[2023.05.07-10.55.53:073][200]Cmd: EDIT PASTE
+[2023.05.07-10.56.04:476][504]Cmd: SELECT NONE
+[2023.05.07-10.56.17:981][ 51]Cmd: SELECT NONE
+[2023.05.07-10.56.26:693][ 35]Cmd: SELECT NONE
+[2023.05.07-10.56.34:616][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.07-10.56.34:622][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.56.34:684][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.05.07-10.56.34:727][974]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.56.34:728][974]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement3736DF38433E0B5B603C768F21B48A8F.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.56.34:737][974]LogFileHelpers: No new changes to save!
+[2023.05.07-10.56.34:737][974]LogFileHelpers: Saving map 'Basement' took 0.062
+[2023.05.07-10.56.34:742][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 2.28 sec)
+[2023.05.07-10.56.34:748][974]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.56.34:748][974]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.57.01:608][ 25]Cmd: SELECT NONE
+[2023.05.07-10.57.13:340][304]Cmd: SELECT NONE
+[2023.05.07-10.57.17:103][737]Cmd: SELECT NONE
+[2023.05.07-10.57.22:065][318]Cmd: SELECT NONE
+[2023.05.07-10.57.28:828][ 82]Cmd: SELECT NONE
+[2023.05.07-10.57.32:837][534]Cmd: DELETE
+[2023.05.07-10.57.32:837][534]Cmd: ACTOR DELETE
+[2023.05.07-10.57.32:841][534]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.57.32:849][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2023.05.07-10.57.32:854][534]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.07-10.57.36:608][945]Cmd: DELETE
+[2023.05.07-10.57.36:608][945]Cmd: ACTOR DELETE
+[2023.05.07-10.57.36:612][945]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.57.36:613][945]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.57.36:621][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.07-10.57.36:624][945]LogEditorActor: Deleted 2 Actors (0.016 secs)
+[2023.05.07-10.57.41:541][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.07-10.57.41:544][527]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-10.57.41:601][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-10.57.41:645][527]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-10.57.41:646][527]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementAD25E25049B4C9EC4AC9F9B0CE8D2A80.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-10.57.41:653][527]LogFileHelpers: No new changes to save!
+[2023.05.07-10.57.41:653][527]LogFileHelpers: Saving map 'Basement' took 0.061
+[2023.05.07-10.57.41:659][527]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 2.39 sec)
+[2023.05.07-10.57.41:664][527]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-10.57.41:664][527]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-10.57.45:502][956]LogViewport: Scene viewport resized to 1726x1389, mode Windowed.
+[2023.05.07-10.57.48:616][320]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.07-10.57.49:351][407]Cmd: SELECT NONE
+[2023.05.07-10.58.13:113][175]Cmd: EDIT COPY
+[2023.05.07-10.58.13:654][239]Cmd: EDIT PASTE
+[2023.05.07-10.58.21:772][158]Cmd: TRANSACTION UNDO
+[2023.05.07-10.58.21:772][158]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.58.35:710][580]Cmd: SELECT NONE
+[2023.05.07-10.58.45:661][715]Cmd: DELETE
+[2023.05.07-10.58.45:661][715]Cmd: ACTOR DELETE
+[2023.05.07-10.58.45:674][715]LogEditorActor: Deleted Actor: KeycardControl_C
+[2023.05.07-10.58.45:691][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2023.05.07-10.58.45:699][715]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2023.05.07-10.58.46:764][841]Cmd: TRANSACTION UNDO
+[2023.05.07-10.58.46:764][841]LogEditorTransaction: Undo Delete Elements
+[2023.05.07-10.58.53:099][444]Cmd: SELECT NONE
+[2023.05.07-10.59.08:550][249]Cmd: EDIT COPY
+[2023.05.07-10.59.08:791][278]Cmd: EDIT PASTE
+[2023.05.07-10.59.12:653][655]Cmd: SELECT NONE
+[2023.05.07-10.59.23:042][817]Cmd: TRANSACTION UNDO
+[2023.05.07-10.59.23:042][817]LogEditorTransaction: Undo Move Elements
+[2023.05.07-10.59.31:669][774]Cmd: SELECT NONE
+[2023.05.07-10.59.33:865][ 29]Cmd: DELETE
+[2023.05.07-10.59.33:865][ 29]Cmd: ACTOR DELETE
+[2023.05.07-10.59.33:872][ 29]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-10.59.33:881][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2023.05.07-10.59.33:889][ 29]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2023.05.07-10.59.40:791][810]Cmd: TRANSACTION UNDO
+[2023.05.07-10.59.40:791][810]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-10.59.43:433][ 67]Cmd: SELECT NONE
+[2023.05.07-10.59.50:224][847]Cmd: SELECT NONE
+[2023.05.07-10.59.52:866][155]Cmd: EDIT COPY
+[2023.05.07-10.59.53:123][185]Cmd: EDIT PASTE
+[2023.05.07-10.59.58:908][864]Cmd: SELECT NONE
+[2023.05.07-11.00.07:652][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.05.07-11.00.07:658][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-11.00.07:720][904]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2023.05.07-11.00.07:763][904]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-11.00.07:764][904]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement5103B4EE49ECCD57599720BD59D341FA.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-11.00.07:772][904]LogFileHelpers: No new changes to save!
+[2023.05.07-11.00.07:772][904]LogFileHelpers: Saving map 'Basement' took 0.061
+[2023.05.07-11.00.07:777][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 2.51 sec)
+[2023.05.07-11.00.07:782][904]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-11.00.07:782][904]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
