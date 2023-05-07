@@ -4955,3 +4955,260 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.07-11.41.07:684][516]AssetCheck: New page: Asset Save: Basement
 [2023.05.07-11.41.07:685][516]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
 [2023.05.07-11.41.14:499][ 85]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.07-11.49.01:347][227]Cmd: TRANSACTION UNDO
+[2023.05.07-11.49.01:347][227]LogEditorTransaction: Undo Move Elements
+[2023.05.07-11.49.12:640][311]Cmd: SELECT NONE
+[2023.05.07-11.49.18:119][892]Cmd: SELECT NONE
+[2023.05.07-11.50.03:484][ 32]Cmd: SELECT NONE
+[2023.05.07-11.50.14:118][121]Cmd: SELECT NONE
+[2023.05.07-11.50.16:551][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.07-11.50.16:556][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-11.50.16:614][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2023.05.07-11.50.16:662][399]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-11.50.16:663][399]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement79916466486EF423A7919B85E2BE90F4.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-11.50.16:671][399]LogFileHelpers: No new changes to save!
+[2023.05.07-11.50.16:671][399]LogFileHelpers: Saving map 'Basement' took 0.066
+[2023.05.07-11.50.16:677][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 4.27 sec)
+[2023.05.07-11.50.16:684][399]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-11.50.16:684][399]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.00.16:786][391]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.07-12.00.16:787][391]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VR_Game/Maps/Basement' took 0.010
+[2023.05.07-12.02.48:416][221]Cmd: EDIT COPY
+[2023.05.07-12.02.48:680][251]Cmd: EDIT PASTE
+[2023.05.07-12.02.57:456][249]Cmd: TRANSACTION UNDO
+[2023.05.07-12.02.57:456][249]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-12.03.35:932][516]Cmd: TRANSACTION UNDO
+[2023.05.07-12.03.35:932][516]LogEditorTransaction: Undo Rotate Elements
+[2023.05.07-12.03.36:259][522]Cmd: TRANSACTION UNDO
+[2023.05.07-12.03.36:259][522]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.03.37:254][611]Cmd: SELECT NONE
+[2023.05.07-12.04.06:012][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2023.05.07-12.04.06:016][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.04.06:070][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-12.04.06:118][881]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.04.06:119][881]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement79E7D4BD42CBC7B845B7C7963D511593.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.04.06:126][881]LogFileHelpers: No new changes to save!
+[2023.05.07-12.04.06:126][881]LogFileHelpers: Saving map 'Basement' took 0.066
+[2023.05.07-12.04.06:140][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 4.39 sec)
+[2023.05.07-12.04.06:145][881]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.04.06:145][881]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.04.26:020][ 73]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.26:020][ 73]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.38:650][370]Cmd: SELECT NONE
+[2023.05.07-12.04.41:713][707]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.41:713][707]LogEditorTransaction: Undo Select None
+[2023.05.07-12.04.42:109][713]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.42:109][713]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.42:581][745]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.42:581][745]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.42:956][780]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.42:956][780]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.43:407][820]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.43:407][820]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.43:843][857]Cmd: TRANSACTION UNDO
+[2023.05.07-12.04.43:843][857]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.04.46:656][137]Cmd: SELECT NONE
+[2023.05.07-12.05.08:197][283]Cmd: SELECT NONE
+[2023.05.07-12.05.12:606][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-12.05.12:612][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.05.12:654][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.07-12.05.12:702][715]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.05.12:702][715]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement36ABFA074B2EC0CAE2D0F685A9348D32.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.05.12:710][715]LogFileHelpers: No new changes to save!
+[2023.05.07-12.05.12:710][715]LogFileHelpers: Saving map 'Basement' took 0.066
+[2023.05.07-12.05.12:715][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 4.50 sec)
+[2023.05.07-12.05.12:721][715]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.05.12:721][715]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.06.03:114][249]Cmd: EDIT COPY
+[2023.05.07-12.06.03:431][285]Cmd: EDIT PASTE
+[2023.05.07-12.06.12:578][294]Cmd: TRANSACTION UNDO
+[2023.05.07-12.06.12:578][294]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.06.56:968][118]Cmd: TRANSACTION UNDO
+[2023.05.07-12.06.56:968][118]LogEditorTransaction: Undo Move Elements
+[2023.05.07-12.07.01:207][531]Cmd: SELECT NONE
+[2023.05.07-12.07.08:898][381]Cmd: TRANSACTION UNDO
+[2023.05.07-12.07.08:898][381]LogEditorTransaction: Undo Scale Elements
+[2023.05.07-12.07.18:056][369]Cmd: SELECT NONE
+[2023.05.07-12.08.10:603][492]Cmd: EDIT COPY
+[2023.05.07-12.08.10:841][519]Cmd: EDIT PASTE
+[2023.05.07-12.08.13:303][802]Cmd: SELECT NONE
+[2023.05.07-12.08.35:436][290]Cmd: DELETE
+[2023.05.07-12.08.35:436][290]Cmd: ACTOR DELETE
+[2023.05.07-12.08.35:440][290]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-12.08.35:450][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2023.05.07-12.08.35:454][290]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2023.05.07-12.08.38:567][640]Cmd: EDIT COPY
+[2023.05.07-12.08.38:918][680]Cmd: EDIT PASTE
+[2023.05.07-12.09.02:457][344]Cmd: EDIT COPY
+[2023.05.07-12.09.02:757][368]Cmd: EDIT PASTE
+[2023.05.07-12.09.13:542][580]Cmd: SELECT NONE
+[2023.05.07-12.09.19:310][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2023.05.07-12.09.19:315][259]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.09.19:357][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-12.09.19:405][259]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.09.19:405][259]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement7FDC01D542CD55BA3A768091B23CCE73.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.09.19:413][259]LogFileHelpers: No new changes to save!
+[2023.05.07-12.09.19:413][259]LogFileHelpers: Saving map 'Basement' took 0.067
+[2023.05.07-12.09.19:426][259]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 4.61 sec)
+[2023.05.07-12.09.19:430][259]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.09.19:430][259]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.09.45:289][602]Cmd: EDIT COPY
+[2023.05.07-12.09.48:279][914]Cmd: SELECT NONE
+[2023.05.07-12.10.08:185][132]Cmd: EDIT COPY
+[2023.05.07-12.10.08:427][157]Cmd: EDIT PASTE
+[2023.05.07-12.10.30:803][463]Cmd: EDIT COPY
+[2023.05.07-12.10.31:071][492]Cmd: EDIT PASTE
+[2023.05.07-12.10.33:670][783]Cmd: EDIT PASTE
+[2023.05.07-12.10.39:866][442]Cmd: EDIT PASTE
+[2023.05.07-12.10.42:811][772]Cmd: SELECT NONE
+[2023.05.07-12.11.21:203][651]Cmd: EDIT COPY
+[2023.05.07-12.11.21:511][678]Cmd: EDIT PASTE
+[2023.05.07-12.11.25:345][ 20]Cmd: SELECT NONE
+[2023.05.07-12.11.44:202][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2023.05.07-12.11.44:207][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.11.44:275][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.05.07-12.11.44:324][ 30]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.11.44:325][ 30]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Basement0F0407E841C863BB6DA0898C5D247076.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.11.44:332][ 30]LogFileHelpers: No new changes to save!
+[2023.05.07-12.11.44:332][ 30]LogFileHelpers: Saving map 'Basement' took 0.068
+[2023.05.07-12.11.44:343][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 4.74 sec)
+[2023.05.07-12.11.44:348][ 30]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.11.44:348][ 30]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.12.54:358][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2023.05.07-12.13.25:253][812]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.07-12.13.31:311][449]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.07-12.13.33:216][639]Cmd: SELECT NONE
+[2023.05.07-12.13.43:459][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2023.05.07-12.13.56:299][621]Cmd: DELETE
+[2023.05.07-12.13.56:299][621]Cmd: ACTOR DELETE
+[2023.05.07-12.13.56:305][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.07-12.13.56:315][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.07-12.13.56:319][621]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.07-12.14.03:648][287]Cmd: DELETE
+[2023.05.07-12.14.03:648][287]Cmd: ACTOR DELETE
+[2023.05.07-12.14.03:653][287]LogEditorActor: Deleted Actor: PointLight
+[2023.05.07-12.14.03:664][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2023.05.07-12.14.03:667][287]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2023.05.07-12.14.05:029][420]Cmd: TRANSACTION UNDO
+[2023.05.07-12.14.05:029][420]LogEditorTransaction: Undo Delete Elements
+[2023.05.07-12.14.05:397][426]Cmd: TRANSACTION UNDO
+[2023.05.07-12.14.05:397][426]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.07-12.14.06:141][467]Cmd: SELECT NONE
+[2023.05.07-12.14.32:707][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.07-12.14.32:711][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.14.32:776][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.07-12.14.32:825][406]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.14.32:826][406]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementE62659224262C15AF3D1C7B42020F5D3.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.14.32:834][406]LogFileHelpers: No new changes to save!
+[2023.05.07-12.14.32:834][406]LogFileHelpers: Saving map 'Basement' took 0.068
+[2023.05.07-12.14.32:847][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 4.88 sec)
+[2023.05.07-12.14.32:851][406]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.14.32:851][406]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.14.39:632][ 87]Cmd: SELECT NONE
+[2023.05.07-12.15.39:903][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.05.07-12.15.39:912][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.07-12.15.39:981][614]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2023.05.07-12.15.40:035][614]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Basement
+[2023.05.07-12.15.40:035][614]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BasementAE39B7B144FB820F60AB4781F8861492.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement.umap'
+[2023.05.07-12.15.40:043][614]LogFileHelpers: No new changes to save!
+[2023.05.07-12.15.40:043][614]LogFileHelpers: Saving map 'Basement' took 0.073
+[2023.05.07-12.15.40:048][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 5.01 sec)
+[2023.05.07-12.15.40:054][614]AssetCheck: New page: Asset Save: Basement
+[2023.05.07-12.15.40:054][614]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Basement.Basement
+[2023.05.07-12.15.40:740][687]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.05.07-12.15.40:756][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.07-12.15.40:757][687]BlueprintLog: Warning: Blueprint failed to compile:  HorrorEngine
+[2023.05.07-12.15.43:088][687]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2023.05.07-12.15.43:100][687]PIE: New page: PIE session: Basement (May 7, 2023, 4:15:43 PM)
+[2023.05.07-12.15.43:117][687]LogOnline: OSS: Created online subsystem instance for: NULL
+[2023.05.07-12.15.43:117][687]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.05.07-12.15.43:119][687]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Basement
+[2023.05.07-12.15.43:157][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037783s)
+[2023.05.07-12.15.43:157][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Basement.Basement to /Game/VR_Game/Maps/UEDPIE_0_Basement.Basement (0.038066s)
+[2023.05.07-12.15.43:163][687]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.07-12.15.43:166][687]LogAIModule: Creating AISystem for world Basement
+[2023.05.07-12.15.43:168][687]LogPlayLevel: PIE: World Init took: (0.011568s)
+[2023.05.07-12.15.43:177][687]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.05.07-12.15.43:181][687]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.07-12.15.43:183][687]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.07-12.15.43:184][687]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.07-12.15.43:186][687]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.07-12.15.43:186][687]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.07-12.15.43:186][687]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.07-12.15.43:190][687]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.07-12.15.43:211][687]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.07-12.15.43:214][687]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.07-12.15.43:214][687]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.07-12.15.43:214][687]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.07-12.15.43:218][687]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2023.05.07-12.15.43:218][687]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2023.05.07-12.15.43:220][687]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2023.05.07-12.15.43:220][687]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2023.05.07-12.15.43:220][687]LogInit: FAudioDevice initialized.
+[2023.05.07-12.15.43:220][687]LogAudio: Display: Audio Device (ID: 2) registered with world 'Basement'.
+[2023.05.07-12.15.44:413][687]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.07-12.15.44:428][687]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Basement.Basement up for play (max tick rate 0) at 2023.05.07-14.15.44
+[2023.05.07-12.15.44:429][687]LogWorld: Bringing up level for play took: 0.016825
+[2023.05.07-12.15.44:435][687]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.05.07-12.15.44:484][687]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportTrace.NS_TeleportTrace took 0.079171 sec, no shader worker used.
+[2023.05.07-12.15.44:505][687]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.07-12.15.44:505][687]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.07-12.15.44:516][687]PIE: Server logged in
+[2023.05.07-12.15.44:517][687]PIE: Play in editor total start time 3.769 seconds.
+[2023.05.07-12.15.44:524][687]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_MenuLaser.NS_MenuLaser took 0.144008 sec, no shader worker used.
+[2023.05.07-12.15.44:526][687]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_PlayAreaBounds.NS_PlayAreaBounds took 0.136771 sec, no shader worker used.
+[2023.05.07-12.15.44:530][687]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportRing.NS_TeleportRing took 0.133501 sec, no shader worker used.
+[2023.05.07-12.15.44:558][687]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.07-12.15.44:575][687]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/VREditor/Devices/Generic/GenericHMD.GenericHMD being ready before playing
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: ================================================
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Total job queries 713, among them cache hits 140 (19.64%)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Tracking 573 distinct input hashes that result in 340 distinct outputs (59.34%)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: RAM used: 5.18 MB (0.01 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.63%
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Shaders Compiled: 286
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Jobs assigned 286, completed 286 (100.00%)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Average time worker was idle: 286.20 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Time job spent in pending queue: average 3.70 s, longest 16.71 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Job execution time: average 4.08 s, max 7.95 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Job life time (pending + execution): average 7.77 s, max 17.32
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 53.96 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Jobs were issued in 128 batches (only local compilation was used), average 2.23 jobs/batch
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Average processing rate: 5.30 jobs/sec
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Total thread time: 197.35 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Total thread preprocess time: 9.92 s
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Percentage time preprocessing: 5.03%
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Effective parallelization: 3.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 2.32 sec, max 2.92 sec, min 0.90 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   29 times, average 1.08 sec, max 2.73 sec, min 0.60 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   50 times, average 0.78 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   54 times, average 0.71 sec, max 0.94 sec, min 0.43 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled   28 times, average 0.69 sec, max 0.96 sec, min 0.47 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.82% of total time (compiled   50 times, average 0.78 sec, max 2.81 sec, min 0.48 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.48% of total time (compiled   54 times, average 0.71 sec, max 0.94 sec, min 0.43 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.93% of total time (compiled   29 times, average 1.08 sec, max 2.73 sec, min 0.60 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                             FDebugViewModePS - 9.83% of total time (compiled   28 times, average 0.69 sec, max 0.96 sec, min 0.47 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display:                                             FDebugViewModeVS - 9.69% of total time (compiled   28 times, average 0.68 sec, max 0.81 sec, min 0.60 sec)
+[2023.05.07-12.15.44:647][688]LogShaderCompilers: Display: ================================================
+[2023.05.07-12.15.49:725][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-12.15.49:726][271]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Basement
+[2023.05.07-12.15.49:728][271]LogWorld: UWorld::CleanupWorld for Basement, bSessionEnded=true, bCleanupResources=true
+[2023.05.07-12.15.49:730][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-12.15.49:735][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.07-12.15.49:739][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.07-12.15.49:751][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.07-12.15.49:754][271]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.07-12.15.49:755][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.07-12.15.49:757][271]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2023.05.07-12.15.49:769][271]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.07-12.15.49:769][271]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.07-12.15.49:779][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2023.05.07-12.15.49:804][272]LogPlayLevel: Display: Destroying online subsystem :Context_12
