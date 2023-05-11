@@ -6,6 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Floorplan_Backup.umap",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level_BuiltData.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/MSPresets/M_MS_Glass_Material/MI_MS_Glass_Material_Inst.uasset",
+				"C:/Program Files/Epic Games/UE_5.1/Engine/Plugins/Bridge/Content/MSPresets/M_MS_Glass_Material/M_MS_Glass_Material.uasset",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Floorplan_Backup.umap",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_Backup.umap",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/SICKA_mansion/Maps/MAP_Mansion.umap",
