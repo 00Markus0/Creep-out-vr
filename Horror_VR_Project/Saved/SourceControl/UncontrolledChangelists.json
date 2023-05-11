@@ -5,7 +5,19 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap"
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Floorplan_Backup_BuiltData.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Floorplan_Backup.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_Backup.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_Backup_BuiltData.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_BuiltData.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall_BuiltData_2.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Basement_BuiltData.uasset",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/SICKA_mansion/Maps/MAP_Mansion.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap",
+				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level_BuiltData.uasset"
 			]
 		}
 	]
