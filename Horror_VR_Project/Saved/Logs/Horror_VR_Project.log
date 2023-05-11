@@ -1135,3 +1135,1391 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2023.05.11-10.10.23:704][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
 [2023.05.11-10.10.23:705][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
 [2023.05.11-10.10.23:706][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2023.05.11-10.10.24:408][  0]LogFileCache: Scanning file cache for directory 'B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/' took 0.06s
+[2023.05.11-10.10.25:636][  0]LogEditorDomain: Display: Class /Script/AnimationData.AnimationSequencerDataModel is imported by a package but does not exist in memory. EditorDomain keys for packages using it will be invalid if it still exists.
+	To clear this message, resave packages that use the deleted class, or load its module earlier than the packages that use it are referenced.
+[2023.05.11-10.10.27:784][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2023.05.11-10.10.27:848][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.05.11-10.10.27:850][  0]SourceControl: Source control is disabled
+[2023.05.11-10.10.28:209][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.11-10.10.53:356][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2023.05.11-10.10.58:357][  0]LogSlate: Window 'Unable to Check Out From Source Control!' being destroyed
+[2023.05.11-10.10.58:373][  0]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/VR_Game/Maps/Main_Hall
+/Game/MSPresets/M_MS_Imperfection_Material/M_MS_Imperfection_Material
+/Game/Megascans/Surfaces/Scratched_Metal_uh4obcnc/MI_Scratched_Metal_uh4obcnc_2K
+/Bridge/MSPresets/M_MS_Glass_Material/M_MS_Glass_Material
+/Game/MSPresets/M_MS_Glass_Material/MI_MS_Glass_Material_Inst
+/Game/VR_Game/Meshes/Blackboard/Chacker
+[2023.05.11-10.10.58:659][  0]LogUnrealEdMisc: Loading editor; pre map load, took 54.903
+[2023.05.11-10.10.58:660][  0]Cmd: MAP LOAD FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.11-10.10.58:661][  0]LightingResults: New page: Lighting Build
+[2023.05.11-10.10.58:670][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.10.58:670][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-10.10.58:670][  0]MapCheck: New page: Map Check
+[2023.05.11-10.10.58:670][  0]LightingResults: New page: Lighting Build
+[2023.05.11-10.10.58:704][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-10.10.58:709][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.05.11-10.11.05:549][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Level_Backup'.
+[2023.05.11-10.11.05:574][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.11-10.11.05:574][  0]LogAIModule: Creating AISystem for world Main_Level_Backup
+[2023.05.11-10.11.05:925][  0]LogRenderer: Warning: Deprecated CVar r.BasePassOutputsVelocity is set to 0. Remove and use r.VelocityOutputPass instead.
+[2023.05.11-10.11.05:926][  0]LogRenderer: Warning: Deprecated CVar r.VertexDeformationOutputsVelocity is set to 0. Remove and use r.Velocity.EnableVertexDeformation instead.
+[2023.05.11-10.11.06:048][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2023.05.11-10.11.06:048][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.11-10.11.06:049][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,201ms to complete.
+[2023.05.11-10.11.06:049][  0]LogFileHelpers: Loading map 'Main_Level' took 7.388
+[2023.05.11-10.11.06:143][  0]LogUnrealEdMisc: Total Editor Startup Time, took 62.387
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: Total job queries 10, among them cache hits 0 (0.00%)
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: Tracking 10 distinct input hashes that result in 10 distinct outputs (100.00%)
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: RAM used: 0.09 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.01%
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.11-10.11.06:143][  0]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.11.06:970][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-10.11.07:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-10.11.07:028][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-10.11.07:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.11-10.11.07:902][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2023.05.11-10.11.07:930][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2023.05.11-10.11.07:940][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.07:947][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:065][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:074][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:076][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:078][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:079][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.08:081][  0]LogPakFile: Display: Mounted Pak file 'B:/Epic Games/UE_5.1/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2023.05.11-10.11.10:650][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.05.11-10.11.10:732][  0]LogSlate: Took 0.012616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.05.11-10.11.10:752][  0]LogSlate: Took 0.019758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.05.11-10.11.10:874][  0]LogViewport: Scene viewport resized to 1259x740, mode Windowed.
+[2023.05.11-10.11.11:608][  0]LogSlate: Took 0.010047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.11-10.11.12:315][  0]LogStall: Startup...
+[2023.05.11-10.11.12:317][  0]LogStall: Startup complete.
+[2023.05.11-10.11.12:338][  0]LogLoad: (Engine Initialization) Total time: 68.58 seconds
+[2023.05.11-10.11.12:338][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.05.11-10.11.13:139][  0]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_MenuLaser.NS_MenuLaser took 8.140942 sec, no shader worker used.
+[2023.05.11-10.11.13:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.05.11-10.11.13:609][  1]LogAssetRegistry: Asset discovery search completed in 63.0237 seconds
+[2023.05.11-10.11.13:663][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2023.05.11-10.11.13:806][  1]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_PlayAreaBounds.NS_PlayAreaBounds took 8.765638 sec, no shader worker used.
+[2023.05.11-10.11.13:812][  1]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportRing.NS_TeleportRing took 8.761367 sec, no shader worker used.
+[2023.05.11-10.11.13:845][  1]LogNiagara: Compiling System NiagaraSystem /Game/VRTemplate/VFX/NS_TeleportTrace.NS_TeleportTrace took 8.781821 sec, no shader worker used.
+[2023.05.11-10.11.14:244][  2]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Level_Backup.Main_Level_Backup:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.11.14:420][  2]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.11-10.11.14:682][  3]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.11-10.11.47:844][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Quickload' for  InputAction [HE]Quickload
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Menu' for  InputAction [HE]Menu
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Cameroid' for  InputAction [HE]Cameroid
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]ToggleFire' for  InputAction [HE]ToggleFire
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Fire' for  InputAction [HE]Fire
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]AlternativeUse' for  InputAction [HE]AlternativeUse
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Use' for  InputAction [HE]Use
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]ReloadWeapon' for  InputAction [HE]ReloadWeapon
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Pistol' for  InputAction [HE]Pistol
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]PrevEquipment' for  InputAction [HE]PrevEquipment
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]NextEquipment' for  InputAction [HE]NextEquipment
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]NightVisionZoom' for  InputAction [HE]NightVisionZoom
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]NightVision' for  InputAction [HE]NightVision
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Focus' for  InputAction [HE]Focus
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Unequip' for  InputAction [HE]Unequip
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Torch' for  InputAction [HE]Torch
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Lighter' for  InputAction [HE]Lighter
+[2023.05.11-10.11.57:653][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Glowstick' for  InputAction [HE]Glowstick
+[2023.05.11-10.11.57:654][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]FlashlightFocus' for  InputAction [HE]FlashlightFocus
+[2023.05.11-10.11.57:654][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Flashlight' for  InputAction [HE]Flashlight
+[2023.05.11-10.11.57:654][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Inventory' for  InputAction [HE]Inventory
+[2023.05.11-10.11.57:663][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]Turn' for  InputAxis [HE]Turn
+[2023.05.11-10.11.57:663][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]LookUp' for  InputAxis [HE]LookUp
+[2023.05.11-10.11.57:664][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Run' for  InputAction [HE]Run
+[2023.05.11-10.11.57:664][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]LeanRight' for  InputAction [HE]LeanRight
+[2023.05.11-10.11.57:664][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]LeanLeft' for  InputAction [HE]LeanLeft
+[2023.05.11-10.11.57:664][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Crouch' for  InputAction [HE]Crouch
+[2023.05.11-10.11.57:664][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] InputAction Event references unknown Action '[HE]Jump' for  InputAction [HE]Jump
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Carpet  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Dirt  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Grass  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Metal  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Rock  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:742][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Tile  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Wood  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Carpet  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Dirt  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Grass  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Metal  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Rock  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Tile  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:743][822]LogBlueprint: Error: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\HorrorEngine.uasset: [Compiler] In use pin  Wood  no longer exists on node  Select . Please refresh node or break links to remove pin.
+[2023.05.11-10.11.57:991][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\CameroidInput.uasset: [Compiler] InputAction Event references unknown Action '[HE]Cameroid' for  InputAction [HE]Cameroid
+[2023.05.11-10.11.57:991][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\CameroidInput.uasset: [Compiler] InputAction Event references unknown Action '[HE]TakePhoto' for  InputAction [HE]TakePhoto
+[2023.05.11-10.11.57:991][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\CameroidInput.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]LookUp' for  InputAxis [HE]LookUp
+[2023.05.11-10.11.57:992][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\CameroidInput.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]Turn' for  InputAxis [HE]Turn
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]Examine' for  InputAction [HE]Examine
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]ResetTransform' for  InputAction [HE]ResetTransform
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]Turn' for  InputAxis [HE]Turn
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]LookUp' for  InputAxis [HE]LookUp
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]PrevItem' for  InputAction [HE]PrevItem
+[2023.05.11-10.11.58:138][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]NextItem' for  InputAction [HE]NextItem
+[2023.05.11-10.11.58:139][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]SlideItem' for  InputAction [HE]SlideItem
+[2023.05.11-10.11.58:139][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]AlternativeUse' for  InputAction [HE]AlternativeUse
+[2023.05.11-10.11.58:139][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]Use' for  InputAction [HE]Use
+[2023.05.11-10.11.58:139][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\Inspectable.uasset: [Compiler] InputAction Event references unknown Action '[HE]Inventory' for  InputAction [HE]Inventory
+[2023.05.11-10.11.58:202][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\DoorsAndFurnitures\LadderAdvanced.uasset: [Compiler] InputAction Event references unknown Action '[HE]Run' for  InputAction [HE]Run
+[2023.05.11-10.11.58:202][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\DoorsAndFurnitures\LadderAdvanced.uasset: [Compiler] InputAction Event references unknown Action '[HE]Jump' for  InputAction [HE]Jump
+[2023.05.11-10.11.58:202][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\DoorsAndFurnitures\LadderAdvanced.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]Turn' for  InputAxis [HE]Turn
+[2023.05.11-10.11.58:202][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\DoorsAndFurnitures\LadderAdvanced.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]LookUp' for  InputAxis [HE]LookUp
+[2023.05.11-10.11.58:202][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\DoorsAndFurnitures\LadderAdvanced.uasset: [Compiler] Input Axis Event references unknown Axis '[HE]MoveForward' for  InputAxis [HE]MoveForward
+[2023.05.11-10.11.58:256][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\Electronics\OldTv.uasset: [Compiler] InputAction Event references unknown Action '[HE]AlternativeUse' for  InputAction [HE]AlternativeUse
+[2023.05.11-10.11.58:285][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\PhysicsObject.uasset: [Compiler] InputAction Event references unknown Action '[HE]AlternativeUse' for  InputAction [HE]AlternativeUse
+[2023.05.11-10.11.58:285][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\PhysicsObject.uasset: [Compiler] InputAction Event references unknown Action '[HE]ThrowPhysicsObject' for  InputAction [HE]ThrowPhysicsObject
+[2023.05.11-10.11.58:285][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\Core\PhysicsObject.uasset: [Compiler] InputAction Event references unknown Action '[HE]RotatePhysicsObject' for  InputAction [HE]RotatePhysicsObject
+[2023.05.11-10.11.58:349][822]LogBlueprint: Warning: [AssetLog] B:\Epic Games\vr-horror-game\Horror_VR_Project\Content\HorrorEngine\Blueprints\UsableAssets\Electronics\Tv.uasset: [Compiler] InputAction Event references unknown Action '[HE]AlternativeUse' for  InputAction [HE]AlternativeUse
+[2023.05.11-10.12.12:930][822]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix': Can't find file.
+[2023.05.11-10.12.12:930][822]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix': Can't find file.
+[2023.05.11-10.12.12:931][822]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix.HorrorEventFix'
+[2023.05.11-10.12.12:974][822]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix': Can't find file.
+[2023.05.11-10.12.12:975][822]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix': Can't find file.
+[2023.05.11-10.12.12:976][822]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix.HorrorEventsMasterFix'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.13:262][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.13:705][822]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.11-10.12.13:711][822]Cmd: MAP LOAD FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.11-10.12.13:711][822]LightingResults: New page: Lighting Build
+[2023.05.11-10.12.13:711][822]LoadErrors: New page: Loading map: Main_Hall.umap
+[2023.05.11-10.12.13:716][822]LogWorld: UWorld::CleanupWorld for Main_Level_Backup, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.12.13:725][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-10.12.13:725][822]MapCheck: New page: Map Check
+[2023.05.11-10.12.13:726][822]LightingResults: New page: Lighting Build
+[2023.05.11-10.12.13:768][822]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.11-10.12.13:916][822]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2023.05.11-10.12.14:019][822]LogTexture: Display: Waiting for textures to be ready 17/597 (/Game/HorrorEngine/Textures/ControlPanel) ...
+[2023.05.11-10.12.14:117][822]LogTexture: Display: Waiting for textures to be ready 21/597 (/Game/HorrorEngine/Textures/T_Smoke_Tiled_D) ...
+[2023.05.11-10.12.14:169][822]LogTexture: Display: Waiting for textures to be ready 27/597 (/Game/HorrorEngine/Textures/Flashlight_Mask) ...
+[2023.05.11-10.12.14:916][822]LogTexture: Display: Waiting for textures to be ready 133/597 (/Game/VR_Game/Maps/Main_Hall_BuiltData) ...
+[2023.05.11-10.12.15:010][822]LogTexture: Display: Waiting for textures to be ready 147/597 (/Game/Megascans/Decals/Asphalt_Patch_uczmbbafw/T_Asphalt_Patch_uczmbbafw_2K_D) ...
+[2023.05.11-10.12.15:044][822]LogTexture: Display: Waiting for textures to be ready 153/597 (/Game/Megascans/Decals/Asphalt_Pothole_se1op1g/T_Asphalt_Pothole_se1op1g_2K_D) ...
+[2023.05.11-10.12.15:082][822]LogTexture: Display: Waiting for textures to be ready 157/597 (/Game/Megascans/Decals/Concrete_Crack_sfhotng/T_Concrete_Crack_sfhotng_2K_N) ...
+[2023.05.11-10.12.15:335][822]LogTexture: Display: Waiting for textures to be ready 190/597 (/Game/Megascans/Decals/Narrow_Concrete_Patch_ve1kaaafw/T_Narrow_Concrete_Patch_ve1kaaafw_2K_N) ...
+[2023.05.11-10.12.15:390][822]LogTexture: Display: Waiting for textures to be ready 196/597 (/Game/Megascans/Decals/Rock_Patch_ui2lcaufw/T_RockPatch_ui2lcaufw_2K_DpRA) ...
+[2023.05.11-10.12.15:423][822]LogTexture: Display: Waiting for textures to be ready 202/597 (/Game/Megascans/Decals/Scrap_Paper_udtddazh/T_ScrapPaper_udtddazh_2K_DpRA) ...
+[2023.05.11-10.12.15:464][822]LogTexture: Display: Waiting for textures to be ready 207/597 (/Game/Megascans/Decals/Torn_Asphalt_Patch_vb1gbcjew/T_Torn_Asphalt_Patch_vb1gbcjew_2K_N) ...
+[2023.05.11-10.12.15:500][822]LogTexture: Display: Waiting for textures to be ready 211/597 (/Game/Megascans/Decals/Ventilation_Flap_ul4kfhscw/T_VentilationFlap_ul4kfhscw_2K_DpRA) ...
+[2023.05.11-10.12.15:654][822]LogTexture: Display: Waiting for textures to be ready 249/597 (/Game/Megascans/3D_Assets/Blue_And_Red_Book_vdkvdds/T_Blue_And_Red_Book_vdkvdds_2K_D) ...
+[2023.05.11-10.12.15:723][822]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/f0/f1/1be930ebf0cff710af4f862defa5483bfc1b.udd from '/Game/Megascans/3D_Assets/Decorative_Statuette_uffkcc1va/T_DecorativeStatuette_uffkcc1va_2K_DpR.T_DecorativeStatuette_uffkcc1va_2K_DpR' is very slow (0.00 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [8842ms] waiting for h/w. InstanceID=1
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/71/c4/0e5abc497ed166b7f37815c33111880c7fcf.udd from '/Game/Megascans/3D_Assets/Decorative_Picture_Frame_ukkpdhqbw/T_Decorative_Picture_Frame_ukkpdhqbw_1K_N.T_Decorative_Picture_Frame_ukkpdhqbw_1K_N' is very slow (0.03 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/a5/ff/9fd5bff231fb6e6df664ff61114beb715b15.udd from '/Game/Megascans/3D_Assets/Decorative_Statuette_uffkfdeva/T_Decorative_Statuette_uffkfdeva_2K_D.T_Decorative_Statuette_uffkfdeva_2K_D' is very slow (0.00 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/a4/16/2b36f1f506b3c6120c2779a270e9f69585c9.udd from '/Game/Megascans/3D_Assets/Decorative_Statuette_uffkcc1va/T_Decorative_Statuette_uffkcc1va_2K_N.T_Decorative_Statuette_uffkcc1va_2K_N' is very slow (0.00 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/62/9e/ef6353efb770b1aa3c2dd7a8e30e8fdb5ae3.udd from '/Game/Megascans/3D_Assets/Decorative_Picture_Frame_ukkpdhqbw/T_DecorativePictureFrame_ukkpdhqbw_1K_DpR.T_DecorativePictureFrame_ukkpdhqbw_1K_DpR' is very slow (0.00 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogDerivedDataCache: Warning: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Loading C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache/Buckets/LegacyTEXTURE/17/db/dd5898fbeda11e4935d4bbda66c112dbe608.udd from '/Game/Megascans/3D_Assets/Decorative_Picture_Frame_ukkpdhqbw/T_Decorative_Picture_Frame_ukkpdhqbw_1K_D.T_Decorative_Picture_Frame_ukkpdhqbw_1K_D' is very slow (0.00 MiB/s); consider disabling this cache store.
+[2023.05.11-10.12.24:918][822]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.030005s
+[2023.05.11-10.12.25:049][822]LogTexture: Display: Waiting for textures to be ready 324/597 (/Game/Megascans/3D_Assets/Electrical_Boxes_vgyiedcaw/T_Electrical_Boxes_vgyiedcaw_2K_D) ...
+[2023.05.11-10.12.25:167][822]LogTexture: Display: Waiting for textures to be ready 338/597 (/Game/Megascans/3D_Assets/Fluorescent_Ceiling_Lamp_vidrear/T_FluorescentCeilingLamp_vidrear_2K_DpR) ...
+[2023.05.11-10.12.25:276][822]LogTexture: Display: Waiting for textures to be ready 352/597 (/Game/Megascans/3D_Assets/Metal_Hand_Truck_virqcfw/T_Metal_Hand_Truck_virqcfw_2K_N) ...
+[2023.05.11-10.12.25:397][822]LogTexture: Display: Waiting for textures to be ready 368/597 (/Game/Megascans/3D_Assets/Metal_Watering_Can_ukpkabgbw/T_Metal_Watering_Can_ukpkabgbw_2K_D) ...
+[2023.05.11-10.12.25:667][822]LogTexture: Display: Waiting for textures to be ready 405/597 (/Game/Megascans/3D_Assets/Pile_Of_Chains_uc1ufamhx/T_Pile_Of_Chains_uc1ufamhx_2K_N) ...
+[2023.05.11-10.12.25:715][822]LogTexture: Display: Waiting for textures to be ready 411/597 (/Game/Megascans/3D_Assets/Power_Cable_vgyiea1aw/T_Power_Cable_vgyiea1aw_2K_N) ...
+[2023.05.11-10.12.25:797][822]LogTexture: Display: Waiting for textures to be ready 417/597 (/Game/Megascans/3D_Assets/Rusty_Hammer_tmrldgyhw/T_Rusty_Hammer_tmrldgyhw_2K_N) ...
+[2023.05.11-10.12.25:839][822]LogTexture: Display: Waiting for textures to be ready 426/597 (/Game/Megascans/3D_Assets/Rusty_Metal_Geyser_wcvoadt/T_Rusty_Metal_Geyser_wcvoadt_2K_N) ...
+[2023.05.11-10.12.26:101][822]LogTexture: Display: Waiting for textures to be ready 462/597 (/Game/Megascans/3D_Assets/Toy_Block_ue1hebbhw/T_Toy_Block_ue1hebbhw_2K_D) ...
+[2023.05.11-10.12.26:318][822]LogTexture: Display: Waiting for textures to be ready 488/597 (/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa/T_Trash_Can_ucmndaefa_2K_D) ...
+[2023.05.11-10.12.26:339][822]LogTexture: Display: Waiting for textures to be ready 489/597 (/Game/Megascans/3D_Assets/Trash_Can_ucmndaefa/T_Trash_Can_ucmndaefa_2K_N) ...
+[2023.05.11-10.12.26:374][822]LogTexture: Display: Waiting for textures to be ready 491/597 (/Game/Megascans/3D_Assets/Travel_Coffee_Cup_ugfkdgsva/T_Travel_Coffee_Cup_ugfkdgsva_2K_D) ...
+[2023.05.11-10.12.26:405][822]LogTexture: Display: Waiting for textures to be ready 499/597 (/Game/Megascans/3D_Assets/War_Hammer_Axe_uh1pbcufa/T_WarHammerAxe_uh1pbcufa_2K_DpR) ...
+[2023.05.11-10.12.26:639][822]LogTexture: Display: Waiting for textures to be ready 532/597 (/Game/Megascans/3D_Assets/Wooden_Music_Chair_ukmpbbsaw/T_WoodenMusicChair_ukmpbbsaw_2K_DpR) ...
+[2023.05.11-10.12.26:680][822]LogTexture: Display: Waiting for textures to be ready 538/597 (/Game/Megascans/3D_Assets/Wooden_Planks_vkbhceaqx/T_Wooden_Planks_vkbhceaqx_2K_D) ...
+[2023.05.11-10.12.26:728][822]LogTexture: Display: Waiting for textures to be ready 544/597 (/Game/Megascans/3D_Assets/Wooden_Shelf_Bracket_vmqjccn/T_Wooden_Shelf_Bracket_vmqjccn_2K_D) ...
+[2023.05.11-10.12.26:788][822]LogTexture: Display: Waiting for textures to be ready 550/597 (/Game/Megascans/3D_Assets/Wooden_Standing_Coat_Hanger_ukknbhgbw/T_Wooden_Standing_Coat_Hanger_ukknbhgbw_2K_D) ...
+[2023.05.11-10.12.26:813][822]LogTexture: Display: Waiting for textures to be ready 555/597 (/Game/Megascans/3D_Assets/Wooden_Table_Caddy_ucymdgciw/T_WoodenTableCaddy_ucymdgciw_2K_DpR) ...
+[2023.05.11-10.12.26:861][822]LogTexture: Display: Waiting for textures to be ready 561/597 (/Game/Megascans/3D_Assets/Wooden_Table_With_Drawer_vfvndhsga/T_WoodenTableWithDrawer_vfvndhsga_2K_DpR) ...
+[2023.05.11-10.12.26:906][822]LogTexture: Display: Waiting for textures to be ready 567/597 (/Game/Megascans/3D_Assets/Wooden_Toy_Horse_uhcjdhpva/T_WoodenToyHorse_uhcjdhpva_2K_DpR) ...
+[2023.05.11-10.12.26:955][822]LogTexture: Display: Waiting for textures to be ready 573/597 (/Game/Megascans/3D_Assets/Wrinkled_Tarp_vhtidbb/T_WrinkledTarp_vhtidbb_2K_DpR) ...
+[2023.05.11-10.12.26:996][822]LogTexture: Display: Waiting for textures to be ready 575/597 (/Game/Megascans/3D_Assets/Wrinkled_Tarp_vieldbo/T_Wrinkled_Tarp_vieldbo_2K_N) ...
+[2023.05.11-10.12.27:062][822]LogTexture: Display: Waiting for textures to be ready 590/597 (/Game/OldWest/VOL6/Textures/TX_Shelf_12a_M) ...
+[2023.05.11-10.12.27:173][822]LogAudio: Display: Waiting for soundwaves to be ready 4/219 (/Game/HorrorEngine/Audio/SFX/Glitch) ...
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.27:193][822]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.12.27:327][822]LogAudio: Display: Waiting for soundwaves to be ready 14/219 (/Game/HorrorEngine/Audio/Voices/Painkiller02) ...
+[2023.05.11-10.12.27:494][822]LogAudio: Display: Waiting for soundwaves to be ready 25/219 (/Game/HorrorEngine/Audio/Effects/Heartbeat) ...
+[2023.05.11-10.12.27:690][822]LogAudio: Display: Waiting for soundwaves to be ready 38/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/Creak08) ...
+[2023.05.11-10.12.27:798][822]LogAudio: Display: Waiting for soundwaves to be ready 43/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/Creak13) ...
+[2023.05.11-10.12.27:857][822]LogAudio: Display: Waiting for soundwaves to be ready 46/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/Creak16) ...
+[2023.05.11-10.12.28:032][822]LogAudio: Display: Waiting for soundwaves to be ready 57/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/WoodenHit01) ...
+[2023.05.11-10.12.28:271][822]LogAudio: Display: Waiting for soundwaves to be ready 71/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/DoorHit01) ...
+[2023.05.11-10.12.28:321][822]LogAudio: Display: Waiting for soundwaves to be ready 74/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/DoorKnocking04) ...
+[2023.05.11-10.12.28:388][822]LogAudio: Display: Waiting for soundwaves to be ready 78/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/DoorKnocking12) ...
+[2023.05.11-10.12.28:745][822]LogAudio: Display: Waiting for soundwaves to be ready 102/219 (/Game/HorrorEngine/Audio/DoorsAndFurnitures/DrawerOpen03) ...
+[2023.05.11-10.12.28:944][822]LogAudio: Display: Waiting for soundwaves to be ready 115/219 (/Game/HorrorEngine/Audio/Footsteps/Carpet_02) ...
+[2023.05.11-10.12.29:361][822]LogAudio: Display: Waiting for soundwaves to be ready 144/219 (/Game/HorrorEngine/Audio/Footsteps/Wood_Jump) ...
+[2023.05.11-10.12.29:389][822]LogAudio: Display: Waiting for soundwaves to be ready 145/219 (/Game/HorrorEngine/Audio/LighterAndTorch/LighterClose01) ...
+[2023.05.11-10.12.29:771][822]LogAudio: Display: Waiting for soundwaves to be ready 170/219 (/Game/HorrorEngine/Audio/Voices/Damage03) ...
+[2023.05.11-10.12.29:925][822]LogAudio: Display: Waiting for soundwaves to be ready 180/219 (/Game/HorrorEngine/Audio/Voices/Fear05) ...
+[2023.05.11-10.12.30:005][822]LogAudio: Display: Waiting for soundwaves to be ready 185/219 (/Game/HorrorEngine/Audio/Button/ButtonOff03) ...
+[2023.05.11-10.12.30:231][822]LogAudio: Display: Waiting for soundwaves to be ready 197/219 (/Game/HorrorEngine/Audio/Elecronic/KeyCardDenied) ...
+[2023.05.11-10.12.30:434][822]LogAudio: Display: Waiting for soundwaves to be ready 210/219 (/Game/HorrorEngine/Audio/VhsPlayer/VhsInsert03) ...
+[2023.05.11-10.12.30:845][822]LogStaticMesh: Display: Waiting for static meshes to be ready 109/177 (/Game/Megascans/3D_Assets/Pile_Of_Chains_uc1ufamhx/S_Pile_Of_Chains_uc1ufamhx_lod3) ...
+[2023.05.11-10.12.31:147][822]LogStaticMesh: Display: Waiting for static meshes to be ready 172/177 (/Game/OldWest/VOL6/Meshes/SM_Lighting_Outdoor_05a) ...
+[2023.05.11-10.12.31:268][822]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.12.31:270][822]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-10.12.31:480][822]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2023.05.11-10.12.31:498][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.11-10.12.31:597][822]LogAudio: Display: Audio Device (ID: 1) registered with world 'Main_Hall'.
+[2023.05.11-10.12.31:597][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.11-10.12.31:598][822]LogAIModule: Creating AISystem for world Main_Hall
+[2023.05.11-10.12.32:504][822]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.11-10.12.32:548][822]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2023.05.11-10.12.32:558][822]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.11-10.12.32:559][822]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,217ms to complete.
+[2023.05.11-10.12.32:559][822]LogFileHelpers: Loading map 'Main_Hall' took 18.848
+[2023.05.11-10.12.32:587][822]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.000329s (7.703048s overbudget)
+[2023.05.11-10.12.32:990][822]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=10596
+[2023.05.11-10.12.33:079][823]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{afedbe0f-012d-4911-8e50-15bd5c6b8a69}, Name=Kopfhörer (1MORE Pistonbuds Pro Stereo)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=20.17
+[2023.05.11-10.12.33:089][823]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.05.11-10.12.33:091][823]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2023.05.11-10.13.01:906][720]LogDerivedDataCache: C:/Users/vorde/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:55.404 and deleted 0 files with total size 0 MiB. Scanned 24758 files in 23407 folders with total size 4170 MiB.
+[2023.05.11-10.13.12:637][599]Cmd: DELETE
+[2023.05.11-10.13.12:642][599]Cmd: ACTOR DELETE
+[2023.05.11-10.13.13:015][599]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.13.13:091][599]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2023.05.11-10.13.13:095][599]LogEditorActor: Deleted 1 Actors (0.223 secs)
+[2023.05.11-10.13.13:140][600]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.58:727][632]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.58:835][642]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.58:920][650]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.58:961][654]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:227][680]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:297][687]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:574][715]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:606][718]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:636][721]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:657][723]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:699][727]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.14.59:759][733]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.00:284][785]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.04:826][223]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.04:876][228]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.04:907][231]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.04:969][237]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:000][240]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:211][260]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:253][264]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:288][267]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:394][277]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:515][289]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.05:942][332]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:229][416]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:271][420]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:453][438]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:541][446]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:582][450]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:779][470]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:819][474]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:841][476]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.07:861][478]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:069][500]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:193][513]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:253][519]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:282][522]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:334][527]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.08:627][556]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.13:926][ 66]Cmd: DELETE
+[2023.05.11-10.15.13:926][ 66]Cmd: ACTOR DELETE
+[2023.05.11-10.15.13:939][ 66]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.13:955][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.05.11-10.15.13:958][ 66]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2023.05.11-10.15.14:515][120]Cmd: DELETE
+[2023.05.11-10.15.14:515][120]Cmd: ACTOR DELETE
+[2023.05.11-10.15.14:527][120]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.14:542][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.11-10.15.14:543][120]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.05.11-10.15.15:195][184]Cmd: DELETE
+[2023.05.11-10.15.15:195][184]Cmd: ACTOR DELETE
+[2023.05.11-10.15.15:208][184]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.15:223][184]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2023.05.11-10.15.15:225][184]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.05.11-10.15.16:341][298]Cmd: DELETE
+[2023.05.11-10.15.16:341][298]Cmd: ACTOR DELETE
+[2023.05.11-10.15.16:353][298]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.16:369][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.11-10.15.16:371][298]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.05.11-10.15.17:988][470]Cmd: DELETE
+[2023.05.11-10.15.17:988][470]Cmd: ACTOR DELETE
+[2023.05.11-10.15.18:000][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.18:015][470]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2023.05.11-10.15.18:017][470]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.05.11-10.15.18:953][569]Cmd: DELETE
+[2023.05.11-10.15.18:953][569]Cmd: ACTOR DELETE
+[2023.05.11-10.15.18:965][569]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.18:980][569]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.11-10.15.18:982][569]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.05.11-10.15.23:655][ 81]Cmd: DELETE
+[2023.05.11-10.15.23:655][ 81]Cmd: ACTOR DELETE
+[2023.05.11-10.15.23:667][ 81]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.15.23:682][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.11-10.15.23:684][ 81]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2023.05.11-10.15.28:313][562]Cmd: DUPLICATE
+[2023.05.11-10.15.28:313][562]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.15.28:526][563]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.30:270][744]Cmd: TRANSACTION UNDO
+[2023.05.11-10.15.30:282][744]LogEditorTransaction: Undo Duplicate Elements
+[2023.05.11-10.15.30:429][745]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.32:831][951]Cmd: DUPLICATE
+[2023.05.11-10.15.32:831][951]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.15.32:906][952]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.34:028][ 62]Cmd: MODE GRID=1
+[2023.05.11-10.15.35:209][181]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:289][188]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:320][191]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:351][194]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:382][197]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:507][209]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:569][215]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:613][219]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:648][222]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:671][224]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:691][226]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:713][228]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:733][230]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:767][233]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:799][236]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:839][240]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.35:872][243]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.15.45:479][152]Cmd: ACTOR SELECT ALL
+[2023.05.11-10.15.45:727][153]LogViewport: Scene viewport resized to 397x233, mode Windowed.
+[2023.05.11-10.15.46:270][168]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: Total job queries 342, among them cache hits 150 (43.86%)
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: Tracking 192 distinct input hashes that result in 148 distinct outputs (77.08%)
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: RAM used: 2.26 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.28%
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.11-10.15.46:398][170]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.15.55:597][964]Cmd: DUPLICATE
+[2023.05.11-10.15.55:597][964]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.16.02:328][643]Cmd: DELETE
+[2023.05.11-10.16.02:328][643]Cmd: ACTOR DELETE
+[2023.05.11-10.16.02:340][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:341][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:342][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:343][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:344][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:345][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:346][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:347][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:348][643]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.02:378][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.05.11-10.16.02:381][643]LogEditorActor: Deleted 9 Actors (0.052 secs)
+[2023.05.11-10.16.06:447][ 45]Cmd: DELETE
+[2023.05.11-10.16.06:447][ 45]Cmd: ACTOR DELETE
+[2023.05.11-10.16.06:458][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.06:459][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.06:459][ 45]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.16.06:475][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2023.05.11-10.16.06:477][ 45]LogEditorActor: Deleted 3 Actors (0.030 secs)
+[2023.05.11-10.16.07:461][161]Cmd: TRANSACTION UNDO
+[2023.05.11-10.16.07:461][161]LogEditorTransaction: Undo Delete Elements
+[2023.05.11-10.16.26:191][904]Cmd: DUPLICATE
+[2023.05.11-10.16.26:191][904]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.16.51:934][428]Cmd: DUPLICATE
+[2023.05.11-10.16.51:934][428]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.17.30:645][126]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.30:645][126]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.11-10.17.31:321][146]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.31:321][146]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.11-10.17.31:908][196]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.31:908][196]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.11-10.17.32:485][244]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.32:485][244]LogEditorTransaction: Undo Move Elements
+[2023.05.11-10.17.33:124][304]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.33:124][304]LogEditorTransaction: Undo Clicking on Elements
+[2023.05.11-10.17.33:751][359]Cmd: TRANSACTION UNDO
+[2023.05.11-10.17.33:751][359]LogEditorTransaction: Undo Move Elements
+[2023.05.11-10.18.12:439][ 35]Cmd: DUPLICATE
+[2023.05.11-10.18.12:439][ 35]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.18.15:295][296]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:501][300]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:773][307]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:892][319]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:914][321]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:936][323]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.15:999][329]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.16:091][338]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.16:338][363]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:173][446]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:704][497]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:726][499]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:819][508]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:844][510]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:905][516]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:928][518]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:949][520]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.17:999][525]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.18:117][537]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.18:320][558]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.18:807][605]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:488][671]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:599][682]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:630][685]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:660][688]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:701][692]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:968][720]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.19:991][722]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.20:021][725]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.20:043][727]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.20:083][731]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.22:496][979]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.23:219][ 54]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.23:592][ 91]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.34:937][228]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.39:135][598]Cmd: MODE GRID=0
+[2023.05.11-10.18.40:350][716]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:400][721]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:440][725]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:482][729]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:643][745]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:776][758]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:851][765]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:916][771]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.40:986][778]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:017][781]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:282][808]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:302][810]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:323][812]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:514][831]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.41:626][842]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.42:444][925]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.42:979][976]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.45:989][274]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.46:020][277]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.46:135][289]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.46:155][291]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.46:473][323]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: Total job queries 348, among them cache hits 150 (43.10%)
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: Tracking 198 distinct input hashes that result in 151 distinct outputs (76.26%)
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: RAM used: 2.32 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.28%
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.11-10.18.52:925][936]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.11-10.18.52:926][936]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.11-10.18.52:926][936]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.18.54:301][ 77]Cmd: DELETE
+[2023.05.11-10.18.54:301][ 77]Cmd: ACTOR DELETE
+[2023.05.11-10.18.54:314][ 77]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.18.54:331][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2023.05.11-10.18.54:334][ 77]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2023.05.11-10.18.54:349][ 78]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.55:809][251]Cmd: TRANSACTION UNDO
+[2023.05.11-10.18.55:809][251]LogEditorTransaction: Undo Delete Elements
+[2023.05.11-10.18.55:921][252]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.58:419][459]Cmd: DELETE
+[2023.05.11-10.18.58:419][459]Cmd: ACTOR DELETE
+[2023.05.11-10.18.58:431][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.18.58:447][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.05.11-10.18.58:449][459]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2023.05.11-10.18.58:465][460]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.18.59:628][595]Cmd: TRANSACTION UNDO
+[2023.05.11-10.18.59:629][595]LogEditorTransaction: Undo Delete Elements
+[2023.05.11-10.18.59:742][596]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.02:923][843]Cmd: MODE GRID=1
+[2023.05.11-10.19.03:745][922]Cmd: DUPLICATE
+[2023.05.11-10.19.03:745][922]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.19.06:465][193]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:506][197]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:526][199]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:565][203]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:585][205]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:616][208]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:685][215]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:705][217]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:726][219]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:766][223]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:787][225]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:808][227]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:839][230]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:869][233]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.06:910][237]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.07:175][265]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.07:250][271]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.08:907][433]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.09:054][448]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.09:249][468]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.09:587][503]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.10:056][550]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.14:098][902]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.14:140][906]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.14:485][941]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.15:019][994]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.27:822][274]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.27:929][284]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.27:990][290]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:031][294]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:213][313]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:244][316]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:292][321]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:361][328]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:403][332]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:454][337]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.28:589][351]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.29:000][394]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.29:399][434]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.35:836][ 71]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.36:289][118]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.36:624][151]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.40:299][507]Cmd: MODE GRID=0
+[2023.05.11-10.19.42:133][691]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.42:352][714]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.19.42:490][727]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.20.21:259][559]Cmd: DUPLICATE
+[2023.05.11-10.20.21:259][559]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.21.13:740][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.11-10.21.13:837][418]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-10.21.13:931][418]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.11-10.21.13:956][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.11-10.21.13:997][418]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.021281 seconds
+[2023.05.11-10.21.14:154][418]LogSerialization: UsePackageTrailer: 'true'
+[2023.05.11-10.21.14:347][418]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall
+[2023.05.11-10.21.14:347][418]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_Hall29D9F73A439390C169452BB64196030F.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap'
+[2023.05.11-10.21.14:416][418]LogFileHelpers: No new changes to save!
+[2023.05.11-10.21.14:416][418]LogFileHelpers: Saving map 'Main_Hall' took 0.499
+[2023.05.11-10.21.14:444][418]LogFileHelpers: InternalPromptForCheckoutAndSave took 608 ms
+[2023.05.11-10.21.14:467][418]AssetCheck: New page: Asset Save: Main_Hall
+[2023.05.11-10.21.14:470][418]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Total job queries 476, among them cache hits 166 (34.87%)
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Tracking 309 distinct input hashes that result in 219 distinct outputs (70.87%)
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: RAM used: 3.53 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.43%
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Shaders Compiled: 29
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Jobs assigned 30, completed 29 (96.67%)
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Average time worker was idle: 3.66 s
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.10 s
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Job execution time: average 2.54 s, max 4.85 s
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Job life time (pending + execution): average 2.58 s, max 4.88
+[2023.05.11-10.21.53:971][577]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 41.39 s
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Jobs were issued in 30 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Average processing rate: 0.70 jobs/sec
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Total thread time: 68.01 s
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Total thread preprocess time: 1.70 s
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Percentage time preprocessing: 2.50%
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Effective parallelization: 1.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    3 times, average 4.50 sec, max 4.72 sec, min 4.38 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    6 times, average 4.28 sec, max 4.73 sec, min 4.12 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 2.21 sec, max 4.41 sec, min 1.00 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 1.14 sec, max 1.26 sec, min 1.10 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   10 times, average 1.10 sec, max 1.20 sec, min 0.92 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 37.77% of total time (compiled    6 times, average 4.28 sec, max 4.73 sec, min 4.12 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 19.85% of total time (compiled    3 times, average 4.50 sec, max 4.72 sec, min 4.38 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.54% of total time (compiled    6 times, average 2.21 sec, max 4.41 sec, min 1.00 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.15% of total time (compiled   10 times, average 1.10 sec, max 1.20 sec, min 0.92 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 6.70% of total time (compiled    4 times, average 1.14 sec, max 1.26 sec, min 1.10 sec)
+[2023.05.11-10.21.53:985][577]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.22.27:808][560]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.11-10.22.28:341][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:342][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:342][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:342][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:342][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:350][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:350][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:350][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:351][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:351][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:357][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:358][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:358][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:358][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:358][577]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.28:431][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:432][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:432][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:432][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:432][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:446][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:447][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:447][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:447][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:447][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:459][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:460][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:460][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:460][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.28:460][578]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.29:652][656]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.29:652][657]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.29:783][664]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.30:770][739]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2023.05.11-10.22.32:031][829]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.32:150][831]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.33:229][893]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.33:335][901]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.34:545][990]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2023.05.11-10.22.42:645][678]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Weathered_Brick_Wall_vcvoday/Preview/T_Weathered_Brick_Wall_vcvoday_1K_D.T_Weathered_Brick_Wall_vcvoday_1K_D (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 90.145823 MB), EncodeSpeed: Fast
+[2023.05.11-10.22.42:645][678]LogTexture: Display: Building textures: /Game/Megascans/Surfaces/Weathered_Brick_Wall_vcvoday/Preview/T_Weathered_Brick_Wall_vcvoday_1K_N.T_Weathered_Brick_Wall_vcvoday_1K_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 127.562488 MB), EncodeSpeed: Fast
+[2023.05.11-10.22.51:593][481]Cmd: MODE GRID=1
+[2023.05.11-10.22.52:738][577]Cmd: DUPLICATE
+[2023.05.11-10.22.52:738][577]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.22.57:515][998]Cmd: DUPLICATE
+[2023.05.11-10.22.57:515][998]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.23.19:173][949]Cmd: ACTOR HIDE SELECTED
+[2023.05.11-10.23.20:098][ 33]Cmd: ACTOR HIDE SELECTED
+[2023.05.11-10.23.28:298][962]LogViewport: Scene viewport resized to 627x368, mode Windowed.
+[2023.05.11-10.23.28:324][962]LogViewport: Scene viewport resized to 627x368, mode Windowed.
+[2023.05.11-10.23.28:353][962]LogViewport: Scene viewport resized to 627x368, mode Windowed.
+[2023.05.11-10.23.28:379][962]LogViewport: Scene viewport resized to 1001x588, mode Windowed.
+[2023.05.11-10.23.28:416][963]LogViewport: Scene viewport resized to 637x373, mode Windowed.
+[2023.05.11-10.23.28:448][964]LogViewport: Scene viewport resized to 627x368, mode Windowed.
+[2023.05.11-10.23.31:503][292]Cmd: TRANSACTION UNDO
+[2023.05.11-10.23.31:503][292]LogEditorTransaction: Undo Hide Selected
+[2023.05.11-10.23.31:678][293]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.23.33:673][436]LogEditorViewport: Clicking Background
+[2023.05.11-10.23.35:584][647]LogViewport: Scene viewport resized to 752x441, mode Windowed.
+[2023.05.11-10.23.35:616][648]LogViewport: Scene viewport resized to 1027x603, mode Windowed.
+[2023.05.11-10.23.35:656][649]LogViewport: Scene viewport resized to 1208x710, mode Windowed.
+[2023.05.11-10.23.35:695][650]LogViewport: Scene viewport resized to 1255x738, mode Windowed.
+[2023.05.11-10.23.35:726][651]LogViewport: Scene viewport resized to 1259x740, mode Windowed.
+[2023.05.11-10.23.42:902][480]Cmd: ACTOR UNHIDE ALL
+[2023.05.11-10.24.07:613][591]LogViewport: Scene viewport resized to 397x233, mode Windowed.
+[2023.05.11-10.24.21:324][175]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.11-10.24.32:200][752]Cmd: ACTOR HIDE SELECTED
+[2023.05.11-10.24.32:637][790]Cmd: ACTOR HIDE SELECTED
+[2023.05.11-10.25.19:798][ 63]Cmd: MODE GRID=0
+[2023.05.11-10.25.37:070][689]Cmd: MODE GRID=1
+[2023.05.11-10.25.38:062][776]Cmd: DUPLICATE
+[2023.05.11-10.25.38:062][776]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.26.25:486][183]Cmd: MODE GRID=0
+[2023.05.11-10.26.35:056][120]Cmd: MODE GRID=1
+[2023.05.11-10.26.36:402][241]Cmd: DELETE
+[2023.05.11-10.26.36:402][241]Cmd: ACTOR DELETE
+[2023.05.11-10.26.36:414][241]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.26.36:433][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2023.05.11-10.26.36:438][241]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2023.05.11-10.26.38:815][486]Cmd: DUPLICATE
+[2023.05.11-10.26.38:815][486]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.26.38:826][486]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2023.05.11-10.27.02:639][754]Cmd: DUPLICATE
+[2023.05.11-10.27.02:640][754]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.27.32:518][555]Cmd: MODE GRID=0
+[2023.05.11-10.27.51:718][306]Cmd: MODE GRID=1
+[2023.05.11-10.27.53:198][437]Cmd: DUPLICATE
+[2023.05.11-10.27.53:198][437]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.28.25:956][461]Cmd: DUPLICATE
+[2023.05.11-10.28.25:956][461]Cmd: ACTOR DUPLICATE
+[2023.05.11-10.28.26:026][462]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.28:975][714]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.29:398][752]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.30:257][833]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.30:528][859]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.30:730][878]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.30:983][902]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.31:226][925]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.31:444][946]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.31:958][995]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.32:390][ 35]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Total job queries 517, among them cache hits 171 (33.08%)
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Tracking 346 distinct input hashes that result in 233 distinct outputs (67.34%)
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: RAM used: 3.86 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.47%
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Shaders Compiled: 50
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100.00%)
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Average time worker was idle: 5.57 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Time job spent in pending queue: average 0.82 s, longest 4.84 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Job execution time: average 2.19 s, max 4.85 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Job life time (pending + execution): average 3.01 s, max 7.05
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 56.07 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Average processing rate: 0.89 jobs/sec
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Total thread time: 101.03 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Total thread preprocess time: 2.99 s
+[2023.05.11-10.28.37:753][494]LogShaderCompilers: Display: Percentage time preprocessing: 2.96%
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: Effective parallelization: 1.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 4.43 sec, max 4.72 sec, min 4.27 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    7 times, average 4.33 sec, max 4.73 sec, min 4.12 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 1.57 sec, max 4.41 sec, min 1.00 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 1.13 sec, max 1.26 sec, min 1.10 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 1.10 sec, max 1.22 sec, min 0.92 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 30.01% of total time (compiled    7 times, average 4.33 sec, max 4.73 sec, min 4.12 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 21.91% of total time (compiled    5 times, average 4.43 sec, max 4.72 sec, min 4.27 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.79% of total time (compiled   14 times, average 1.57 sec, max 4.41 sec, min 1.00 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 20.69% of total time (compiled   19 times, average 1.10 sec, max 1.22 sec, min 0.92 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.60% of total time (compiled    5 times, average 1.13 sec, max 1.26 sec, min 1.10 sec)
+[2023.05.11-10.28.37:754][494]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.28.43:355][872]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.45:694][ 60]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.47:022][188]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.47:853][268]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.48:437][324]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.48:738][351]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.52:935][704]Cmd: MODE GRID=0
+[2023.05.11-10.28.54:144][816]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.54:188][820]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.54:867][886]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:003][899]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:056][904]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:090][907]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:203][918]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:235][921]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:462][942]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:484][944]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:506][946]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:538][949]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:821][976]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:865][980]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:922][985]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:942][987]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.55:987][991]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.56:029][995]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.56:608][ 50]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.57:250][111]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.57:352][121]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.57:384][124]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.57:830][167]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.57:911][175]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.58:349][218]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.28.58:742][255]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.29.03:806][736]Cmd: TRANSACTION UNDO
+[2023.05.11-10.29.03:806][736]LogEditorTransaction: Undo Move Elements
+[2023.05.11-10.29.03:883][737]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.29.04:521][761]Cmd: TRANSACTION UNDO
+[2023.05.11-10.29.04:521][761]LogEditorTransaction: Undo Move Elements
+[2023.05.11-10.29.04:556][762]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.29.05:220][825]Cmd: TRANSACTION UNDO
+[2023.05.11-10.29.05:220][825]LogEditorTransaction: Undo Move Elements
+[2023.05.11-10.29.05:251][826]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.30.24:924][596]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.30.26:532][730]Cmd: TRANSACTION UNDO
+[2023.05.11-10.30.26:533][730]LogEditorTransaction: Undo Create Actors
+[2023.05.11-10.30.26:609][731]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.30.46:691][370]Cmd: DELETE
+[2023.05.11-10.30.46:691][370]Cmd: ACTOR DELETE
+[2023.05.11-10.30.46:713][370]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
+[2023.05.11-10.30.46:730][370]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2023.05.11-10.30.46:734][370]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2023.05.11-10.30.46:760][370]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2023.05.11-10.30.46:773][371]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VR_Game/Maps/Main_Hall.Main_Hall:PersistentLevel.RecastNavMesh-Default).
+[2023.05.11-10.30.57:314][463]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2023.05.11-10.31.54:827][294]Cmd: TRANSACTION UNDO
+[2023.05.11-10.31.54:827][294]LogEditorTransaction: Undo Move World Outliner Items
+[2023.05.11-10.31.55:187][294]LogNavigation: Warning: ConstructTiledNavMesh: Failed to create navmesh of size 0.
+[2023.05.11-10.32.09:834][744]Cmd: DELETE
+[2023.05.11-10.32.09:834][744]Cmd: ACTOR DELETE
+[2023.05.11-10.33.08:689][  8]Cmd: DELETE
+[2023.05.11-10.33.08:689][  8]Cmd: ACTOR DELETE
+[2023.05.11-10.33.08:700][  8]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.05.11-10.33.08:719][  8]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2023.05.11-10.33.08:724][  8]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2023.05.11-10.33.09:548][101]Cmd: DELETE
+[2023.05.11-10.33.09:548][101]Cmd: ACTOR DELETE
+[2023.05.11-10.33.14:988][646]LogViewport: Scene viewport resized to 397x233, mode Windowed.
+[2023.05.11-10.33.30:685][987]LogViewport: Scene viewport resized to 397x233, mode Windowed.
+[2023.05.11-10.34.03:134][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2023.05.11-10.34.03:141][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.11-10.34.03:200][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/VR_Game/Maps/Main_Hall" FILE="../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.11-10.34.03:218][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.11-10.34.03:394][463]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Main_Hall
+[2023.05.11-10.34.03:394][463]LogSavePackage: Moving '../../../../vr-horror-game/Horror_VR_Project/Saved/Main_Hall1EE89B8646A3ACE258FFCCABBE32E993.tmp' to '../../../../vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Hall.umap'
+[2023.05.11-10.34.03:410][463]LogFileHelpers: No new changes to save!
+[2023.05.11-10.34.03:410][463]LogFileHelpers: Saving map 'Main_Hall' took 0.210
+[2023.05.11-10.34.03:418][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 277 ms (total: 886 ms)
+[2023.05.11-10.34.03:429][463]AssetCheck: New page: Asset Save: Main_Hall
+[2023.05.11-10.34.03:429][463]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Main_Hall.Main_Hall
+[2023.05.11-10.34.04:421][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.11-10.34.04:423][540]LogStall: Shutdown...
+[2023.05.11-10.34.04:429][540]LogStall: Shutdown complete.
+[2023.05.11-10.34.04:520][540]LogSlate: Window 'Horror_VR_Project - Unreal Editor' being destroyed
+[2023.05.11-10.34.04:799][541]Cmd: QUIT_EDITOR
+[2023.05.11-10.34.04:799][541]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2023.05.11-10.34.04:815][541]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.05.11-10.34.04:816][541]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2023.05.11-10.34.04:816][541]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2023.05.11-10.34.04:827][541]LogWorld: UWorld::CleanupWorld for Main_Hall, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.04:828][541]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.11-10.34.04:846][541]LogStylusInput: Shutting down StylusInput subsystem.
+[2023.05.11-10.34.04:847][541]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2023.05.11-10.34.05:009][541]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2023.05.11-10.34.05:009][541]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2023.05.11-10.34.05:009][541]LogAudio: Display: Audio Device unregistered from world 'Main_Hall'.
+[2023.05.11-10.34.05:044][541]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.11-10.34.05:044][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.11-10.34.05:047][541]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2023.05.11-10.34.05:054][541]LogAudio: Display: Audio Device Manager Shutdown
+[2023.05.11-10.34.05:058][541]LogExit: Preparing to exit.
+[2023.05.11-10.34.05:096][541]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2023.05.11-10.34.05:592][541]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:592][541]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:592][541]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:592][541]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:593][541]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:593][541]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2023.05.11-10.34.05:709][541]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2023.05.11-10.34.05:725][541]LogExit: Editor shut down
+[2023.05.11-10.34.05:727][541]LogExit: Transaction tracking system shut down
+[2023.05.11-10.34.06:061][541]LogExit: Object subsystem successfully closed.
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Total job queries 564, among them cache hits 174 (30.85%)
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Tracking 390 distinct input hashes that result in 256 distinct outputs (65.64%)
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: RAM used: 4.29 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.52%
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Shaders Compiled: 74
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Jobs assigned 74, completed 74 (100.00%)
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Average time worker was idle: 29.37 s
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Time job spent in pending queue: average 0.86 s, longest 4.84 s
+[2023.05.11-10.34.06:070][541]LogShaderCompilers: Display: Job execution time: average 2.11 s, max 5.63 s
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Job life time (pending + execution): average 2.96 s, max 7.05
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 80.30 s
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Jobs were issued in 74 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Average processing rate: 0.92 jobs/sec
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Total thread time: 140.57 s
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Total thread preprocess time: 4.16 s
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Percentage time preprocessing: 2.96%
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Effective parallelization: 1.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    8 times, average 4.48 sec, max 4.90 sec, min 4.27 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    8 times, average 4.45 sec, max 5.25 sec, min 4.12 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 4.23 sec, max 4.23 sec, min 4.23 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   17 times, average 1.46 sec, max 4.41 sec, min 0.91 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    8 times, average 1.15 sec, max 1.37 sec, min 1.10 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 25.47% of total time (compiled    8 times, average 4.48 sec, max 4.90 sec, min 4.27 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 25.31% of total time (compiled    8 times, average 4.45 sec, max 5.25 sec, min 4.12 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 17.74% of total time (compiled   23 times, average 1.08 sec, max 1.27 sec, min 0.90 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 17.69% of total time (compiled   17 times, average 1.46 sec, max 4.41 sec, min 0.91 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 6.57% of total time (compiled    8 times, average 1.15 sec, max 1.37 sec, min 1.10 sec)
+[2023.05.11-10.34.06:071][541]LogShaderCompilers: Display: ================================================
+[2023.05.11-10.34.06:114][541]LogShaderCompilers: Display: Shaders left to compile 0
+[2023.05.11-10.34.06:164][541]LogVirtualization: UE::Virtualization was shutdown
+[2023.05.11-10.34.06:330][541]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1005)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1003)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1001)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (999)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module SubobjectEditor (997)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module SceneOutliner (995)
+[2023.05.11-10.34.06:349][541]LogModuleManager: Shutting down and abandoning module AddContentDialog (993)
+[2023.05.11-10.34.06:351][541]LogModuleManager: Shutting down and abandoning module WidgetCarousel (992)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module StatusBar (989)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (987)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module StatsViewer (985)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (983)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AutomationWorker (981)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module PlanarCut (979)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module CharacterAI (977)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (975)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module SmartSnapping (973)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (971)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (969)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (967)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module TextureAlignMode (965)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module BspMode (963)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module GeometryMode (961)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WaveTableEditor (959)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (957)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module OpenXRInput (955)
+[2023.05.11-10.34.06:352][541]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module HDRIBackdrop (953)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module GooglePADEditor (951)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (949)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (947)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (945)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (943)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (941)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (939)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module WebMMedia (937)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (935)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (933)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module SequenceRecorder (932)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (929)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (927)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (925)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (923)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (921)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (919)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (917)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module IKRigEditor (915)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module ControlRigEditor (913)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module SessionServices (911)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module MeshPaint (909)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (907)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module PlacementMode (906)
+[2023.05.11-10.34.06:352][541]LogModuleManager: Shutting down and abandoning module FoliageEdit (903)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module LandscapeEditor (901)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (899)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module ActorPickerMode (897)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module ViewportSnapping (895)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module ViewportInteraction (893)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module ClothPainter (891)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (890)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module LogVisualizer (887)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (885)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (883)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (882)
+[2023.05.11-10.34.06:353][541]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (880)
+[2023.05.11-10.34.06:620][541]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (877)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (875)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (873)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (871)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AnimationSettings (869)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (867)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module CSVtoSVG (865)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (863)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module EditorConfig (861)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (859)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module EditorFramework (857)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module TraceInsights (855)
+[2023.05.11-10.34.06:621][541]MemoryProfiler: Shutdown
+[2023.05.11-10.34.06:621][541]NetworkingProfiler: Shutdown
+[2023.05.11-10.34.06:621][541]LoadingProfiler: Shutdown
+[2023.05.11-10.34.06:621][541]TimingProfiler: Shutdown
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module TraceServices (854)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (851)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (850)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module InputBindingEditor (847)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module MergeActors (845)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (843)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module LocalizationService (842)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module HardwareTargeting (839)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (837)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module UndoHistory (835)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module XmlParser (833)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module Blutility (831)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (829)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (828)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (825)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (824)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module SettingsEditor (821)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module ProjectLauncher (819)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module SessionFrontend (817)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module ProfilerClient (815)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module DeviceManager (813)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AutomationController (811)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AutomationWindow (809)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module Layers (807)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (805)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module DetailCustomizations (803)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module PackagesDialog (801)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (799)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module Persona (797)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module AnimGraph (796)
+[2023.05.11-10.34.06:621][541]LogModuleManager: Shutting down and abandoning module Kismet (793)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module KismetWidgets (792)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module GraphEditor (789)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module StructViewer (787)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module ClassViewer (785)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module NaniteTools (783)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (781)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (779)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module SourceControlWindows (777)
+[2023.05.11-10.34.06:627][541]LogModuleManager: Shutting down and abandoning module OutputLog (775)
+[2023.05.11-10.34.06:628][541]LogModuleManager: Shutting down and abandoning module Documentation (773)
+[2023.05.11-10.34.06:628][541]LogModuleManager: Shutting down and abandoning module LiveCoding (771)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (769)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module MovieScene (767)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (765)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (763)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (761)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module AudioMixer (760)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module AudioMixerCore (759)
+[2023.05.11-10.34.06:635][541]LogModuleManager: Shutting down and abandoning module LauncherPlatform (755)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module AnalyticsET (753)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module PortalServices (751)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module PortalRpc (749)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module MessagingRpc (747)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module AIModule (745)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module GameplayDebugger (744)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module AITestSuite (742)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module NavigationSystem (740)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module DataLayerEditor (737)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module EditorWidgets (736)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (733)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (731)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module TypedElementFramework (729)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (727)
+[2023.05.11-10.34.06:636][541]LogModuleManager: Shutting down and abandoning module ProfilerService (725)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module TaskGraph (723)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (721)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (719)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (717)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module TakesCore (715)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module MegascansPlugin (713)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module Bridge (711)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (709)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (707)
+[2023.05.11-10.34.06:776][541]LogModuleManager: Shutting down and abandoning module CollectionManager (706)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (703)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (701)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module LightMixer (699)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (697)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module UVEditorTools (695)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module UVEditor (693)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module StaticMeshEditorModeling (691)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (690)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (689)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (685)
+[2023.05.11-10.34.06:777][541]LogOpenImageDenoise: OIDN shutting down
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (683)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (681)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (679)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (677)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module MeshLODToolset (675)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module Iris (673)
+[2023.05.11-10.34.06:777][541]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (671)
+[2023.05.11-10.34.06:794][541]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (669)
+[2023.05.11-10.34.06:795][541]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (667)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (665)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (663)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (662)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (660)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (657)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module DataflowNodes (655)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module DataflowEditor (653)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (651)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (649)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module ChaosNiagara (647)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (645)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module FractureEditor (643)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module BackChannel (641)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (639)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module AutomationUtils (637)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (635)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (633)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module UObjectPlugin (631)
+[2023.05.11-10.34.06:797][541]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (629)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module PluginUtils (627)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (625)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (623)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module DumpGPUServices (621)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module GitSourceControl (619)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (617)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (615)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (613)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (611)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module Paper2DEditor (609)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module TemplateSequence (607)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (605)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module SequencerScripting (603)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module StylusInput (601)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (599)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (597)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (595)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module PluginBrowser (593)
+[2023.05.11-10.34.06:798][541]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (591)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (589)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (587)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GLTFImporter (585)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GLTFCore (583)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (581)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module EditorDebugTools (579)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module CurveEditorTools (577)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (575)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module CryptoKeys (573)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (571)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (569)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeTests (567)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (565)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module SynthesisEditor (563)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ResonanceAudio (561)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (559)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module OpenXREditor (557)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (555)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (553)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ModelingOperators (551)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (549)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ModelingComponents (547)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryFramework (546)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (543)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MeshModelingTools (541)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InputDebugging (539)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GooglePAD (537)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (535)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (533)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (531)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module DynamicMesh (529)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (527)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AssetTags (525)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AudioCapture (523)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (522)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (519)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (517)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AppleImageUtils (515)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AndroidPermission (513)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (511)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (509)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (507)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MediaPlate (505)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module MediaCompositing (503)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module ImgMedia (501)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module TakeSequencer (499)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module TakeMovieScene (497)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module VariantManager (493)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (491)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GLTFMaterialBaking (489)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GLTFMaterialAnalyzer (487)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (485)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AlembicImporter (483)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module AlembicLibrary (482)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryCache (481)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (480)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (475)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (473)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (471)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangePipelines (469)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeExport (467)
+[2023.05.11-10.34.06:813][541]LogModuleManager: Shutting down and abandoning module InterchangeMessages (465)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeImport (463)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (461)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeNodes (459)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (457)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (455)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (453)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InterchangeEditor (451)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (449)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (447)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (445)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module ControlRigSpline (443)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (441)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module TraceUtilities (439)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (437)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (435)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module InputEditor (433)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (431)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module PBIK (429)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module FullBodyIK (427)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (425)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module TakeRecorder (424)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module ChaosCaching (421)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (419)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (417)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module AnimationSharing (415)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module GameplayCameras (413)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module Paper2D (411)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module ActorSequence (409)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (407)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (405)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module FacialAnimation (403)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module DataValidation (401)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (399)
+[2023.05.11-10.34.06:814][541]LogModuleManager: Shutting down and abandoning module LevelEditor (398)
+[2023.05.11-10.34.06:815][541]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (397)
+[2023.05.11-10.34.06:815][541]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (395)
+[2023.05.11-10.34.06:815][541]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (393)
+[2023.05.11-10.34.06:815][541]LogModuleManager: Shutting down and abandoning module MainFrame (391)
+[2023.05.11-10.34.06:815][541]LogModuleManager: Shutting down and abandoning module HotReload (390)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module TreeMap (386)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (383)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module Niagara (381)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module NiagaraEditor (380)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module ContentBrowser (379)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module ContentBrowserData (378)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module NiagaraCore (373)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module Synthesis (371)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module SoundFields (369)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module SignificanceManager (367)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (365)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (363)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundEditor (361)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module ToolMenus (360)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AudioWidgets (358)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (357)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (353)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundEngine (351)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module WaveTable (350)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (348)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (345)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (343)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (341)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (339)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (337)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (335)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (333)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (332)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (329)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module SignalProcessing (328)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module CableComponent (325)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (323)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (321)
+[2023.05.11-10.34.06:816][541]LogModuleManager: Shutting down and abandoning module TcpMessaging (319)
+[2023.05.11-10.34.06:917][541]LogModuleManager: Shutting down and abandoning module UdpMessaging (317)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (315)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module IKRig (313)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (311)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module ControlRig (309)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module LevelSequence (308)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (305)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module EnhancedInput (303)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (301)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (299)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module AndroidFileServer (297)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (295)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module PacketHandler (293)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module TimeManagement (291)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module AnimationDataController (289)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (287)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (285)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module MediaAssets (283)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module Overlay (281)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module OverlayEditor (280)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module VREditor (277)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module StringTableEditor (275)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (273)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (271)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module FunctionalTesting (269)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (267)
+[2023.05.11-10.34.07:018][541]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (266)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module UMG (263)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module UMGEditor (262)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module EditorStyle (257)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module SlateReflector (255)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module Slate (253)
+[2023.05.11-10.34.07:019][541]LogModuleManager: Shutting down and abandoning module SlateCore (251)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (249)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (247)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module UnrealEd (245)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MRMesh (243)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module Messaging (241)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (239)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (237)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module Networking (235)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module Core (233)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MaterialEditor (231)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MovieSceneTools (229)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module CurveEditor (228)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module Sequencer (226)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module KismetCompiler (223)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MeshBuilder (221)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module NaniteBuilder (219)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MeshUtilities (217)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (216)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (215)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (214)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (212)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (210)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (208)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module MaterialBaking (204)
+[2023.05.11-10.34.07:020][541]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (201)
+[2023.05.11-10.34.07:031][541]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (197)
+[2023.05.11-10.34.07:031][541]LogModuleManager: Shutting down and abandoning module DerivedDataCache (195)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module TargetPlatform (193)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (192)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (190)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (188)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (186)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (184)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module AudioFormatBink (182)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (177)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (175)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (169)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (167)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (165)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (163)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (161)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module TextureFormat (159)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (156)
+[2023.05.11-10.34.07:051][541]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (154)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (152)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (150)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (148)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (146)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module TurnkeySupport (143)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module InputCore (140)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module Settings (138)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (136)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (134)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (133)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module Chaos (130)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module GeometryCore (129)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (126)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (125)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module AVEncoder (124)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module D3D12RHI (120)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module ChaosCloth (118)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module PixWinPlugin (116)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (114)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module NiagaraShader (112)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (110)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (108)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module OpenXRAR (106)
+[2023.05.11-10.34.07:052][541]LogModuleManager: Shutting down and abandoning module AugmentedReality (105)
+[2023.05.11-10.34.07:056][541]LogModuleManager: Shutting down and abandoning module OpenXRHMD (102)
+[2023.05.11-10.34.07:056][541]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (100)
+[2023.05.11-10.34.07:056][541]LogModuleManager: Shutting down and abandoning module ChunkDownloader (98)
+[2023.05.11-10.34.07:056][541]LogModuleManager: Shutting down and abandoning module WmfMedia (96)
+[2023.05.11-10.34.07:059][541]LogModuleManager: Shutting down and abandoning module Media (95)
+[2023.05.11-10.34.07:061][541]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (92)
+[2023.05.11-10.34.07:061][541]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (90)
+[2023.05.11-10.34.07:061][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (88)
+[2023.05.11-10.34.07:061][541]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2023.05.11-10.34.07:062][541]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2023.05.11-10.34.07:062][541]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2023.05.11-10.34.07:085][541]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2023.05.11-10.34.07:085][541]LogHttp: Warning: [FHttpManager::Flush] FlushReason was Shutdown. Unbinding delegates for 1 outstanding Http Requests:
+[2023.05.11-10.34.07:085][541]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3A08E823-4D89-5702-C1F4-6A9A823211FE%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.1.1-23901901%2B%2B%2BUE5%2BRelease-5.1&UserID=593795114278d83050a7ea8db78550d9%7Cfb90327a5f6442ebb6b7dbf9842928c8%7C80e73f5b-c8ac-450c-9cc8-fb2753a500e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (72)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (70)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (68)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module VariantManagerContent (66)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module GLTFExporter (64)
+[2023.05.11-10.34.07:096][541]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module AISupportModule (60)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module DesktopPlatform (58)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (48)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module SourceControl (47)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module XGEController (44)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module FastBuildController (42)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module AnimationModifiers (40)
+[2023.05.11-10.34.07:097][541]LogModuleManager: Shutting down and abandoning module AudioEditor (38)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module Virtualization (34)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module MessageLog (33)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2023.05.11-10.34.07:098][541]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2023.05.11-10.34.07:099][541]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2023.05.11-10.34.07:210][541]LogD3D12RHI: ~FD3D12DynamicRHI
+[2023.05.11-10.34.07:277][541]LogExit: Exiting.
+[2023.05.11-10.34.07:319][541]Log file closed, 05/11/23 12:34:07
