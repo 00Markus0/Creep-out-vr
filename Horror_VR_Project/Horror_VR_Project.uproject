@@ -21,7 +21,6 @@
 		{
 			"Name": "HDRIBackdrop",
 			"Enabled": true
-<<<<<<< Updated upstream
 		},
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -30,8 +29,6 @@
 		{
 			"Name": "StaticMeshEditorModeling",
 			"Enabled": true
-=======
->>>>>>> Stashed changes
 		}
 	],
 	"TargetPlatforms": [
