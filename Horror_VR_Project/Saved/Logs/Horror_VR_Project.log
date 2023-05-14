@@ -4012,3 +4012,394 @@ Purging the undo buffer...
 [2023.05.14-12.03.42:336][427]Cmd: SELECT NONE
 [2023.05.14-12.04.25:593][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2023.05.14-12.04.41:065][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.14-12.09.07:087][801]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.09.19:295][449]Cmd: SELECT NONE
+[2023.05.14-12.09.21:149][655]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.09.48:197][948]Cmd: SELECT NONE
+[2023.05.14-12.10.18:879][622]LogDerivedDataCache: C:/Users/schne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:15.214 and deleted 0 files with total size 0 MiB. Scanned 39345 files in 36440 folders with total size 10086 MiB.
+[2023.05.14-12.10.47:407][ 12]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.10.50:339][149]Cmd: SELECT NONE
+[2023.05.14-12.10.50:831][190]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.11.09:763][ 78]Cmd: SELECT NONE
+[2023.05.14-12.11.10:704][176]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.11.25:801][803]Cmd: SELECT NONE
+[2023.05.14-12.11.26:698][892]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.11.29:919][ 36]Cmd: SELECT NONE
+[2023.05.14-12.11.33:153][384]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.11.35:437][486]Cmd: SELECT NONE
+[2023.05.14-12.11.39:089][872]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.13.05:174][113]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.13.05:411][122]Cmd: SELECT NONE
+[2023.05.14-12.13.07:652][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2023.05.14-12.13.07:859][286]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VR_Game/Maps/Creep-Out_Main_Level_Auto2
+[2023.05.14-12.13.07:860][286]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_Level_Auto2FC1F298A42FB85ED493405817E1381DD.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Autosaves/Game/VR_Game/Maps/Creep-Out_Main_Level_Auto2.umap'
+[2023.05.14-12.13.07:869][286]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VR_Game/Maps/Creep-Out_Main_Level' took 0.253
+[2023.05.14-12.13.07:869][286]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.253
+[2023.05.14-12.14.04:221][121]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.14.13:306][561]Cmd: SELECT NONE
+[2023.05.14-12.14.15:782][821]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.14.27:210][363]Cmd: SELECT NONE
+[2023.05.14-12.15.39:131][ 43]Cmd: SELECT NONE
+[2023.05.14-12.15.52:330][578]Cmd: SELECT NONE
+[2023.05.14-12.15.54:415][820]Cmd: SELECT NONE
+[2023.05.14-12.15.59:359][384]Cmd: EDIT COPY
+[2023.05.14-12.15.59:742][408]Cmd: EDIT PASTE
+[2023.05.14-12.18.54:830][281]Cmd: TRANSACTION UNDO
+[2023.05.14-12.18.54:830][281]LogEditorTransaction: Undo Move Elements
+[2023.05.14-12.19.26:978][525]Cmd: DELETE
+[2023.05.14-12.19.26:978][525]Cmd: ACTOR DELETE
+[2023.05.14-12.19.26:995][525]LogEditorActor: Deleted Actor: Emitter
+[2023.05.14-12.19.27:024][525]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.14-12.19.27:044][525]LogEditorActor: Deleted 1 Actors (0.066 secs)
+[2023.05.14-12.19.29:387][796]Cmd: TRANSACTION UNDO
+[2023.05.14-12.19.29:387][796]LogEditorTransaction: Undo Delete Elements
+[2023.05.14-12.19.34:891][296]Cmd: SELECT NONE
+[2023.05.14-12.19.50:754][103]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.19.51:299][126]Cmd: DELETE
+[2023.05.14-12.19.51:300][126]Cmd: ACTOR DELETE
+[2023.05.14-12.19.51:312][126]LogEditorActor: Deleted Actor: VRPawn_C
+[2023.05.14-12.19.51:349][126]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.14-12.19.51:349][126]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.19.51:351][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2023.05.14-12.19.51:356][126]LogEditorActor: Deleted 1 Actors (0.056 secs)
+[2023.05.14-12.19.52:477][259]Cmd: TRANSACTION UNDO
+[2023.05.14-12.19.52:477][259]LogEditorTransaction: Undo Delete Elements
+[2023.05.14-12.19.52:484][259]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.14-12.19.52:484][259]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.19.52:690][260]LogViewport: Scene viewport resized to 984x584, mode Windowed.
+[2023.05.14-12.19.53:602][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.14-12.19.53:609][290]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-12.19.53:689][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.05.14-12.19.53:880][290]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.14-12.19.53:881][290]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_Level083C59E14A0F110B3BB804B8C99DF0E2.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.14-12.19.53:893][290]LogFileHelpers: No new changes to save!
+[2023.05.14-12.19.53:893][290]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.226
+[2023.05.14-12.19.53:910][290]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 10.0 sec)
+[2023.05.14-12.19.53:917][290]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
+[2023.05.14-12.19.53:917][290]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
+[2023.05.14-12.22.22:844][ 44]Cmd: SELECT NONE
+[2023.05.14-12.22.58:455][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2023.05.14-12.22.58:552][928]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.05.14-12.22.58:552][928]Cmd: MAP LOAD FILE="../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Maps/VRTemplateMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.14-12.22.58:552][928]LightingResults: New page: Lighting Build
+[2023.05.14-12.22.58:552][928]LoadErrors: New page: Loading map: VRTemplateMap.umap
+[2023.05.14-12.22.58:566][928]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.22.58:566][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.22.58:566][928]MapCheck: New page: Map Check
+[2023.05.14-12.22.58:566][928]LightingResults: New page: Lighting Build
+[2023.05.14-12.22.58:591][928]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.14-12.22.58:603][928]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.14-12.22.58:603][928]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.22.58:606][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2023.05.14-12.22.58:611][928]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.22.58:611][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.22.58:633][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.14-12.22.58:654][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2023.05.14-12.22.58:664][928]LogAudio: Display: Audio Device (ID: 1) registered with world 'VRTemplateMap'.
+[2023.05.14-12.22.58:664][928]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.22.58:664][928]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.05.14-12.22.58:957][928]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.14-12.22.58:981][928]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2023.05.14-12.22.58:988][928]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.14-12.22.58:988][928]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2023.05.14-12.22.58:988][928]LogFileHelpers: Loading map 'VRTemplateMap' took 0.436
+[2023.05.14-12.23.16:586][978]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VRTemplate/Blueprints/VRGameMode.VRGameMode
+[2023.05.14-12.23.16:586][978]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.23.30:572][544]LogSlate: Window 'VRGameMode' being destroyed
+[2023.05.14-12.23.30:579][544]LogSlate: Window 'VRGameMode' being destroyed
+[2023.05.14-12.23.30:611][544]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.23.30:611][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.23.42:389][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2023.05.14-12.23.42:536][818]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.14-12.23.42:537][818]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.23.42:578][818]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
+[2023.05.14-12.23.42:578][818]Cmd: MAP LOAD FILE="../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.14-12.23.42:578][818]LightingResults: New page: Lighting Build
+[2023.05.14-12.23.42:578][818]LoadErrors: New page: Loading map: Creep-Out_Main_Level.umap
+[2023.05.14-12.23.42:621][818]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.23.42:622][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.23.42:622][818]MapCheck: New page: Map Check
+[2023.05.14-12.23.42:622][818]LightingResults: New page: Lighting Build
+[2023.05.14-12.23.42:652][818]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.14-12.23.42:658][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2023.05.14-12.23.42:662][818]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.23.42:664][818]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.23.42:698][818]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.14-12.23.42:698][818]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.23.42:700][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.14-12.23.42:726][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.14-12.23.42:796][818]LogAudio: Display: Audio Device (ID: 1) registered with world 'Creep-Out_Main_Level'.
+[2023.05.14-12.23.42:796][818]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.23.42:797][818]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.14-12.23.42:839][818]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.14-12.23.42:840][818]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.14-12.23.43:244][818]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.14-12.23.43:279][818]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2023.05.14-12.23.43:287][818]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.14-12.23.43:287][818]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.169ms to complete.
+[2023.05.14-12.23.43:287][818]LogFileHelpers: Loading map 'Creep-Out_Main_Level' took 0.710
+[2023.05.14-12.24.16:459][557]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HorrorEngine/HorrorEngine.HorrorEngine
+[2023.05.14-12.24.16:459][557]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.24.53:821][624]LogSlate: Window 'HorrorEngine' being destroyed
+[2023.05.14-12.24.53:826][624]LogSlate: Window 'HorrorEngine' being destroyed
+[2023.05.14-12.24.53:831][624]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.24.53:831][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: ================================================
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Total job queries 1522, among them cache hits 119 (7.82%)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Tracking 1403 distinct input hashes that result in 777 distinct outputs (55.38%)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: RAM used: 16.21 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 1.98%
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Shaders Compiled: 198
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Jobs assigned 198, completed 198 (100.00%)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Average time worker was idle: 11.72 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Time job spent in pending queue: average 16.09 s, longest 34.72 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Job execution time: average 1.71 s, max 4.49 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Job life time (pending + execution): average 17.80 s, max 37.34
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 50.42 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Jobs were issued in 194 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Average processing rate: 3.93 jobs/sec
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Total thread time: 315.13 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Total thread preprocess time: 7.26 s
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Percentage time preprocessing: 2.30%
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Effective parallelization: 6.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    3 times, average 3.39 sec, max 3.62 sec, min 3.22 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 3.37 sec, max 3.70 sec, min 3.19 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 3.35 sec, max 3.44 sec, min 3.21 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 3.29 sec, max 3.46 sec, min 3.13 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 3.28 sec, max 3.43 sec, min 3.14 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.64% of total time (compiled   10 times, average 2.41 sec, max 3.71 sec, min 0.86 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.46% of total time (compiled   10 times, average 2.35 sec, max 3.69 sec, min 0.84 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.35% of total time (compiled   10 times, average 2.32 sec, max 3.47 sec, min 0.85 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.37% of total time (compiled   14 times, average 1.43 sec, max 3.40 sec, min 0.47 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight - 5.49% of total time (compiled    8 times, average 2.16 sec, max 3.52 sec, min 0.90 sec)
+[2023.05.14-12.25.22:090][240]LogShaderCompilers: Display: ================================================
+[2023.05.14-12.25.45:215][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.14-12.25.54:501][726]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.14-12.26.32:391][915]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRSpectator/VRSpectator.VRSpectator_C
+[2023.05.14-12.26.32:391][915]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRSpectator/VRSpectator.VRSpectator_C
+[2023.05.14-12.26.32:393][915]LogActorFactory: Actor Factory spawned Blueprint /Game/VRSpectator/VRSpectator.VRSpectator as actor: VRSpectator_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.VRSpectator_C_0
+[2023.05.14-12.26.32:395][915]LogActorFactory: Actor Factory spawned Blueprint /Game/VRSpectator/VRSpectator.VRSpectator as actor: VRSpectator_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.VRSpectator_C_0
+[2023.05.14-12.26.32:866][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRSpectator/VRSpectator.VRSpectator_C
+[2023.05.14-12.26.32:866][960]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/VRSpectator/VRSpectator.VRSpectator_C
+[2023.05.14-12.26.32:869][960]LogActorFactory: Actor Factory spawned Blueprint /Game/VRSpectator/VRSpectator.VRSpectator as actor: VRSpectator_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.VRSpectator_C_1
+[2023.05.14-12.26.32:871][960]LogActorFactory: Actor Factory spawned Blueprint /Game/VRSpectator/VRSpectator.VRSpectator as actor: VRSpectator_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.VRSpectator_C_1
+[2023.05.14-12.26.41:469][924]Cmd: DELETE
+[2023.05.14-12.26.41:469][924]Cmd: ACTOR DELETE
+[2023.05.14-12.26.41:480][924]LogEditorActor: Deleted Actor: VRSpectator_C
+[2023.05.14-12.26.41:507][924]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2023.05.14-12.26.41:520][924]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2023.05.14-12.27.08:300][968]LogAssetEditorSubsystem: Opening Asset editor for MirrorDataTable /Game/Characters/MannequinsXR/Animations/MDT_MannequinsXR.MDT_MannequinsXR
+[2023.05.14-12.27.10:598][186]LogSlate: Window 'MDT_MannequinsXR' being destroyed
+[2023.05.14-12.27.10:603][186]LogSlate: Window 'MDT_MannequinsXR' being destroyed
+[2023.05.14-12.27.25:185][811]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Characters/MannequinsXR/Meshes/ABP_MannequinsXR.ABP_MannequinsXR
+[2023.05.14-12.27.25:186][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.27.25:215][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.27.25:306][811]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_28:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.14-12.27.25:946][811]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.14-12.27.26:327][811]LogViewport: Scene viewport resized to 639x429, mode Windowed.
+[2023.05.14-12.27.30:242][116]LogSlate: Window 'ABP_MannequinsXR' being destroyed
+[2023.05.14-12.27.30:248][116]LogSlate: Window 'ABP_MannequinsXR' being destroyed
+[2023.05.14-12.27.30:265][116]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.27.30:265][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.27.30:315][116]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.27.30:315][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.27.30:364][116]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2023.05.14-12.27.30:364][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.14-12.28.12:900][870]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/FirstPersonArms/Animations/FP_Walk_Fwd.FP_Walk_Fwd
+[2023.05.14-12.28.13:047][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2023.05.14-12.28.26:453][870]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.14-12.28.26:551][870]LogUObjectGlobals: Force Deleting 29 Package(s):
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Run_Fwd.FP_Run_Fwd
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Run.FP_Rifle_Run
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Land.FP_Rifle_Land
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Jump.FP_Rifle_Jump
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Idle.FP_Rifle_Idle
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Rifle_Falling.FP_Rifle_Falling
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Land.FP_Land
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Jump.FP_Jump
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Idle.FP_Idle
+	Asset Type: AnimSequence
+	Asset Name: /Game/FirstPersonArms/Animations/FP_Falling.FP_Falling
+	Asset Type: AnimSequence
+[2023.05.14-12.28.27:133][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:135][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:137][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:139][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:140][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:142][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:144][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:146][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:147][870]LogMaterial: Warning: [AssetLog] C:\Users\schne\Documents\GitHub\vr-horror-game\Horror_VR_Project\Content\FirstPersonArms\Character\Materials\M_UE4Man_Body.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	Missing Material Function
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+	Function MatLayerBlend_NormalBlend: (Node MakeMaterialAttributes) Error on property Normal
+	(Node TextureSample) Texture Sample> Missing input texture
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property EmissiveColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property BaseColor
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Metallic
+	Function MatLayerBlend_Simple: (Node MakeMaterialAttributes) Error on property Roughness
+
+[2023.05.14-12.28.27:171][870]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_Mannequin_Arms) ...
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: ================================================
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Total job queries 1595, among them cache hits 129 (8.09%)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Tracking 1466 distinct input hashes that result in 810 distinct outputs (55.25%)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: RAM used: 16.86 MB (0.02 GB) of 819.20 MB (0.80 GB) budget. Usage: 2.06%
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Shaders Compiled: 198
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Jobs assigned 198, completed 198 (100.00%)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Average time worker was idle: 11.72 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Time job spent in pending queue: average 16.09 s, longest 34.72 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Job execution time: average 1.71 s, max 4.49 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Job life time (pending + execution): average 17.80 s, max 37.34
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 50.42 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Jobs were issued in 194 batches (only local compilation was used), average 1.02 jobs/batch
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Average processing rate: 3.93 jobs/sec
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Total thread time: 315.13 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Total thread preprocess time: 7.26 s
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Percentage time preprocessing: 2.30%
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Effective parallelization: 6.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    3 times, average 3.39 sec, max 3.62 sec, min 3.22 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    3 times, average 3.37 sec, max 3.70 sec, min 3.19 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    3 times, average 3.35 sec, max 3.44 sec, min 3.21 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 3.29 sec, max 3.46 sec, min 3.13 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 3.28 sec, max 3.43 sec, min 3.14 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.64% of total time (compiled   10 times, average 2.41 sec, max 3.71 sec, min 0.86 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.46% of total time (compiled   10 times, average 2.35 sec, max 3.69 sec, min 0.84 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.35% of total time (compiled   10 times, average 2.32 sec, max 3.47 sec, min 0.85 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 6.37% of total time (compiled   14 times, average 1.43 sec, max 3.40 sec, min 0.47 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight - 5.49% of total time (compiled    8 times, average 2.16 sec, max 3.52 sec, min 0.90 sec)
+[2023.05.14-12.28.28:185][870]LogShaderCompilers: Display: ================================================
+[2023.05.14-12.28.28:323][870]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2023.05.14-12.28.28:368][870]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.14-12.28.28:388][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.05.14-12.28.30:967][127]Cmd: SELECT NONE
+[2023.05.14-12.28.43:366][760]Cmd: SELECT NONE
+[2023.05.14-12.30.01:178][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2023.05.14-12.30.04:728][825]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.14-12.30.09:011][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.05.14-12.30.10:965][278]LogSlate: Window 'Delete Assets' being destroyed
+[2023.05.14-12.30.11:101][278]LogUObjectGlobals: Force Deleting 11 Package(s):
+	Asset Name: /Game/VRSpectator/VRSpectator.VRSpectator
+	Asset Type: Blueprint
+	Asset Name: /Game/VRSpectator/RT_VRSpectator.RT_VRSpectator
+	Asset Type: TextureRenderTarget2D
+	Asset Name: /Game/VRSpectator/EVRSpectatorMode.EVRSpectatorMode
+	Asset Type: UserDefinedEnum
+	Asset Name: /Game/VRSpectator/Input/IMC_VRSpectator.IMC_VRSpectator
+	Asset Type: InputMappingContext
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_Toggle.IA_VRSpectator_Toggle
+	Asset Type: InputAction
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_ResetRotation.IA_VRSpectator_ResetRotation
+	Asset Type: InputAction
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_Move.IA_VRSpectator_Move
+	Asset Type: InputAction
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_Look.IA_VRSpectator_Look
+	Asset Type: InputAction
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_FOV_Reset.IA_VRSpectator_FOV_Reset
+	Asset Type: InputAction
+	Asset Name: /Game/VRSpectator/Input/Actions/IA_VRSpectator_FOV.IA_VRSpectator_FOV
+	Asset Type: InputAction
+[2023.05.14-12.30.11:102][278]LogHMD: SetSpectatorScreenMode(5).
+[2023.05.14-12.30.11:504][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.14-12.30.11:719][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2023.05.14-12.30.11:741][278]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2023.05.14-12.30.11:761][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.05.14-12.30.29:701][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2023.05.14-12.30.29:711][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.14-12.30.29:797][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2023.05.14-12.30.29:992][356]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.14-12.30.29:992][356]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_Level175F15D54001DFA45DED75A7A78FBDF8.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.14-12.30.30:005][356]LogFileHelpers: No new changes to save!
+[2023.05.14-12.30.30:005][356]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.229
+[2023.05.14-12.30.30:014][356]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2023.05.14-12.30.30:014][356]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/BP_FirstPersonCharacterA94A4F7A4805E7161CAD85B22F5175C6.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2023.05.14-12.30.30:022][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 310 ms (total: 10.3 sec)
+[2023.05.14-12.30.30:033][356]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.14-12.30.30:033][356]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2023.05.14-12.30.30:033][356]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
