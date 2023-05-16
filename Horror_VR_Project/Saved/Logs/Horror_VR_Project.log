@@ -4642,3 +4642,57 @@ Script Stack (0 frames) :
 [2023.05.16-10.38.29:119][589]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
 [2023.05.16-10.38.29:121][589]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2023.05.16-10.38.29:194][590]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2023.05.16-10.47.00:598][928]LogDerivedDataCache: C:/Users/schne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:23.171 and deleted 0 files with total size 0 MiB. Scanned 43624 files in 40117 folders with total size 11984 MiB.
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: ================================================
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Total job queries 544, among them cache hits 68 (12.50%)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Tracking 476 distinct input hashes that result in 352 distinct outputs (73.95%)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: RAM used: 5.08 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.62%
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Shaders Compiled: 54
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Jobs assigned 54, completed 54 (100.00%)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Average time worker was idle: 470.23 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Time job spent in pending queue: average 1.24 s, longest 4.70 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Job execution time: average 1.58 s, max 4.00 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Job life time (pending + execution): average 2.82 s, max 6.93
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 27.19 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Jobs were issued in 54 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Average processing rate: 1.99 jobs/sec
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Total thread time: 70.50 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Total thread preprocess time: 2.35 s
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Percentage time preprocessing: 3.33%
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Effective parallelization: 2.59 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled   11 times, average 3.31 sec, max 3.94 sec, min 2.75 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ (compiled    1 times, average 3.06 sec, max 3.06 sec, min 3.06 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 2.91 sec, max 3.07 sec, min 2.74 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   19 times, average 0.74 sec, max 0.86 sec, min 0.61 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    8 times, average 0.73 sec, max 0.92 sec, min 0.61 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 51.58% of total time (compiled   11 times, average 3.31 sec, max 3.94 sec, min 2.75 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.91% of total time (compiled   19 times, average 0.74 sec, max 0.86 sec, min 0.61 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.28% of total time (compiled    8 times, average 0.73 sec, max 0.92 sec, min 0.61 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.25% of total time (compiled    2 times, average 2.91 sec, max 3.07 sec, min 2.74 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 4.34% of total time (compiled    1 times, average 3.06 sec, max 3.06 sec, min 3.06 sec)
+[2023.05.16-11.03.04:538][428]LogShaderCompilers: Display: ================================================
+[2023.05.16-11.03.05:469][509]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.Creep-Out_Main_Level
+[2023.05.16-11.03.05:471][509]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.16-11.03.07:364][509]LogSlate: Took 0.004539 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2023.05.16-11.03.16:590][199]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Textures/HUD/YouDied': Can't find file.
+[2023.05.16-11.03.16:590][199]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Textures/HUD/YouDied': Can't find file.
+[2023.05.16-11.03.16:590][199]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/HorrorEngine/Textures/HUD/YouDied.YouDied'
+[2023.05.16-11.03.40:110][270]LogSlate: Window 'Creep-Out_Main_Level' being destroyed
+[2023.05.16-11.03.40:116][270]LogSlate: Window 'Creep-Out_Main_Level' being destroyed
+[2023.05.16-11.03.40:149][270]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2023.05.16-11.03.40:149][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.16-11.03.44:684][628]Cmd: SELECT NONE
+[2023.05.16-11.03.50:150][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2023.05.16-11.03.50:154][854]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.16-11.03.50:235][854]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.05.16-11.03.50:446][854]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.16-11.03.50:446][854]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_Level7253874D47C9FF2B5113B2820FA5302F.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.16-11.03.50:458][854]LogFileHelpers: No new changes to save!
+[2023.05.16-11.03.50:458][854]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.250
+[2023.05.16-11.03.50:475][854]LogFileHelpers: InternalPromptForCheckoutAndSave took 321 ms (total: 1.48 sec)
+[2023.05.16-11.03.50:484][854]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
+[2023.05.16-11.03.50:484][854]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
