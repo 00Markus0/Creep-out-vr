@@ -1,7 +1,8 @@
 # VR-horror-game
 
-Welcome to VR-Horror Game!
+Welcome to Creep-Out!
 
-This game is currently under development in Unreal Engine as part of a project for a course at Ludwig Maximillians University Munich.
+Our game is a Horror game in Virtual Reality implemented in the Unreal Engine.
+This game is currently under development as part of a project for a course at Ludwig Maximillians University Munich.
 
-Check out our [Techdoc](docs/techdoch.pdf) to see the roadmap of our project.
+Check out our **[Game Design Document](docs/Techdoc_Creep_Out.pdf)** to see the roadmap of our project.
