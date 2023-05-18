@@ -4281,3 +4281,147 @@ Please see Output Log for details.
 [2023.05.18-13.40.24:139][721]LogContentValidation: Display: Validating /Script/Engine.Material /Game/VR_Game/Animations/Male_Sitting_Pose/Beta_HighLimbsGeoSG3.Beta_HighLimbsGeoSG3
 [2023.05.18-13.40.24:139][721]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/VR_Game/Animations/Male_Sitting_Pose/Male_Sitting_Pose.Male_Sitting_Pose
 [2023.05.18-13.40.24:139][721]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/VR_Game/Animations/Laying_Breathless/Laying_Breathless_Anim_mixamo_com.Laying_Breathless_Anim_mixamo_com
+[2023.05.18-13.42.26:542][283]LogD3D11RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
+[2023.05.18-13.42.27:492][323]Cmd: SELECT NONE
+[2023.05.18-13.42.51:356][561]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying
+[2023.05.18-13.42.51:356][561]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying
+[2023.05.18-13.42.51:358][561]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_5
+[2023.05.18-13.42.51:361][561]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_5
+[2023.05.18-13.42.51:981][592]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying
+[2023.05.18-13.42.51:981][592]LogActorFactory: Actor Factory attempting to spawn SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying
+[2023.05.18-13.42.51:985][592]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_6
+[2023.05.18-13.42.51:986][592]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_6
+[2023.05.18-13.42.53:468][671]Cmd: DELETE
+[2023.05.18-13.42.53:468][671]Cmd: ACTOR DELETE
+[2023.05.18-13.42.53:806][671]LogSkeletalMesh: Display: OnRegister[/Game/MetaHumans/Common/Male/Medium/NormalWeight/Bottoms/Jeans/m_med_nrw_btm_jeans_nrm.m_med_nrw_btm_jeans_nrm]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.05.18-13.42.53:806][671]LogSkeletalMesh: Display: OnRegister[/Game/MetaHumans/Common/Male/Medium/NormalWeight/Bottoms/Jeans/m_med_nrw_btm_jeans_nrm.m_med_nrw_btm_jeans_nrm]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.05.18-13.42.53:867][671]LogSkeletalMesh: Display: OnRegister[/Game/MetaHumans/Common/Male/Medium/NormalWeight/Bottoms/Jeans/m_med_nrw_btm_jeans_nrm.m_med_nrw_btm_jeans_nrm]: [ClothingSimulationFactoryNv] is currently unable to provide a fully functional simulation for each of this SkeletalMesh's clothing assets.
+[2023.05.18-13.42.53:867][671]LogSkeletalMesh: Display: OnRegister[/Game/MetaHumans/Common/Male/Medium/NormalWeight/Bottoms/Jeans/m_med_nrw_btm_jeans_nrm.m_med_nrw_btm_jeans_nrm]: The ClothingSimulationFactory property will now be automatically updated to use the most functional simulation that can be found.
+[2023.05.18-13.42.54:280][671]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.18-13.42.54:377][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2023.05.18-13.42.54:381][671]LogEditorActor: Deleted 1 Actors (0.912 secs)
+[2023.05.18-13.42.56:035][749]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/VR_Game/Animations/Praying/Praying_Skeleton.Praying_Skeleton
+[2023.05.18-13.42.56:035][749]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/VR_Game/Animations/Praying/Praying_Skeleton.Praying_Skeleton
+[2023.05.18-13.42.56:036][749]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_7
+[2023.05.18-13.42.56:037][749]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_7
+[2023.05.18-13.42.56:548][778]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/VR_Game/Animations/Praying/Praying_Skeleton.Praying_Skeleton
+[2023.05.18-13.42.56:549][778]LogActorFactory: Actor Factory attempting to spawn Skeleton /Game/VR_Game/Animations/Praying/Praying_Skeleton.Praying_Skeleton
+[2023.05.18-13.42.56:551][778]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_8
+[2023.05.18-13.42.56:552][778]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_8
+[2023.05.18-13.42.57:102][806]Cmd: DELETE
+[2023.05.18-13.42.57:102][806]Cmd: ACTOR DELETE
+[2023.05.18-13.42.57:140][806]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.18-13.42.57:153][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2023.05.18-13.42.57:159][806]LogEditorActor: Deleted 1 Actors (0.057 secs)
+[2023.05.18-13.42.58:618][875]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_Take_001.Praying_Anim_Take_001
+[2023.05.18-13.42.58:618][875]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_Take_001.Praying_Anim_Take_001
+[2023.05.18-13.42.58:619][875]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_9
+[2023.05.18-13.42.58:620][875]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_9
+[2023.05.18-13.42.59:374][914]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_Take_001.Praying_Anim_Take_001
+[2023.05.18-13.42.59:374][914]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_Take_001.Praying_Anim_Take_001
+[2023.05.18-13.42.59:376][914]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_10
+[2023.05.18-13.42.59:377][914]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_10
+[2023.05.18-13.43.06:336][304]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.43.06:336][304]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.43.06:336][304]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_11
+[2023.05.18-13.43.06:338][304]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_11
+[2023.05.18-13.43.07:030][344]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.43.07:030][344]LogActorFactory: Actor Factory attempting to spawn AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.43.07:033][344]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_12
+[2023.05.18-13.43.07:034][344]LogActorFactory: Actor Factory spawned SkeletalMesh /Game/VR_Game/Animations/Praying/Praying.Praying as actor: SkeletalMeshActor /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.SkeletalMeshActor_12
+[2023.05.18-13.43.11:937][677]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.18-13.43.11:951][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.18-13.43.11:956][677]PIE: New page: PIE session: Creep-Out_Main_Level (May 18, 2023, 5:43:11 PM)
+[2023.05.18-13.43.11:958][677]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.18-13.43.12:044][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085423s)
+[2023.05.18-13.43.12:044][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.085662s)
+[2023.05.18-13.43.12:046][677]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-13.43.12:051][677]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.18-13.43.12:052][677]LogPlayLevel: PIE: World Init took: (0.007925s)
+[2023.05.18-13.43.12:064][677]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2023.05.18-13.43.12:070][677]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.18-13.43.12:071][677]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.18-13.43.12:071][677]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.18-13.43.12:073][677]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.18-13.43.12:073][677]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.18-13.43.12:073][677]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.18-13.43.12:077][677]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.18-13.43.12:095][677]LogAudioMixer: Display: Using Audio Hardware Device Kopfhörer (Oculus Virtual Audio Device)
+[2023.05.18-13.43.12:097][677]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.18-13.43.12:097][677]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.18-13.43.12:097][677]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.18-13.43.12:100][677]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2023.05.18-13.43.12:100][677]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2023.05.18-13.43.12:102][677]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2023.05.18-13.43.12:102][677]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2023.05.18-13.43.12:102][677]LogInit: FAudioDevice initialized.
+[2023.05.18-13.43.12:102][677]LogAudio: Display: Audio Device (ID: 5) registered with world 'Creep-Out_Main_Level'.
+[2023.05.18-13.43.12:113][677]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-13.43.12:267][677]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.18-13.43.12:371][677]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.18-15.43.12
+[2023.05.18-13.43.12:393][677]LogWorld: Bringing up level for play took: 0.126053
+[2023.05.18-13.43.12:401][677]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2023.05.18-13.43.12:415][677]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.18-13.43.12:416][677]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.18-13.43.12:424][677]Cmd: vr.PixelDensity 1.0
+[2023.05.18-13.43.12:425][677]vr.PixelDensity = "1"
+[2023.05.18-13.43.12:432][677]PIE: Server logged in
+[2023.05.18-13.43.12:435][677]PIE: Play in editor total start time 0.487 seconds.
+[2023.05.18-13.43.12:476][677]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.18-13.43.12:547][677]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.18-13.43.12:560][677]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.18-13.43.12:646][678]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.18-13.43.41:865][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.18-13.43.41:865][462]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.18-13.43.41:931][462]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 5) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.18-13.43.41:937][462]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-13.43.41:945][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-13.43.41:962][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.18-13.43.41:969][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-13.43.41:997][462]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.18-13.43.41:998][462]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.18-13.43.41:999][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.18-13.43.42:004][462]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2023.05.18-13.43.42:026][462]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.18-13.43.42:027][462]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.18-13.43.42:036][462]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2023.05.18-13.43.42:122][463]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2023.05.18-13.43.46:725][706]Cmd: DELETE
+[2023.05.18-13.43.46:725][706]Cmd: ACTOR DELETE
+[2023.05.18-13.43.46:764][706]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2023.05.18-13.43.46:778][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2023.05.18-13.43.46:783][706]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2023.05.18-13.43.50:313][954]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.43.50:331][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-13.43.50:343][954]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2023.05.18-13.43.50:658][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-13.43.50:820][954]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.18-13.43.50:840][954]LogViewport: Scene viewport resized to 2288x1124, mode Windowed.
+[2023.05.18-13.43.50:877][954]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2023.05.18-13.44.09:159][949]LogSlate: Window 'Praying_Anim_mixamo_com' being destroyed
+[2023.05.18-13.44.09:166][949]LogSlate: Window 'Praying_Anim_mixamo_com' being destroyed
+[2023.05.18-13.44.09:179][949]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-13.44.09:179][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-13.44.09:187][949]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-13.44.09:187][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-13.44.09:219][949]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2023.05.18-13.44.09:219][949]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.18-13.44.14:650][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2023.05.18-13.44.14:660][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.18-13.44.14:722][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2023.05.18-13.44.14:999][326]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.18-13.44.15:000][326]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_Level47B5FFBD4E514D9F1017F596CF93A068.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.18-13.44.15:015][326]LogFileHelpers: No new changes to save!
+[2023.05.18-13.44.15:015][326]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.307
+[2023.05.18-13.44.15:028][326]LogSavePackage: Moving output files for package: /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com
+[2023.05.18-13.44.15:028][326]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Praying_Anim_mixamo_com1B8C397D4FCF97E8A202B585149B474B.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.uasset'
+[2023.05.18-13.44.15:035][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 374 ms (total: 55.5 sec)
+[2023.05.18-13.44.15:046][326]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.18-13.44.15:046][326]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/VR_Game/Animations/Praying/Praying_Anim_mixamo_com.Praying_Anim_mixamo_com
+[2023.05.18-13.44.15:046][326]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
