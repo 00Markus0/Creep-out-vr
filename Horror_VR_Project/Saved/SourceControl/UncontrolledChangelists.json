@@ -1346,6 +1346,9 @@
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/Megascans/3D_Assets/Wooden_Chair_uknkaffaw/S_Wooden_Chair_uknkaffaw_lod3_Var1.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/MetaHumans/Common/Common/f_srt_unw_body_preview.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/MetaHumans/Common/Common/m_tal_nrw_body_preview.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/Characters/Mannequin_UE4/Rigs/RTG_UE4Manny_UE5Manny.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/NewLevelSequence.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/StandingArguing_UE.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Praying/Beta_HighLimbsGeoSG3.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Praying/Beta_Joints_MAT1.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Praying/Praying.uasset",
@@ -1360,8 +1363,6 @@
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Standing_Arguing/Beta_Joints_MAT1.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Standing_Arguing/Beta_HighLimbsGeoSG3.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Standing_Arguing/Standing_Arguing.uasset",
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/unarmed_Idle/Beta_HighLimbsGeoSG3.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/unarmed_Idle/Unarmed_Idle_01.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/MMA_Kick/Mma_Kick_Anim_mixamo_com.uasset",
@@ -1432,10 +1433,8 @@
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Male_Sitting_Pose/Beta_HighLimbsGeoSG3.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Male_Sitting_Pose/Male_Sitting_Pose.uasset",
 				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/Laying_Breathless/Laying_Breathless_Anim_mixamo_com.uasset",
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/test/Talking_new_UE.uasset",
+				"C:/Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Animations/test/Talking_new_UE1.uasset",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Floorplan_Backup.umap",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Main_Level_Backup.umap",
 				"B:/Epic Games/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap",
