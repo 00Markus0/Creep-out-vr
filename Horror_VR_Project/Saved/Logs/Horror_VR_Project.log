@@ -7010,3 +7010,364 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.29-10.22.20:203][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 482 ms (total: 6.37 sec)
 [2023.05.29-10.22.20:219][105]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
 [2023.05.29-10.22.20:219][105]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
+[2023.05.29-10.24.32:433][323]LogTakesCore: Component: Root EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:433][323]LogTakesCore: Component: Body EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:433][323]LogTakesCore: Component: Face EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:433][323]LogTakesCore: Component: Hair EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:433][323]LogTakesCore: Component: NiagaraComponent_2 EditorOnly: 0 Transient: 1
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Eyebrows EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Fuzz EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Eyelashes EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Mustache EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Beard EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Torso EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Legs EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: Feet EditorOnly: 0 Transient: 0
+[2023.05.29-10.24.32:434][323]LogTakesCore: Component: LODSync EditorOnly: 0 Transient: 0
+[2023.05.29-10.25.37:958][182]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01.Mum_Crying_01
+[2023.05.29-10.25.40:992][319]LogTakesCore: Warning: Dynamically added component NiagaraComponent_2 failed to find attach parent Hair in Object Template, attaching to root as fallback!
+[2023.05.29-10.25.40:992][319]LogTakesCore: Duplicating Component '/Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.BP_Mum_C_0.Hair.NiagaraComponent_2' to '/Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01:MovieScene_0.BP_Mum_C_0.NiagaraComponent_0' and adding to Spawnable Object Template.
+[2023.05.29-10.25.41:042][322]LogTakesCore: StartRecording: 12:25:41:00
+[2023.05.29-10.26.07:946][758]LogTakesCore: StopRecording
+[2023.05.29-10.26.07:971][758]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01
+[2023.05.29-10.26.08:141][758]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0.BP_Mum_Crying_Mum_Crying_01_0
+[2023.05.29-10.26.08:279][758]LogTakesCore: Removed unused track (bHidden) for (BP_Mum_C_0)
+[2023.05.29-10.26.08:279][758]LogTakesCore: Removed unused track (bHidden) for (BP_Mum_C_0)
+[2023.05.29-10.26.08:279][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Root)
+[2023.05.29-10.26.08:279][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Root)
+[2023.05.29-10.26.08:279][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Body)
+[2023.05.29-10.26.08:299][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01 in 0.02 seconds
+[2023.05.29-10.26.08:299][758]LogTakesCore: Removed unused track (ClothBlendWeight) for (Body)
+[2023.05.29-10.26.08:299][758]LogTakesCore: Removed unused track (ClothMaxDistanceScale) for (Body)
+[2023.05.29-10.26.08:299][758]LogTakesCore: Removed unused track (VisibilityBasedAnimTickOption) for (Body)
+[2023.05.29-10.26.08:299][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Body)
+[2023.05.29-10.26.08:299][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Face)
+[2023.05.29-10.26.09:757][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0 in 1.46 seconds
+[2023.05.29-10.26.09:757][758]LogTakesCore: Removed unused track (ClothBlendWeight) for (Face)
+[2023.05.29-10.26.09:757][758]LogTakesCore: Removed unused track (ClothMaxDistanceScale) for (Face)
+[2023.05.29-10.26.09:757][758]LogTakesCore: Removed unused track (VisibilityBasedAnimTickOption) for (Face)
+[2023.05.29-10.26.09:757][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Face)
+[2023.05.29-10.26.09:757][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (AttachmentName) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Hair)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (bHiddenInGame) for (NiagaraComponent_2)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (bHiddenInGame) for (NiagaraComponent_2)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Eyebrows)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Eyebrows)
+[2023.05.29-10.26.09:758][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (AttachmentName) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Eyebrows)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Fuzz)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Fuzz)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Fuzz)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Fuzz)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Fuzz)
+[2023.05.29-10.26.09:759][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (AttachmentName) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Fuzz)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Eyelashes)
+[2023.05.29-10.26.09:760][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (AttachmentName) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Eyelashes)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Mustache)
+[2023.05.29-10.26.09:761][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (AttachmentName) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Mustache)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.bOverrideSettings) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bResetSimulation) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bDebugSimulation) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.bLocalSimulation) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LinearVelocityScale) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.AngularVelocityScale) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.LocalBone) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SimulationSetup.TeleportDistance) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.SolverSettings.bEnableSimulation) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.GravityVector) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirDrag) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.ExternalForces.AirVelocity) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendDamping) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.BendStiffness) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchDamping) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StretchStiffness) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StaticFriction) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.KineticFriction) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.StrandsViscosity) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (SimulationSettings.MaterialConstraints.CollisionRadius) for (Beard)
+[2023.05.29-10.26.09:762][758]LogTakesCore: Removed unused track (AttachmentName) for (Beard)
+[2023.05.29-10.26.09:763][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Beard)
+[2023.05.29-10.26.09:763][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Torso)
+[2023.05.29-10.26.09:763][758]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1.BP_Mum_Crying_Mum_Crying_01_0_1
+[2023.05.29-10.26.09:887][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1 in 0.12 seconds
+[2023.05.29-10.26.09:887][758]LogTakesCore: Removed unused track (ClothBlendWeight) for (Torso)
+[2023.05.29-10.26.09:887][758]LogTakesCore: Removed unused track (ClothMaxDistanceScale) for (Torso)
+[2023.05.29-10.26.09:887][758]LogTakesCore: Removed unused track (VisibilityBasedAnimTickOption) for (Torso)
+[2023.05.29-10.26.09:887][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Torso)
+[2023.05.29-10.26.09:887][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Legs)
+[2023.05.29-10.26.09:918][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1_2 in 0.03 seconds
+[2023.05.29-10.26.09:918][758]LogTakesCore: Removed unused track (ClothBlendWeight) for (Legs)
+[2023.05.29-10.26.09:918][758]LogTakesCore: Removed unused track (ClothMaxDistanceScale) for (Legs)
+[2023.05.29-10.26.09:918][758]LogTakesCore: Removed unused track (VisibilityBasedAnimTickOption) for (Legs)
+[2023.05.29-10.26.09:918][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Legs)
+[2023.05.29-10.26.09:919][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Feet)
+[2023.05.29-10.26.09:945][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1_2_3 in 0.03 seconds
+[2023.05.29-10.26.09:945][758]LogTakesCore: Removed unused track (ClothBlendWeight) for (Feet)
+[2023.05.29-10.26.09:945][758]LogTakesCore: Removed unused track (ClothMaxDistanceScale) for (Feet)
+[2023.05.29-10.26.09:945][758]LogTakesCore: Removed unused track (VisibilityBasedAnimTickOption) for (Feet)
+[2023.05.29-10.26.09:945][758]LogTakesCore: Removed unused track (bHiddenInGame) for (Feet)
+[2023.05.29-10.26.09:946][758]LogTakesCore: Removed unused track (ForcedLOD) for (LODSync)
+[2023.05.29-10.26.09:956][758]LogTakesCore: Removed 2 unused object bindings in (BP_Mum_Crying_Mum_Crying_01)
+[2023.05.29-10.26.09:959][758]LogSavePackage: Warning: 
+Referencers of GroomComponent /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.BP_Mum_C_0.Hair:
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 	BP_Mum_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.BP_Mum_C_0 (3 refs)
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 		0) ObjectProperty /Game/MetaHumans/Mum/BP_Mum.BP_Mum_C:Hair
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 		1) ObjectProperty /Script/Engine.Actor:BlueprintCreatedComponents.BlueprintCreatedComponents
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 	NiagaraComponent /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01:MovieScene_0.BP_Mum_C_0.NiagaraComponent_0 (1 refs)
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.SceneComponent:AttachParent
+[2023.05.29-10.26.10:405][758]LogSavePackage: Warning: 
+Referencers of BP_Mum_C /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel.BP_Mum_C_0:
+[2023.05.29-10.26.10:723][758]LogSavePackage: Warning: 	NiagaraComponent /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01:MovieScene_0.BP_Mum_C_0.NiagaraComponent_0 (1 refs)
+[2023.05.29-10.26.10:723][758]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.SceneComponent:AttachParent
+[2023.05.29-10.26.10:723][758]LogSavePackage: Warning: 
+Referencers of Level /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:PersistentLevel:
+[2023.05.29-10.26.11:029][758]LogSavePackage: Warning: 	NiagaraComponent /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01:MovieScene_0.BP_Mum_C_0.NiagaraComponent_0 (1 refs)
+[2023.05.29-10.26.11:029][758]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.SceneComponent:AttachParent
+[2023.05.29-10.26.11:029][758]LogSavePackage: Warning: 
+Referencers of World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level:
+[2023.05.29-10.26.11:380][758]LogSavePackage: Warning: 	NiagaraComponent /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01:MovieScene_0.BP_Mum_C_0.NiagaraComponent_0 (1 refs)
+[2023.05.29-10.26.11:380][758]LogSavePackage: Warning: 		0) ObjectProperty /Script/Engine.SceneComponent:AttachParent
+[2023.05.29-10.26.11:380][758]LogSavePackage: Error: Can't save ../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01.uasset: Graph is linked to object World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level (AttachParent) in external map
+[2023.05.29-10.26.11:380][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/BP_Mum_Crying_Mum_Crying_01 in 1.42 seconds
+[2023.05.29-10.26.11:385][758]LogTakesCore: Saved /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01 in 0.00 seconds
+[2023.05.29-10.26.11:385][758]LogAssetEditorSubsystem: Opening Asset editor for LevelSequence /Temp/TakeRecorder/PendingTake.PendingTake:PendingTake
+[2023.05.29-10.26.11:423][758]LogTakesCore: Finished processing /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01 in 3.48 seconds
+[2023.05.29-10.26.11:436][758]AssetCheck: New page: Asset Save: multiple assets
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0.BP_Mum_Crying_Mum_Crying_01_0
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01.BP_Mum_Crying_Mum_Crying_01
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/LevelSequence.LevelSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01.Mum_Crying_01
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1_2_3.BP_Mum_Crying_Mum_Crying_01_0_1_2_3
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1_2.BP_Mum_Crying_Mum_Crying_01_0_1_2
+[2023.05.29-10.26.11:436][758]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Cinematics/Takes/2023-05-29/Mum_Crying_01_Subscenes/Animation/BP_Mum_Crying_Mum_Crying_01_0_1.BP_Mum_Crying_Mum_Crying_01_0_1
+[2023.05.29-10.26.30:772][882]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.29-10.26.30:782][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.29-10.26.30:782][882]PIE: New page: PIE session: Creep-Out_Main_Level (May 29, 2023, 2:26:30 PM)
+[2023.05.29-10.26.30:783][882]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.29-10.26.30:877][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094843s)
+[2023.05.29-10.26.30:877][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.094875s)
+[2023.05.29-10.26.30:878][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.29-10.26.30:878][882]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.29-10.26.30:878][882]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2023.05.29-10.26.30:943][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2023.05.29-10.26.30:974][882]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.29-10.26.30:974][882]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.29-10.26.30:974][882]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.29-10.26.30:974][882]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.29-10.26.30:974][882]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.29-10.26.30:974][882]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.29-10.26.30:976][882]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.29-10.26.30:996][882]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.29-10.26.30:996][882]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.29-10.26.30:996][882]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.29-10.26.30:996][882]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.29-10.26.30:997][882]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2023.05.29-10.26.30:997][882]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2023.05.29-10.26.30:999][882]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2023.05.29-10.26.30:999][882]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2023.05.29-10.26.30:999][882]LogInit: FAudioDevice initialized.
+[2023.05.29-10.26.30:999][882]LogAudio: Display: Audio Device (ID: 41) registered with world 'Creep-Out_Main_Level'.
+[2023.05.29-10.26.31:013][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.29-10.26.31:193][882]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.29-10.26.31:278][882]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.29-12.26.31
+[2023.05.29-10.26.31:291][882]LogWorld: Bringing up level for play took: 0.098175
+[2023.05.29-10.26.31:293][882]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2023.05.29-10.26.31:296][882]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.31:297][882]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.31:300][882]Cmd: vr.PixelDensity 1
+[2023.05.29-10.26.31:300][882]vr.PixelDensity = "1"
+[2023.05.29-10.26.31:305][882]PIE: Server logged in
+[2023.05.29-10.26.31:308][882]PIE: Play in editor total start time 0.526 seconds.
+[2023.05.29-10.26.31:346][882]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.29-10.26.31:412][882]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.29-10.26.31:426][882]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.29-10.26.33:002][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.29-10.26.33:002][912]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.29-10.26.33:141][912]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.29-10.26.33:144][912]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.29-10.26.33:148][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.29-10.26.33:151][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.29-10.26.33:161][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.29-10.26.33:190][912]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.29-10.26.33:197][912]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.29-10.26.33:197][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.05.29-10.26.33:198][912]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2023.05.29-10.26.33:212][912]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.29-10.26.33:212][912]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.33:215][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2023.05.29-10.26.33:335][913]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2023.05.29-10.26.35:111][ 16]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.29-10.26.35:120][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.29-10.26.35:120][ 16]PIE: New page: PIE session: Creep-Out_Main_Level (May 29, 2023, 2:26:35 PM)
+[2023.05.29-10.26.35:120][ 16]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.29-10.26.35:213][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093340s)
+[2023.05.29-10.26.35:213][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.093366s)
+[2023.05.29-10.26.35:213][ 16]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.29-10.26.35:214][ 16]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.29-10.26.35:214][ 16]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2023.05.29-10.26.35:244][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2023.05.29-10.26.35:251][ 16]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.29-10.26.35:251][ 16]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.29-10.26.35:251][ 16]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.29-10.26.35:251][ 16]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.29-10.26.35:251][ 16]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.29-10.26.35:251][ 16]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.29-10.26.35:253][ 16]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.29-10.26.35:270][ 16]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.29-10.26.35:271][ 16]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.29-10.26.35:271][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.29-10.26.35:271][ 16]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.29-10.26.35:271][ 16]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2023.05.29-10.26.35:271][ 16]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2023.05.29-10.26.35:273][ 16]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2023.05.29-10.26.35:273][ 16]LogInit: FAudioDevice initialized.
+[2023.05.29-10.26.35:273][ 16]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2023.05.29-10.26.35:273][ 16]LogAudio: Display: Audio Device (ID: 42) registered with world 'Creep-Out_Main_Level'.
+[2023.05.29-10.26.35:287][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.29-10.26.35:475][ 16]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.29-10.26.35:565][ 16]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.29-12.26.35
+[2023.05.29-10.26.35:579][ 16]LogWorld: Bringing up level for play took: 0.103088
+[2023.05.29-10.26.35:581][ 16]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2023.05.29-10.26.35:583][ 16]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.35:585][ 16]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.35:587][ 16]Cmd: vr.PixelDensity 1
+[2023.05.29-10.26.35:587][ 16]vr.PixelDensity = "1"
+[2023.05.29-10.26.35:591][ 16]PIE: Server logged in
+[2023.05.29-10.26.35:594][ 16]PIE: Play in editor total start time 0.474 seconds.
+[2023.05.29-10.26.35:628][ 16]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.29-10.26.35:673][ 16]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.29-10.26.35:686][ 16]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.29-10.26.53:602][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.29-10.26.53:602][764]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.29-10.26.53:651][764]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.29-10.26.53:654][764]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.29-10.26.53:657][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.29-10.26.53:661][764]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.29-10.26.53:670][764]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.29-10.26.53:705][764]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.29-10.26.53:705][764]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.05.29-10.26.53:707][764]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2023.05.29-10.26.53:722][764]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.29-10.26.53:722][764]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.29-10.26.53:724][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.05.29-10.26.53:820][765]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2023.05.29-10.26.56:876][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.29-10.26.56:967][988]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2023.05.29-10.26.57:288][988]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.29-10.26.57:288][988]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_LevelD092105946D967AEADD9EA8238F47048.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.29-10.26.57:304][988]LogFileHelpers: No new changes to save!
+[2023.05.29-10.26.57:304][988]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.367
+[2023.05.29-10.26.57:313][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 436 ms (total: 6.81 sec)
+[2023.05.29-10.26.57:324][988]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
+[2023.05.29-10.26.57:324][988]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
