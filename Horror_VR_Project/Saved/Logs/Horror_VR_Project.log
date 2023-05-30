@@ -1763,3 +1763,305 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.30-11.51.50:382][524]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
 [2023.05.30-11.51.50:537][534]LogD3D12RHI: Display: Temp texture streaming buffer not large enough, needed 16777216 bytes
 [2023.05.30-11.52.25:697][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2023.05.30-11.53.56:256][616]Cmd: SELECT NONE
+[2023.05.30-11.54.24:394][521]LogViewport: Scene viewport resized to 2288x1461, mode Windowed.
+[2023.05.30-11.54.59:136][437]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-11.54.59:278][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2023.05.30-11.55.00:204][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-11.55.00:323][534]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-11.55.00:323][534]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawn9C0033BC4A0910A060556C8F900A1EC2.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-11.55.00:333][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 907 ms)
+[2023.05.30-11.55.00:344][534]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-11.55.00:344][534]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-11.56.20:520][501]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2023.05.30-11.56.20:527][501]LogContentBrowser: Creating deferred item: NewInputAction
+[2023.05.30-11.56.20:540][502]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2023.05.30-11.56.24:047][920]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_Quest
+[2023.05.30-11.56.24:051][920]LogContentBrowser: End creating deferred item NewInputAction
+[2023.05.30-11.56.29:149][511]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/VRTemplate/Input/Actions/IA_Quest.IA_Quest
+[2023.05.30-11.56.37:126][398]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-11.56.37:190][398]LogSavePackage: Moving output files for package: /Game/VRTemplate/Input/Actions/IA_Quest
+[2023.05.30-11.56.37:190][398]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/IA_QuestC04D77E349B5840EE62EF68BA1BF2D73.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Input/Actions/IA_Quest.uasset'
+[2023.05.30-11.56.37:199][398]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 980 ms)
+[2023.05.30-11.56.37:209][398]AssetCheck: New page: Asset Save: IA_Quest
+[2023.05.30-11.56.37:209][398]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/VRTemplate/Input/Actions/IA_Quest.IA_Quest
+[2023.05.30-11.56.39:664][675]LogSlate: Window 'IA_Quest' being destroyed
+[2023.05.30-11.56.39:671][675]LogSlate: Window 'IA_Quest' being destroyed
+[2023.05.30-11.56.42:063][936]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/VRTemplate/Input/Actions/IA_Quest.IA_Quest
+[2023.05.30-11.56.44:073][143]LogSlate: Window 'IA_Quest' being destroyed
+[2023.05.30-11.56.44:080][143]LogSlate: Window 'IA_Quest' being destroyed
+[2023.05.30-11.56.48:211][597]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/VRTemplate/Input/IMC_Default.IMC_Default
+[2023.05.30-11.56.53:752][ 65]LogSlate: Took 0.001616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.30-11.57.18:514][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-11.57.18:575][801]LogSavePackage: Moving output files for package: /Game/VRTemplate/Input/IMC_Default
+[2023.05.30-11.57.18:575][801]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/IMC_DefaultF1D559804F80A11EECF40D99872F70F6.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Input/IMC_Default.uasset'
+[2023.05.30-11.57.18:583][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.04 sec)
+[2023.05.30-11.57.18:593][801]AssetCheck: New page: Asset Save: IMC_Default
+[2023.05.30-11.57.18:593][801]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/VRTemplate/Input/IMC_Default.IMC_Default
+[2023.05.30-11.59.11:762][698]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-11.59.11:826][698]LogSavePackage: Moving output files for package: /Game/VRTemplate/Input/IMC_Default
+[2023.05.30-11.59.11:826][698]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/IMC_DefaultB3F7D6AC4F98C7E120B841B19E14B1EF.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Input/IMC_Default.uasset'
+[2023.05.30-11.59.11:833][698]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.11 sec)
+[2023.05.30-11.59.11:844][698]AssetCheck: New page: Asset Save: IMC_Default
+[2023.05.30-11.59.11:844][698]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/VRTemplate/Input/IMC_Default.IMC_Default
+[2023.05.30-11.59.13:044][820]LogSlate: Window 'IMC_Default' being destroyed
+[2023.05.30-11.59.13:050][820]LogSlate: Window 'IMC_Default' being destroyed
+[2023.05.30-12.02.38:610][565]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-12.02.38:721][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2023.05.30-12.02.42:633][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.02.42:784][938]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-12.02.42:784][938]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawn5A337C7D48BFFD80A8494A9DB9B98375.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-12.02.42:791][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 1.27 sec)
+[2023.05.30-12.02.42:802][938]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-12.02.42:802][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-12.02.44:019][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.02.44:108][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2023.05.30-12.02.44:413][ 71]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.30-12.02.44:413][ 71]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_LevelE3A088E04281BC54537393950741FAC6.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.30-12.02.44:427][ 71]LogFileHelpers: No new changes to save!
+[2023.05.30-12.02.44:427][ 71]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.354
+[2023.05.30-12.02.44:434][ 71]LogFileHelpers: InternalPromptForCheckoutAndSave took 415 ms (total: 1.69 sec)
+[2023.05.30-12.02.44:448][ 71]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
+[2023.05.30-12.02.44:448][ 71]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
+[2023.05.30-12.02.52:892][ 26]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.30-12.02.52:900][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.30-12.02.52:900][ 26]PIE: New page: PIE session: Creep-Out_Main_Level (May 30, 2023, 4:02:52 PM)
+[2023.05.30-12.02.52:900][ 26]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.02.52:983][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.082809s)
+[2023.05.30-12.02.52:983][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.082835s)
+[2023.05.30-12.02.52:983][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-12.02.52:984][ 26]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.30-12.02.52:984][ 26]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2023.05.30-12.02.53:017][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2023.05.30-12.02.53:019][ 26]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.30-12.02.53:019][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.30-12.02.53:019][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.30-12.02.53:019][ 26]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.30-12.02.53:019][ 26]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.30-12.02.53:019][ 26]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.30-12.02.53:022][ 26]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.30-12.02.53:039][ 26]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.30-12.02.53:040][ 26]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.30-12.02.53:040][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.30-12.02.53:040][ 26]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.30-12.02.53:041][ 26]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.05.30-12.02.53:041][ 26]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.05.30-12.02.53:042][ 26]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.05.30-12.02.53:042][ 26]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.05.30-12.02.53:042][ 26]LogInit: FAudioDevice initialized.
+[2023.05.30-12.02.53:042][ 26]LogAudio: Display: Audio Device (ID: 7) registered with world 'Creep-Out_Main_Level'.
+[2023.05.30-12.02.53:060][ 26]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.02.53:248][ 26]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.30-12.02.53:326][ 26]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.30-14.02.53
+[2023.05.30-12.02.53:344][ 26]LogWorld: Bringing up level for play took: 0.095398
+[2023.05.30-12.02.53:347][ 26]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2023.05.30-12.02.53:349][ 26]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.30-12.02.53:351][ 26]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.02.53:353][ 26]Cmd: vr.PixelDensity 1
+[2023.05.30-12.02.53:353][ 26]vr.PixelDensity = "1"
+[2023.05.30-12.02.53:364][ 26]PIE: Server logged in
+[2023.05.30-12.02.53:372][ 26]PIE: Play in editor total start time 0.472 seconds.
+[2023.05.30-12.02.53:403][ 26]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.30-12.02.53:477][ 26]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.30-12.02.53:493][ 26]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.30-12.02.53:531][ 27]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.30-12.02.53:538][ 27]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056887 > MaxSimulationTimeStep (0.050) for 'VRPawn_C_0', movement 'Walking'
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: ================================================
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: Total job queries 440, among them cache hits 52 (11.82%)
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: Tracking 388 distinct input hashes that result in 260 distinct outputs (67.01%)
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: RAM used: 3.66 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.45%
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: Shaders Compiled: 0
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0.00%)
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2023.05.30-12.03.01:800][888]LogShaderCompilers: Display: ================================================
+[2023.05.30-12.03.22:019][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.03.22:019][335]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.03.22:066][335]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.30-12.03.22:069][335]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-12.03.22:073][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.03.22:076][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.30-12.03.22:084][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.03.22:123][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.30-12.03.22:123][335]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.30-12.03.22:123][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.30-12.03.22:125][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.05.30-12.03.22:136][335]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.30-12.03.22:136][335]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.03.22:140][335]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2023.05.30-12.03.22:174][336]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2023.05.30-12.05.04:135][802]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-12.05.04:239][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2023.05.30-12.05.05:320][907]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.05.05:473][907]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-12.05.05:473][907]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawn7BE9E4074A0B16163C50F9AE6526DD1F.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-12.05.05:481][907]LogFileHelpers: InternalPromptForCheckoutAndSave took 161 ms (total: 1.85 sec)
+[2023.05.30-12.05.05:492][907]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-12.05.05:492][907]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-12.05.12:235][709]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.30-12.05.12:243][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.30-12.05.12:243][709]PIE: New page: PIE session: Creep-Out_Main_Level (May 30, 2023, 4:05:12 PM)
+[2023.05.30-12.05.12:243][709]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.05.12:328][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084354s)
+[2023.05.30-12.05.12:328][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.084385s)
+[2023.05.30-12.05.12:328][709]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-12.05.12:328][709]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.30-12.05.12:328][709]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2023.05.30-12.05.12:364][709]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2023.05.30-12.05.12:370][709]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.30-12.05.12:370][709]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.30-12.05.12:370][709]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.30-12.05.12:370][709]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.30-12.05.12:370][709]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.30-12.05.12:370][709]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.30-12.05.12:372][709]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.30-12.05.12:389][709]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.30-12.05.12:389][709]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.30-12.05.12:389][709]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.30-12.05.12:389][709]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.30-12.05.12:390][709]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2023.05.30-12.05.12:390][709]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2023.05.30-12.05.12:391][709]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2023.05.30-12.05.12:391][709]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2023.05.30-12.05.12:391][709]LogInit: FAudioDevice initialized.
+[2023.05.30-12.05.12:391][709]LogAudio: Display: Audio Device (ID: 8) registered with world 'Creep-Out_Main_Level'.
+[2023.05.30-12.05.12:415][709]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.05.12:599][709]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.30-12.05.12:674][709]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.30-14.05.12
+[2023.05.30-12.05.12:687][709]LogWorld: Bringing up level for play took: 0.087366
+[2023.05.30-12.05.12:689][709]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2023.05.30-12.05.12:691][709]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.30-12.05.12:692][709]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.05.12:694][709]Cmd: vr.PixelDensity 1
+[2023.05.30-12.05.12:694][709]vr.PixelDensity = "1"
+[2023.05.30-12.05.12:701][709]PIE: Server logged in
+[2023.05.30-12.05.12:707][709]PIE: Play in editor total start time 0.464 seconds.
+[2023.05.30-12.05.12:732][709]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.30-12.05.12:809][709]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.30-12.05.12:822][709]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.30-12.05.12:859][710]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.30-12.05.12:866][710]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056887 > MaxSimulationTimeStep (0.050) for 'VRPawn_C_0', movement 'Walking'
+[2023.05.30-12.05.28:370][ 48]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.05.28:370][ 48]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.05.28:415][ 48]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.30-12.05.28:419][ 48]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-12.05.28:422][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.05.28:425][ 48]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.30-12.05.28:434][ 48]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.05.28:471][ 48]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.30-12.05.28:471][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.30-12.05.28:473][ 48]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2023.05.30-12.05.28:487][ 48]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.30-12.05.28:487][ 48]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.05.28:490][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2023.05.30-12.05.28:513][ 49]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2023.05.30-12.07.24:172][635]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-12.07.24:276][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2023.05.30-12.07.25:010][688]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.07.25:161][688]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-12.07.25:162][688]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawnCC3A286F46219BAAE73B6990CEF8ACF2.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-12.07.25:169][688]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 2.01 sec)
+[2023.05.30-12.07.25:180][688]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-12.07.25:180][688]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-12.07.37:345][ 34]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-12.07.37:450][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2023.05.30-12.07.38:053][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.07.38:203][ 73]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-12.07.38:204][ 73]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawn53F05AFD413E47441DEB1DA09B4EC1D4.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-12.07.38:211][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.17 sec)
+[2023.05.30-12.07.38:220][ 73]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-12.07.38:220][ 73]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-12.07.43:169][625]LogDebuggerCommands: Repeating last play command: VR Preview
+[2023.05.30-12.07.43:177][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.05.30-12.07.43:177][625]PIE: New page: PIE session: Creep-Out_Main_Level (May 30, 2023, 4:07:43 PM)
+[2023.05.30-12.07.43:178][625]LogPlayLevel: Creating play world package: /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.07.43:262][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.083598s)
+[2023.05.30-12.07.43:262][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level to /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level (0.083625s)
+[2023.05.30-12.07.43:262][625]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.30-12.07.43:262][625]LogAIModule: Creating AISystem for world Creep-Out_Main_Level
+[2023.05.30-12.07.43:262][625]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2023.05.30-12.07.43:295][625]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2023.05.30-12.07.43:305][625]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.05.30-12.07.43:305][625]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.05.30-12.07.43:305][625]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.05.30-12.07.43:305][625]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.05.30-12.07.43:305][625]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.05.30-12.07.43:305][625]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.05.30-12.07.43:307][625]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.05.30-12.07.43:323][625]LogAudioMixer: Display: Using Audio Hardware Device LG HDR 4K (NVIDIA High Definition Audio)
+[2023.05.30-12.07.43:324][625]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.05.30-12.07.43:324][625]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.05.30-12.07.43:324][625]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.05.30-12.07.43:324][625]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2023.05.30-12.07.43:324][625]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2023.05.30-12.07.43:326][625]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2023.05.30-12.07.43:326][625]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2023.05.30-12.07.43:326][625]LogInit: FAudioDevice initialized.
+[2023.05.30-12.07.43:326][625]LogAudio: Display: Audio Device (ID: 9) registered with world 'Creep-Out_Main_Level'.
+[2023.05.30-12.07.43:345][625]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.07.43:534][625]LogLoad: Game class is 'VRGameMode_C'
+[2023.05.30-12.07.43:611][625]LogWorld: Bringing World /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level.Creep-Out_Main_Level up for play (max tick rate 0) at 2023.05.30-14.07.43
+[2023.05.30-12.07.43:624][625]LogWorld: Bringing up level for play took: 0.089498
+[2023.05.30-12.07.43:626][625]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2023.05.30-12.07.43:628][625]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.05.30-12.07.43:629][625]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.07.43:630][625]Cmd: vr.PixelDensity 1
+[2023.05.30-12.07.43:630][625]vr.PixelDensity = "1"
+[2023.05.30-12.07.43:638][625]PIE: Server logged in
+[2023.05.30-12.07.43:644][625]PIE: Play in editor total start time 0.466 seconds.
+[2023.05.30-12.07.43:669][625]LogViewport: Scene viewport resized to 3616x2000, mode Windowed.
+[2023.05.30-12.07.43:746][625]LogHMD: Warning: Requesting 10 bit swapchain, but not supported: fall back to 8bpc
+[2023.05.30-12.07.43:760][625]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.05.30-12.07.43:795][626]LogProfilingDebugging: Allocated a 1024 x 1024 texture for HMD canvas layer
+[2023.05.30-12.07.43:801][626]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056887 > MaxSimulationTimeStep (0.050) for 'VRPawn_C_0', movement 'Walking'
+[2023.05.30-12.08.19:341][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.05.30-12.08.19:342][276]LogWorld: BeginTearingDown for /Game/VR_Game/Maps/UEDPIE_0_Creep-Out_Main_Level
+[2023.05.30-12.08.19:383][276]LogSlate: Window 'Horror_VR_Project Preview [NetMode: Standalone 0]  (64-bit/D3D Shader Model 6) OpenXR Oculus (1.85.0)' being destroyed
+[2023.05.30-12.08.19:385][276]LogWorld: UWorld::CleanupWorld for Creep-Out_Main_Level, bSessionEnded=true, bCleanupResources=true
+[2023.05.30-12.08.19:389][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.08.19:392][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.05.30-12.08.19:400][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.30-12.08.19:434][276]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.30-12.08.19:438][276]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.05.30-12.08.19:438][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.30-12.08.19:440][276]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2023.05.30-12.08.19:451][276]LogSlate: Slate User Unregistered.  User Index 8
+[2023.05.30-12.08.19:451][276]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.05.30-12.08.19:454][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2023.05.30-12.08.19:523][277]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2023.05.30-12.08.21:414][493]BlueprintLog: New page: Compile VRPawn
+[2023.05.30-12.08.21:518][493]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2023.05.30-12.08.22:158][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.08.22:312][545]LogSavePackage: Moving output files for package: /Game/VRTemplate/Blueprints/VRPawn
+[2023.05.30-12.08.22:313][545]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/VRPawnD8923E104D63A0FCCC6DB68A315AF56A.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VRTemplate/Blueprints/VRPawn.uasset'
+[2023.05.30-12.08.22:320][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 2.33 sec)
+[2023.05.30-12.08.22:331][545]AssetCheck: New page: Asset Save: VRPawn
+[2023.05.30-12.08.22:331][545]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VRTemplate/Blueprints/VRPawn.VRPawn
+[2023.05.30-12.08.24:064][738]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.05.30-12.08.24:146][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2023.05.30-12.08.24:451][738]LogSavePackage: Moving output files for package: /Game/VR_Game/Maps/Creep-Out_Main_Level
+[2023.05.30-12.08.24:452][738]LogSavePackage: Moving '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Saved/Creep-Out_Main_LevelB493B3894554C2A22E0261B7BFDDAFC4.tmp' to '../../../../../../Users/schne/Documents/GitHub/vr-horror-game/Horror_VR_Project/Content/VR_Game/Maps/Creep-Out_Main_Level.umap'
+[2023.05.30-12.08.24:465][738]LogFileHelpers: No new changes to save!
+[2023.05.30-12.08.24:465][738]LogFileHelpers: Saving map 'Creep-Out_Main_Level' took 0.355
+[2023.05.30-12.08.24:474][738]LogFileHelpers: InternalPromptForCheckoutAndSave took 409 ms (total: 2.74 sec)
+[2023.05.30-12.08.24:483][738]AssetCheck: New page: Asset Save: Creep-Out_Main_Level
+[2023.05.30-12.08.24:483][738]LogContentValidation: Display: Validating /Script/Engine.World /Game/VR_Game/Maps/Creep-Out_Main_Level.Creep-Out_Main_Level
