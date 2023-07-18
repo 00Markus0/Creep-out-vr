@@ -3,9 +3,9 @@
 ### Welcome to the GitHub project for the demo of Creep-Out VR: The pre-school of horros!
 "It's like little Nightmares but in VR"
 
-Press **[here]()** to download and try out the demo of our game **for free**.
+Press **[here](https://syncandshare.lrz.de/getlink/fiGBr9DgvzNa1A9wXbfQr8/Creep-Out%20Vr%20Demo.zip)** to download and try out the demo of our game **for free**.
 
-## Video demo
+Click **[here](docs/Creep-Out_VR_Demo_Walkthrough_Low.mp4)** you can watch a video walkthrough of our game
 
 
 ## Description
