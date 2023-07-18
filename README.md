@@ -3,11 +3,11 @@
 ### Welcome to the GitHub project for the demo of Creep-Out VR: The pre-school of horros!
 "It's like little Nightmares but in VR"
 
-![Intro_Image](docs/Intro_Image.png)
+![Intro_Image](additional_files/Intro_Image.png)
 
 Press **[here](https://syncandshare.lrz.de/getlink/fiGBr9DgvzNa1A9wXbfQr8/Creep-Out%20Vr%20Demo.zip)** to download and try out the demo of our game **for free**.
 
-Click **[here](docs/Creep-Out_VR_Demo_Walkthrough_Low.mp4)** you can watch a video walkthrough of our game
+Click **[here](additional_files/Creep-Out_VR_Demo_Walkthrough_Low.mp4)** to watch a video walkthrough of our game.
 
 
 ## Description
@@ -22,12 +22,12 @@ Currently, our game only supports PCVR Gaming, therefore make sure you have the 
 
 ## Documentation
 
-You will find the system requirements, the assets we used, as well as instructions for the game in the **[Documentation](docs/Creep-Out VR_ Documentation.pdf)**
+You will find the system requirements, the assets we used, as well as instructions for the game in the **[Documentation](docs/Creep-Out_VR_Documentation.pdf)**
 
-Feel free to check out our **[Game Design Document](docs/Techdoc_Creep_Out.pdf)** as well.
+Feel free to check out our **[Game Design Document](additional_files/Techdoc_Creep_Out.pdf)** as well.
 
 This game is currently under development as part of a project for a course at Ludwig Maximillians University Munich and is done using [Unreal Engine](https://www.unrealengine.com/).
 
 
 ## Impressions
-![Impressions](docs/Impression.png)
+![Impressions](additional_files/Impression.png)
