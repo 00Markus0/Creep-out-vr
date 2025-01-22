@@ -74,4 +74,8 @@ Horror_VR_Project/Plugins/*/Intermediate/*
 Horror_VR_Project/DerivedDataCache/*
 
 
-Horror_VR_Project/Content/MetaHumans/Amelia/Face/*
+Horror_VR_Project/Content/MetaHumans/Amelia/Face/Amelia_FaceMesh.uasset
+Horror_VR_Project/Content/MetaHumans/Amelia/Common/Face_Archetype.uasset
+Horror_VR_Project/Content/MetaHumans/Amelia/Creep/Creep_FaceMesh.uasset
+Horror_VR_Project/Content/MetaHumans/Amelia/Dad/Dad_FaceMesh.uasset
+Horror_VR_Project/Content/MetaHumans/Amelia/Mum/Mum_FaceMesh.uasset
