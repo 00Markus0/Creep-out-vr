@@ -73,26 +73,5 @@ Horror_VR_Project/Plugins/*/Intermediate/*
 # Cache files for the editor to use
 Horror_VR_Project/DerivedDataCache/*
 
-#Starter Content
 
-Horror_VR_Project/Content/StarterContent/*
-Horror_VR_Project/Saved/Logs/Horror_VR_Project.log
-Horror_VR_Project/Saved/Logs/Horror_VR_Project.log
-Horror_VR_Project/Saved/Config/WindowsEditor/Engine.ini
-Horror_VR_Project/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
-Horror_VR_Project/Saved/Autosaves/PackageRestoreData.json
-Horror_VR_Project/Saved/Logs/Horror_VR_Project.log
-
-# MetaHuman
-Horror_VR_Project/Content/MetaHumans/Wallace/Face/Wallace_FaceMesh.uasset 
-Horror_VR_Project/Content/MetaHumans/Common/Face/Face_Archetype.uasset 
-Horror_VR_Project/Content/MetaHumans/Amelia/Face/Amelia_FaceMesh.uasset 
-Horror_VR_Project/Content/MetaHumans/Mum/Face/Mum_FaceMesh.uasset 
-Horror_VR_Project/Content/MetaHumans/Dad/Face/Dad_FaceMesh.uasset 
-Horror_VR_Project/Content/MetaHumans/Creep/Face/Creep_FaceMesh.uasset 
-Horror_VR_Project/Config/DefaultEngine.ini
-Horror_VR_Project/Content/MetaHumans/Dad/Face/Dad_FaceMesh.uasset
-Horror_VR_Project/Content/MetaHumans/Mum/Face/Mum_FaceMesh.uasset
-Horror_VR_Project/Content/MetaHumans/Creep/Face/Creep_FaceMesh.uasset
-Horror_VR_Project/Content/MetaHumans/Common/Face/Face_Archetype.uasset
-Horror_VR_Project/Content/MetaHumans/Amelia/Face/Amelia_FaceMesh.uasset
+Horror_VR_Project/Content/MetaHumans/Amelia/Face/*
