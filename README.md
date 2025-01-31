@@ -1,11 +1,11 @@
 # Creep-Out VR: The pre-school of Horros
 ### "Like little nightmares, but in VR"
 
-![Intro_Image](additional_files/Intro_Image.png)
+[![Cover_Image](additional_files/Creep-Out_Cover.jpg)](https://00markus0.itch.io/creep-out)
 
 You’re the shy, timid pre-schooler Amelia, a young girl trapped in a horrifying school where a teacher has a sick obsession with you. The further you explore the school, the more you realize how twisted his plans are for you. So whatever you do, you can’t let this terrifying person catch you. Your final goal is to break out of the school, but this evil villain managed to trap your parents. Can you find your parents and be able to save them? Will you ever be able to escape this nightmarish school? Experience the first glimpse into this dreadful horror story with this demo of our game. But beware, do not fall off your seat!
 
-Interested? Then **[try it](https://syncandshare.lrz.de/getlink/fiGBr9DgvzNa1A9wXbfQr8/Creep-Out%20Vr%20Demo.zip)** yourself
+Interested? Then **[try it here for free](https://00markus0.itch.io/creep-out)** yourself
 
 Run the game with Meta Link and your own Meta Quest VR headset!
 
@@ -23,6 +23,9 @@ Do you have what it takes to guide Amelia through her first fright and unravel t
 Don't know how to progress further? **[Spoiler](additional_files/Creep-Out_VR_Demo_Walkthrough_Low.mp4)** yourself with the progression by watching our walkthrough of the game.
 
 ## Installation and starting our game
+
+[![Link to itch.io](https://github.com/user-attachments/assets/102f4997-7f6b-43da-a5d1-a51e5487be02)](https://00markus0.itch.io/creep-out)
+
 
 Currently, our game supports PCVR Gaming, make sure to have the following installed on your Windows PC:
 - Link App for your VR headset to be able to play PCVR (for example [Oculus Link](https://www.meta.com/de/quest/setup/) for Quest devices)
@@ -42,4 +45,6 @@ More info and the controller mapping in the **[Documentation](additional_files/C
 Wanna learn about this game's origin? Check out our [Game Design Document](additional_files/Techdoc_Creep_Out.pdf)!
 
 ## Impressions
+
+![Intro](additional_files/Intro_Image.png)
 ![Impressions](additional_files/Impression.png)
